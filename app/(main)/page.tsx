@@ -5,7 +5,14 @@ import About from "./_component/About";
 export default function Home() {
   return (
     <main className='flex flex-col h-full w-full z-30'>
-
+      <Image
+        src={'/assets/Background-01.png'}
+        alt="Hero Image"
+        width={3000}
+        height={3000}
+        className="absolute bg-cover object-fill max-h-screen w-full h-screen inset-0 -z-10"
+        priority={true}
+      />
       <Hero />
       <About/>
       {/* service section */}
