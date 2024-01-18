@@ -8,8 +8,8 @@ import { SlDocs } from 'react-icons/sl'
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
-import { MobileSideBar } from '../(main)/_component/MobileSidebar'
-import SidebarRoutes from '../(main)/_component/SidebarRoutes'
+import { MobileSideBar } from './MobileSidebar'
+import SidebarRoutes from './SidebarRoutes'
 const Navbar = () => {
 
     const [isMounted, setIsMounted] = useState(false)

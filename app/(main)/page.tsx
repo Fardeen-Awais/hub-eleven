@@ -1,19 +1,13 @@
 import Image from "next/image";
 import Hero from "./_component/Hero";
+import About from "./_component/About";
 
 export default function Home() {
   return (
-    <main className='h-full w-full z-30'>
-      <Image
-        src={'/assets/Background-01.png'}
-        alt="Hero Image"
-        width={3000}
-        height={3000}
-        className="absolute bg-cover object-fill h-screen w-full sm:h-fit inset-0 -z-10"
-        priority={true}
-      />
+    <main className='flex flex-col h-full w-full z-30'>
+
       <Hero />
-      {/* section 01 */}
+      <About/>
       {/* service section */}
       {/* section 02 */}
       {/* section 03 */}
