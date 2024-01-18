@@ -8,6 +8,8 @@ import { SlDocs } from 'react-icons/sl'
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
+import { MobileSideBar } from '../(main)/_component/MobileSidebar'
+import SidebarRoutes from '../(main)/_component/SidebarRoutes'
 const Navbar = () => {
 
     const [isMounted, setIsMounted] = useState(false)
@@ -25,7 +27,8 @@ const Navbar = () => {
                     <Image src={'/assets/logo.png'} quality={70} width={300} height={300} alt='Logo for Dark' />
                 </div>
                 <ul className='sm:flex hidden justify-center items-center md:gap-x-10 sm:gap-x-6 text-xs text-white'>
-                    <li className='flex flex-col justify-center items-center gap-1'>
+                    <SidebarRoutes />
+                    {/* <li className='flex flex-col justify-center items-center gap-1'>
                         <Link className='flex flex-col items-center gap-1 opacity-90 hover:opacity-100 transition-all' href={'/'}>
                             <BiHomeAlt2 className="w-5 h-5" />
                             Home
@@ -37,23 +40,12 @@ const Navbar = () => {
                             Services
                         </Link>
                     </li>
-                    {/* <li className='flex flex-col justify-center items-center gap-1'>
-            <Link className='flex flex-col items-center gap-1 opacity-90 hover:opacity-100 transition-all' href={'/blog'}>
-              <SlDocs className='w-5 h-5' />
-              Resources
-            </Link>
-          </li>
-          <li className='flex flex-col justify-center items-center gap-1'><BsShop className='w-5 h-5' />
-            <Link className='flex flex-col items-center gap-1 opacity-90 hover:opacity-100 transition-all' href={'/store'}>
-              Store
-            </Link>
-          </li> */}
                     <li className='flex flex-col justify-center items-center gap-1'>
                         <Link className='flex flex-col items-center gap-1 opacity-90 hover:opacity-100 transition-all' href={'/contact'}>
                             <SlDocs className='w-5 h-5' />
                             Contact Us
                         </Link>
-                    </li>
+                    </li> */}
                 </ul>
 
                 <div className='Customizer flex items-center  gap-x-5 px-3'>
@@ -61,17 +53,9 @@ const Navbar = () => {
                         <div className="hidden sm:flex">
                             <Button className='border border-cyan-400 hover:border-green-500 hover:animate-pulse transition-all'>Let's talk</Button>
                         </div>
-                        {/* {isSignedIn && (
-              <UserButton
-                afterSignOutUrl="/"
-                appearance={{
-                  elements: {
-                    avatarBox: "h-[48px] w-[48px]",
-                  },
-                }}
-              />
-            )} */}
-
+                        <div className='sm:hidden flex'>
+                            <MobileSideBar/>
+                        </div>
                     </div>
                 </div>
             </nav>

@@ -11,7 +11,7 @@ const Hero = () => {
                     <Image src={'/assets/Hero-image.png'} alt='hero' width={350} height={350} quality={100} priority />
                 </div>
 
-                <div className='flex flex-col items-center px-5 sm:items-start gap-3 bg-slate-100 bg-opacity-20 '>
+                <div className='flex flex-col items-center px-5 sm:items-start gap-3'>
                     <div className='flex flex-col gap-2'>
                         <h1 className={`bg-gradient-to-r from-cyan-400 to-gray-600 text-transparent bg-clip-text text-4xl md:text-5xl lg:text-7xl font-bold p-3`}>Digital Marketing Agency</h1>
                         <p className='text-[#EFF5FFB0] max-w-xl px-3 md:text-lg text-base '>Our award-winning digital marketing team can bridge the gaps in your digital strategy to ensure each of your channels are working together to deliver growth.</p>
