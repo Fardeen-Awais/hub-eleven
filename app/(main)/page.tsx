@@ -1,10 +1,15 @@
 import Image from "next/image";
 import Hero from "./_component/Hero";
 import About from "./_component/About";
+import Service from "./_component/Service";
+import Section01 from "./_component/Section01";
+import Section02 from "./_component/Section02";
+import Explore from "./_component/Explore";
+import Company from "./_component/Company";
 
 export default function Home() {
   return (
-    <main className='flex flex-col h-full w-full z-30'>
+    <main className='flex flex-col min-h-screen w-full z-30'>
       <Image
         src={'/assets/Background-01.png'}
         alt="Hero Image"
@@ -15,9 +20,11 @@ export default function Home() {
       />
       <Hero />
       <About/>
-      {/* service section */}
-      {/* section 02 */}
-      {/* section 03 */}
+      <Service/>
+      <Section01 />
+      <Section02/>
+      <Explore/>
+      <Company/>
       {/* explore section */}
       {/* companies */}
       {/* footer */}
