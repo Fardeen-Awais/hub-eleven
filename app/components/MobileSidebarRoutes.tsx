@@ -4,17 +4,13 @@ import SidebarRouteItems from "./SidebarRouteItem"
 import { Home, MessageCircleIcon } from "lucide-react"
 import { FcBusinessman} from "react-icons/fc"
 import { BsBriefcase } from "react-icons/bs"
+import MobileRouteItem from "./MobileRouteItem"
 
 const routes = [
     {
         label: 'Home',
         href: '/',
         icon: Home
-    },
-    {
-        label: 'Service',
-        href: '/services',
-        icon: BsBriefcase
     },
     {
         label: 'About',
@@ -26,19 +22,23 @@ const routes = [
         href: '/contact',
         icon: MessageCircleIcon
     },
-    
+    {
+        label: 'Service',
+        href: '/services',
+        icon: BsBriefcase
+    },
 ]
 
 
-const SidebarRoutes = () => {
+const MobileSidebarRoutes = () => {
 
   return (
     <div className="flex flex-col sm:flex-row w-full">
         {routes.map(route => (
-            <SidebarRouteItems key={route.label} {...route}/>
+            <MobileRouteItem key={route.label} {...route}/>
         ))}
     </div>
   )
 }
 
-export default SidebarRoutes
+export default MobileSidebarRoutes

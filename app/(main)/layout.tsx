@@ -9,9 +9,7 @@ export default function RootLayout({
 }) {
     return (
         <main>
-            <Navbar/>
             {children}
-            <Footer/>
         </main>
     )
 }

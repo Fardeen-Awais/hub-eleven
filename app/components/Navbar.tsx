@@ -1,10 +1,5 @@
 'use client'
-// import React, { useEffect, useState } from 'react'
-import Link from 'next/link'
-import { BiHomeAlt2 } from 'react-icons/bi'
-import { MdWorkOutline } from 'react-icons/md'
-import { BsShop } from 'react-icons/bs'
-import { SlDocs } from 'react-icons/sl'
+
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
@@ -28,24 +23,6 @@ const Navbar = () => {
                 </div>
                 <ul className='sm:flex hidden justify-center items-center md:gap-x-10 sm:gap-x-6 text-xs text-white'>
                     <SidebarRoutes />
-                    {/* <li className='flex flex-col justify-center items-center gap-1'>
-                        <Link className='flex flex-col items-center gap-1 opacity-90 hover:opacity-100 transition-all' href={'/'}>
-                            <BiHomeAlt2 className="w-5 h-5" />
-                            Home
-                        </Link>
-                    </li>
-                    <li className='flex flex-col justify-center items-center gap-1'>
-                        <Link className='flex flex-col items-center gap-1 opacity-90 hover:opacity-100 transition-all' href={'/service'}>
-                            <MdWorkOutline className='w-5 h-5' />
-                            Services
-                        </Link>
-                    </li>
-                    <li className='flex flex-col justify-center items-center gap-1'>
-                        <Link className='flex flex-col items-center gap-1 opacity-90 hover:opacity-100 transition-all' href={'/contact'}>
-                            <SlDocs className='w-5 h-5' />
-                            Contact Us
-                        </Link>
-                    </li> */}
                 </ul>
 
                 <div className='Customizer flex items-center  gap-x-5 px-3'>
