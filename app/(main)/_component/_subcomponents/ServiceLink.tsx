@@ -34,7 +34,7 @@ const Link = ({ heading, imgSrc, subheading, href }:any) => {
   const left = useTransform(mouseXSpring, [0.5, -0.5], ["60%", "70%"]);
 
   const handleMouseMove = (e:any) => {
-    const rect = ref.current?.getBoundingClientRect();
+    const rect = (ref.current as any)?.getBoundingClientRect();
 
     const width = rect.width;
     const height = rect.height;
