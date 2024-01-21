@@ -71,7 +71,7 @@ const Link = ({ heading, imgSrc, subheading, href }:any) => {
           }}
           className="relative z-10 block text-4xl font-bold text-gray-500 transition-colors duration-500 group-hover:text-gray-200 md:text-6xl "
         >
-          {heading.split(".").map((l, i) => (
+          {heading.split(".").map((l:any, i:any) => (
             <motion.span
               variants={{
                 initial: { x: 0 },
