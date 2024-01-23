@@ -16,7 +16,7 @@ export const services = [
     {
       title: 'Web development',
       description: 'Empower your digital presence with cutting-edge web development services. Our SEO-focused strategies ensure lasting visibility, increased traffic, and revenue growth, enabling your web app to connect with a wider audience.',
-      image: '/services/webdevelopement.gif',
+      image: '/services/ecommerce.webp',
       href: '/services/web_development'
     },
     {

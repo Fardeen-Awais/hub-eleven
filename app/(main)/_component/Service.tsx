@@ -23,7 +23,7 @@ const Service = () => {
     {
       title: 'Graphic Design',
       description: 'A team of graphic designers with years of experience is ready to complete projects for companies worldwide',
-      image: '/assets/painter.png'
+      image: '/assets/painter.webp'
     },
     // Add more card objects as needed
   ];

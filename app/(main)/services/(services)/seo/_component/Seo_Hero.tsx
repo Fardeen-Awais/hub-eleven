@@ -12,7 +12,7 @@ const Seo_Hero = () => {
                     <TalkNowBtn />
                 </div>
             </div>
-            <Image className='' src='/services/Seo.png' alt='SEO' width={500} height={500} />
+            <Image className='' src='/services/Seo.webp' alt='SEO' width={500} height={500} />
             <div>
 
             <div className='flex flex-col items-center gap-5 p-5 rounded-md'>

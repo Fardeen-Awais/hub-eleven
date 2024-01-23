@@ -9,7 +9,7 @@ const Hero = () => {
         <section className='flex flex-col md:flex-row justify-start sm:justify-start items-center max-w-7xl mx-auto gap-10 min-h-screen w- z-10'>
             <div className='flex flex-col sm:flex-row items-center sm:gap-20 p-5'>
                 <div className='w-44 h-44 sm:w-96 sm:h-96'>
-                    <Image src={'/assets/Hero-image.png'} alt='hero' width={350} height={350} quality={100} priority />
+                    <Image src={'/assets/Hero-image.webp'} alt='hero' width={350} height={350} quality={100} priority />
                 </div>
 
                 <div className='flex flex-col items-center px-5 sm:items-start gap-3'>

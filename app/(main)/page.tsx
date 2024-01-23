@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main className='flex flex-col min-h-screen w-full z-30'>
       <Image
-        src={'/assets/Background-01.png'}
+        src={'/assets/Background-01.webp'}
         alt="Hero Image"
         width={3000}
         height={3000}

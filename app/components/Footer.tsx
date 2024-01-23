@@ -29,7 +29,7 @@ const Footer = () => (
    
         <div className='flex items-center justify-center min-h-screen p-5'>
             <div className='flex flex-col sm:flex-row justify-between items-center gap-20'>
-                <div><Image src={'/assets/spline.png'} alt='hero' width={350} height={350} /></div>
+                <div><Image src={'/assets/spline.webp'} alt='hero' width={350} height={350} /></div>
                 <div className='flex flex-col max-w-96 gap-5'>
                     <h3 className='text-3xl font-semibold'>Have an good web design today</h3>
                     <p className='text-gray-300'>High level experience in web design and development knowledge, producing quality work.</p>
