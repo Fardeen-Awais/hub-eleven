@@ -1,9 +1,11 @@
-import React from 'react'
+import ContactUs from "./_components/ContactUs"
 
 const page = () => {
+
   return (
-    <div>page</div>
+    <main className="min-h-screen">
+      <ContactUs />
+    </main>
   )
 }
-
 export default page

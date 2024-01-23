@@ -21,8 +21,8 @@ const companies = [
 ];
 const Company = () => {
     return (
-        <div className='flex justify-center items-center w-full h-60'>
-            <div className='grid grid-cols-4 gap-20 place-items-center justify-items-center'>
+        <div className='flex justify-center items-center w-full h-60 my-5'>
+            <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-20 place-items-center justify-items-center'>
                 {companies.map((company) => (
                     <div key={company.title} className='w-24 h-24'>
                         <Image src={company.image} alt={company.title} width={300} height={300} />

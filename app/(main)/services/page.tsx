@@ -1,5 +1,5 @@
 import React from 'react'
-import HoverImageLinks from '../_component/_subcomponents/ServiceLink'
+import HoverImageLinks from './_component/ServiceLink'
 
 const page = () => {
   return (

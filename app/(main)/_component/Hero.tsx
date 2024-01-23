@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import styles from "._component/Hero.module.css"
+import TalkNowBtn from './_subcomponents/TalkNowBtn'
 const Hero = () => {
     return (
         <section className='flex flex-col md:flex-row justify-start sm:justify-start items-center max-w-7xl mx-auto gap-10 min-h-screen w- z-10'>
@@ -17,9 +18,7 @@ const Hero = () => {
                         <p className='text-white max-w-xl px-3 md:text-lg text-base '>Our award-winning digital marketing team can bridge the gaps in your digital strategy to ensure each of your channels are working together to deliver growth.</p>
                     </div>
                     <div className='flex gap-5 p-2'>
-                        <Link target='_blank' href={'https://wa.me/923244028456'}>
-                            <Button variant='default' color='default' className='border border-cyan-400 ' size='lg'>Talk Now</Button>
-                        </Link>
+                       <TalkNowBtn/>
                     </div>
                 </div>
             </div>

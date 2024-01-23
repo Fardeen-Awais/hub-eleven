@@ -5,5 +5,5 @@
     background-size: contain;
     
     height: 100vh;
-    z-index: -1;
+    z-index: -10;
 }
