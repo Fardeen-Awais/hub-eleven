@@ -5,14 +5,14 @@ import React from 'react'
 const ServiceCards = ({ title, description, image }: { title: string, description: string, image: string }) => {
     return (
         <div>
-            <Card className='flex flex-col overflow-hidden justify-center items-center py-2 h-full '>
+            <Card className='flex flex-col overflow-hidden justify-center items-center py-2 h-full'>
                     <CardHeader className='flex flex-col gap-2 py-2'>
-                        <CardTitle>
+                        <CardTitle className='text-3xl'>
                             {title}
                         </CardTitle>
-                        <CardDescription>{description}</CardDescription></CardHeader>
+                        <CardDescription className='text-md'>{description}</CardDescription></CardHeader>
                 <CardContent className='flex items-center gap-2'>
-                    <Image className='relative ' src={image} alt='hero' width={130} height={130}></Image>
+                    <Image className='relative h-60 w-full border' src={image} alt='hero' width={130} height={130}></Image>
                 </CardContent>
             </Card>
         </div>

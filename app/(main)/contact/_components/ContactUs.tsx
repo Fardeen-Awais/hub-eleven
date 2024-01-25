@@ -4,11 +4,11 @@ const ContactUs = () =>  {
     const servicesItems = ["Mobile development", "UI/UX Design", "web development", "SEO"]
 
     return (
-        <main className="flex overflow-hidden max-w-7xl mx-5 min-h-screen">
+        <main className="flex overflow-hidden max-w-7xl m-5 min-h-screen">
             <div className="flex-1 hidden lg:block h-full">
                 <img src="https://images.unsplash.com/photo-1697135807547-5fa9fd22d9ec?auto=format&fit=crop&q=80&w=3387&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="w-full h-screen object-cover" />
             </div>
-            <div className="py-12 flex-1 lg:flex lg:justify-center lg:min-h-screen lg:overflow-hidden">
+            <div className="flex-1 lg:flex lg:justify-center lg:min-h-screen lg:overflow-hidden h-full">
                 <div className="max-w-lg flex-1 mx-auto px-4 text-gray-600">
                     <div>
                         <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">

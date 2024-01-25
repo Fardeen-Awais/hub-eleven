@@ -29,7 +29,7 @@ const Footer = () => (
    
         <div className='flex items-center justify-center min-h-screen p-5'>
             <div className='flex flex-col sm:flex-row justify-between items-center gap-20'>
-                <div><Image src={'/assets/spline.webp'} alt='hero' width={350} height={350} /></div>
+                <div><Image src={'/assets/spline.webp'} alt='hero icon' width={350} height={350} /></div>
                 <div className='flex flex-col max-w-96 gap-5'>
                     <h3 className='text-3xl font-semibold'>Have an good web design today</h3>
                     <p className='text-gray-300'>High level experience in web design and development knowledge, producing quality work.</p>
@@ -38,12 +38,12 @@ const Footer = () => (
         </div>
 
         <div className='flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10'>
-            <p>@2023 CarHub. All rights reserved</p>
+            <p>@2023 Hubeleven.</p>
 
             <div className='flex gap-3'>
                 {Social_url.map((social) => (
                     <div key={social.alt} className='opacity-80 hover:opacity-100 transition-all'>
-                        <Link href={social.href} target="_blank">
+                        <Link href={social.href} target="_blank" aria-label={social.alt}>
                             {social.url}
                         </Link>
                     </div>

@@ -4,6 +4,7 @@ import TalkNowBtn from '@/app/(main)/_component/_subcomponents/TalkNowBtn'
 import Image from 'next/image'
 import Web_Feature from '../web_development/_components/Web_Feature'
 import Consult_Feature from './_components/Consult_feature'
+import Consult_FAQ from './_components/Consult_FAQ'
 
 const page = () => {
   return (
@@ -25,6 +26,7 @@ const page = () => {
         <Image className='relative -top-40 sm:-top-60 rotate-12' src='/services/consultant.png' alt='web_development' width={500} height={500}/>
       <Consult_Feature/>
       </div>
+      <Consult_FAQ/>
     </section>
   )
 }

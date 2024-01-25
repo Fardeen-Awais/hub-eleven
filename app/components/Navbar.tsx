@@ -18,7 +18,7 @@ const Navbar = () => {
     }
 
     return (
-        <header className='sticky top-0 z-20 border-b border-transparent bg-opacity-80 backdrop-blur-[4px] backdrop-filter transition-opacity duration-200 ease-in-out mx-auto px-5 md:px-10 h-20 flex items-center justify-between'>
+        <header className='sticky top-0 z-20 border-b border-transparent bg-opacity-80 backdrop-blur-[4px] backdrop-filter transition-opacity duration-200 ease-in-out mx-auto  px-5 h-20 flex items-center justify-between max-w-7xl'>
             <nav className='flex justify-between items-center w-full py-4'>
                 <div className='logo flex items-center justify-center logo w-20 h-20 sm:w-24 sm:h-24'>
                   <Logo/>

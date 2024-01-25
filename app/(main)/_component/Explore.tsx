@@ -2,12 +2,23 @@ import { Button } from '@/components/ui/button'
 import React from 'react'
 import styles from "./_subcomponents/bg-image.module.css"
 import TalkNowBtn from './_subcomponents/TalkNowBtn'
+import Image from 'next/image'
 
 const Explore = () => {
     return (
-        <div className={`flex items-center justify-center min-h-screen p-5 ${styles.bg02img} overflow-hidden`}>
-
-            <div className='flex flex-col max-w-72 gap-5 relative left-10 sm:left-48 p-5 z-0'>
+        <div className={`flex items-center justify-center min-h-screen overflow-hidden max-w-7xl w-full mx-auto`}>
+            <div style={{ position: 'absolute', height: '100%', width: '100%', }}>
+                <Image
+                    src={'/assets/Background-02.webp'}
+                    alt="Hero Background"
+                    fill
+                    quality={100}
+                    sizes='100vw'
+                    style={{ objectFit: 'cover' }}
+                    priority={true}
+                />
+            </div>
+            <div className='flex flex-col max-w-72 gap-5 relative left-10 sm:left-48 z-0'>
                 <h3 className='text-2xl font-semibold text-white'>
                     Explore Your Next Opportunity
                 </h3>

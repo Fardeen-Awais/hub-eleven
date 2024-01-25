@@ -5,7 +5,7 @@ import EnvCarousal from './_subcomponents/Company-env-carousel'
 
 const Section01 = () => {
     return (
-        <div className='flex flex-col sm:gap-60 gap-32 items-center justify-center min-h-screen py-32 px-5'>
+        <div className='flex flex-col items-center justify-center min-h-screen max-w-7xl px-5 mx-auto'>
             <EnvCarousal/>
         </div>
     )

@@ -9,22 +9,25 @@ import Company from "./_component/Company";
 
 export default function Home() {
   return (
-    <main className='flex flex-col min-h-screen w-full z-30'>
-      <Image
-        src={'/assets/Background-01.webp'}
-        alt="Hero Image"
-        width={3000}
-        height={3000}
-        className="absolute bg-cover object-fill max-h-screen w-full h-screen inset-0 -z-10"
-        priority={true}
-      />
+    <main className='flex flex-col overflow-hidden h-full w-full z-30 '>
+      <div style={{ position: 'absolute', height: '100%', width: '100%', top: 0 }}>
+        <Image
+          src={'/assets/Background-01.webp'}
+          alt="Hero Background"
+          fill
+          quality={100}
+          sizes='100vw'
+          style={{ objectFit: 'cover' }}
+          priority={true}
+        />
+      </div>
       <Hero />
-      <About/>
-      <Service/>
+      <About />
+      <Service />
       <Section01 />
-      <Section02/>
-      <Explore/>
-      <Company/>
+      <Section02 />
+      <Explore />
+      <Company />
       {/* explore section */}
       {/* companies */}
       {/* footer */}
