@@ -1,22 +1,6 @@
 import { MenuSquare } from "lucide-react"
 
-const DigitalMarketing_Stats = () => {
-
-    const stats = [
-        {
-            data: "35K",
-            title: "Customers"
-        },
-        {
-            data: "40+",
-            title: "Countries"
-        },
-        {
-            data: "30M+",
-            title: "Total revenue"
-        },
-    ]
-
+const Service_Stats = ({stats}:any) => {
     return (
         <section className="py-28 bg-gray-900 w-full mx-auto flex items-center">
             <div className="max-w-screen-xl mx-auto px-4 md:px-8">
@@ -44,4 +28,4 @@ const DigitalMarketing_Stats = () => {
         </section>
     )
 }
-export default DigitalMarketing_Stats
+export default Service_Stats

@@ -72,6 +72,20 @@ export const DigitalMarketing = {
       answer: 'Absolutely! Digital Marketing is versatile and can be tailored to suit businesses of all sizes and industries. Whether you\'re a startup, a small local business, or a large enterprise, our team crafts strategies that align with your specific goals and market dynamics.',
     },
   ],
+  stats:[
+    {
+        data: "90%",
+        title: "The success rate"
+    },
+    {
+        data: "40+",
+        title: "Countries"
+    },
+    {
+        data: "2x",
+        title: "Total revenue"
+    },
+  ]
 };
 
 export const SEO = {
@@ -106,4 +120,115 @@ export const SEO = {
       answer: "Absolutely! SEO is adaptable and can be tailored to businesses of all sizes and industries. Whether you're a startup, a local business, or a large enterprise, our SEO strategies are customized to align with your specific goals and target audience",
     },
   ],
+  stats:[
+    {
+        data: "90%",
+        title: "The success rate"
+    },
+    {
+        data: "40+",
+        title: "Countries"
+    },
+    {
+        data: "2x",
+        title: "Total revenue"
+    },
+  ]
 };
+
+export const WebDevelopment = {
+  title: 'Web Development Services',
+  description: `Unlock the potential of modern web technologies with our Web Development services. At HubEleven, we specialize in building cutting-edge web applications tailored to your specific needs.`,
+  sections: [
+    {
+      description: `Address the unique challenges of your business by harnessing the power of modern web technologies. Our expert developers use the latest frameworks and languages to create scalable and customizable web applications that cater to your specific requirements.`,
+      image: '/services/webdev_01.gif', // Replace with the actual path to your image
+    },
+    {
+      description: `Define and achieve your online goals with our Web Development expertise. Whether it's creating a dynamic e-commerce platform, a robust content management system, or a sleek portfolio website, our developers ensure that your web presence aligns with your business objectives.`,
+      image: '/services/webdev_02.jpg', // Replace with the actual path to your image
+    },
+    {
+      description: `Experience the success that our Web Development services can bring to your business. From responsive and user-friendly designs to seamless functionality, we ensure that your web application stands out in the digital landscape and drives user engagement and satisfaction.`,
+      image: '/services/webdev_03.gif', // Replace with the actual path to your image
+    },
+  ],
+  
+  faq: [
+    {
+      question: 'What Web Development services do you offer?',
+      answer: "We provide a wide range of Web Development services, including front-end and back-end development, e-commerce development, content management system (CMS) development, and more. Our goal is to deliver tailor-made solutions that align with your business needs.",
+    },
+    {
+      question: 'How will Web Development benefit my business?',
+      answer: "Web Development enhances your online presence by creating a user-friendly and functional web application. Whether you're looking to establish an e-commerce platform, showcase your portfolio, or manage content seamlessly, our solutions drive user engagement and contribute to business growth.",
+    },
+    {
+      question: 'Is Web Development suitable for my industry or business size?',
+      answer: "Absolutely! Web Development is versatile and can be customized for businesses of all sizes and industries. Whether you're a startup, a small business, or a large enterprise, our developers craft solutions that align with your unique goals and target audience.",
+    },
+  ],
+   stats:[
+    {
+        data: "48",
+        title: "Web Development Projects"
+    },
+    {
+        data: "40+",
+        title: "Countries"
+    },
+    {
+        data: "30M+",
+        title: "Total revenue"
+    },
+]
+};
+
+export const ConsultancyService = {
+  title: 'Consultancy Services',
+  description: `Navigate the ever-evolving tech landscape with our Consultancy Services. Our team of seasoned experts is here to provide you with strategic guidance and actionable insights, ensuring your tech initiatives align with your business goals.`,
+  sections: [
+    {
+      description: `Get personalized advice on adopting new technologies, optimizing your IT infrastructure, and making informed decisions. Our consultants bring clarity to complex tech issues, helping you make confident choices that drive your business forward.`,
+      image: '/services/consult_1.png', // Replace with the actual path to your image
+    },
+    {
+      description: `Unlock the potential of your tech investments with our consultancy. We offer hands-on assistance in planning and executing tech projects, ensuring they align with industry best practices and your unique business requirements.`,
+      image: '/services/consult_2.png', // Replace with the actual path to your image
+    },
+    {
+      description: `Stay ahead in the digital landscape with our consultancy services. From technology roadmaps to innovation strategies, we provide the expertise needed to thrive in a competitive market, making your tech journey a path of growth and success.`,
+      image: '/services/consult_3.svg', // Replace with the actual path to your image
+    },
+  ],
+  
+  faq: [
+    {
+      question: 'What Consultancy services do you offer?',
+      answer: "Our consultancy services cover a range of tech-related topics, including technology adoption, IT infrastructure optimization, project planning, and innovation strategies. We tailor our services to address your specific business needs.",
+    },
+    {
+      question: 'How will Consultancy benefit my business?',
+      answer: "Our consultancy services provide strategic guidance, helping you make informed decisions, optimize tech investments, and stay competitive. Whether you're a startup or an established enterprise, our experts ensure that your tech initiatives contribute to your overall business success.",
+    },
+    {
+      question: 'Is Consultancy suitable for my industry or business size?',
+      answer: "Absolutely! Our consultancy services are adaptable and designed to cater to businesses of all sizes and industries. Whether you're in technology, finance, healthcare, or any other sector, we customize our guidance to align with your unique goals and challenges.",
+    },
+  ],
+  stats:[
+    {
+        data: "120+",
+        title: "Consultancy Projects"
+    },
+    {
+        data: "95%",
+        title: "Client Satisfaction"
+    },
+    {
+        data: "24/7",
+        title: "Consultancy Support"
+    },
+  ],
+};
+

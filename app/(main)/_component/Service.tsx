@@ -47,7 +47,7 @@ const Service = () => {
                 <span className='text-4xl sm:text-5xl font-semibold'>Digital Marketing</span>
               </CardTitle>
               <CardDescription className='max-w-md text-base'>We provide a range of digital marketing solutions to help your business succeed. Help you to manage your business compaigns</CardDescription></div>
-            <Image className='relative top-4 h-60 w-60 md:h-96 md:w-96' src={'/assets/social-media-exp.svg'} alt='hero' width={400} height={400}></Image>
+            <Image className='relative top-4 h-60 w-60 md:h-96 md:w-96' src={'/assets/social-media-exp.svg'} alt='hero' width={400} height={400}/>
           </CardContent>
         </Card>
       </div>

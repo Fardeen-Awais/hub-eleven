@@ -4,14 +4,16 @@ import Web_Feature from './_components/Web_Feature'
 import Web_About from './_components/Web_About'
 import Service_FAQ from '../../_component/Service_FAQ'
 import Service_About from '../../_component/Service_About'
-
+import { WebDevelopment } from '@/app/constant'
+import Service_Stats from '../../_component/Service_Stats'
 const page = () => {
+  const {title, description, sections, faq,stats} = WebDevelopment
   return (
     <section className="flex flex-col min-h-screen items-center justify-start overflow-hidden gap-5 w-full mx-auto">
     <Web_Hero/>
-    <Web_About/>
-    {/* <Service_About/>
-    <Service_FAQ/> */}
+    <Service_About data={sections}/>
+    <Service_Stats stats={stats}/>
+    <Service_FAQ faq={faq}/>
   </section>
   )
 }

@@ -12,7 +12,7 @@ const ServiceCards = ({ title, description, image }: { title: string, descriptio
                         </CardTitle>
                         <CardDescription className='text-md'>{description}</CardDescription></CardHeader>
                 <CardContent className='flex items-center gap-2'>
-                    <Image className='relative h-60 w-full border' src={image} alt='hero' width={130} height={130}></Image>
+                    <Image className='relative h-60 w-full' src={image} alt='hero' width={130} height={130}></Image>
                 </CardContent>
             </Card>
         </div>
