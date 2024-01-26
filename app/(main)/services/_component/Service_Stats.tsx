@@ -15,7 +15,7 @@ const Service_Stats = ({stats}:any) => {
                 <div className="mt-12">
                     <ul className="flex flex-col gap-4 items-center justify-center sm:flex-row">
                         {
-                            stats.map((item, idx) => (
+                            stats.map((item:any, idx:any) => (
                                 <li key={idx} className="w-full h-full text-center bg-gray-800 px-12 py-4 rounded-lg sm:w-auto">
                                     <h4 className="text-4xl text-white font-semibold">{item.data}</h4>
                                     <p className="mt-3 text-gray-400 font-medium">{item.title}</p>
