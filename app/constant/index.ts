@@ -29,13 +29,13 @@ export const services = [
   {
     title: 'Consultancy',
     description: 'Benefit from our consultancy services that drive powerful SEO campaigns, resulting in sustained visibility, increased traffic, and revenue growth. We guide your web app to connect with a broader audience.',
-    image: '/services/consultant.png',
+    image: '/services/consult_1.png',
     href: '/services/consultancy'
   },
   {
     title: 'Designing',
     description: 'Transform your brand with our expert design services. Our SEO-centric approach ensures enduring visibility, heightened traffic, and revenue growth, amplifying your web app\'s impact across a larger audience.',
-    image: '/services/designing.webp',
+    image: '/assets/designing.gif',
     href: '/services/designing'
   },
 ];

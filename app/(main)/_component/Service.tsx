@@ -18,12 +18,12 @@ const Service = () => {
     {
       title: 'Consultancy',
       description: 'We provide IT Consultancy to businesses to help them choose, implement, upgrade, and migrate business solutions and applications.',
-      image: '/assets/laptop.png'
+      image: '/services/consult_1.png'
     },
     {
       title: 'Graphic Design',
       description: 'A team of graphic designers with years of experience is ready to complete projects for companies worldwide',
-      image: '/assets/painter.webp'
+      image: '/assets/designing.gif'
     },
     // Add more card objects as needed
   ];

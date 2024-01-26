@@ -8,7 +8,7 @@ import {
 
 const Service_FAQ = ({ faq }: any) => {
   return (
-    <div className="flex flex-col items-center justify-center w-full max-w-7xl min-h-full py-10">
+    <div className="flex flex-col items-center justify-center w-full max-w-7xl min-h-full py-10 px-5">
       <div className="flex flex-col items-center justify-center gap-8 bg-opacity-5">
         <h3 className={`text-3xl md:text-4xl lg:text-5xl font-bold `}>
           Frequent Ask Question
