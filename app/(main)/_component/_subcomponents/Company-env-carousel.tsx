@@ -29,11 +29,11 @@ export function EnvCarousel() {
     }
   ];
   return (
-    <Carousel className="h-full w-full">
+    <Carousel className="h-full w-full px-5">
       <CarouselContent>
         {contentArray.map(({ title, image, description }, index) => (
           <CarouselItem className="w-full h-full" key={title}>
-            <Card className="w-fit h-fit max-h-fit mx-auto flex flex-col md:flex-row overflow-hidden cursor-pointer justify-center items-center">
+            <Card className="w-fit h-fit max-h-fit mx-auto flex flex-col md:flex-row overflow-hidden cursor-pointer justify-center items-center max-w-sm">
               <div className="h-full max-w-xl">
               <Image src={image} alt='hero' width={900} height={900} />
               </div>
@@ -49,8 +49,7 @@ export function EnvCarousel() {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
+
     </Carousel>
   )
 }

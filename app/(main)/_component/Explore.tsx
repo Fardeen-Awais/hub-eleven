@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const Explore = () => {
     return (
-        <div className={`flex items-center justify-center min-h-screen overflow-hidden max-w-7xl w-full mx-auto`}>
+        <div className={`flex flex-col justify-center items-center min-h-screen gap-5`}>
             <div style={{ position: 'absolute', height: '100%', width: '100%', }}>
                 <Image
                     src={'/assets/Background-02.webp'}
@@ -18,7 +18,7 @@ const Explore = () => {
                     priority={true}
                 />
             </div>
-            <div className='flex flex-col max-w-72 gap-5 relative left-10 sm:left-48 z-0'>
+            <div className='flex flex-col max-w-60 sm:max-w-72 gap-5 relative left-10 sm:left-48 z-0'>
                 <h3 className='text-2xl font-semibold text-white'>
                     Explore Your Next Opportunity
                 </h3>
