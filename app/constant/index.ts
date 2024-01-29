@@ -34,9 +34,9 @@ export const services = [
     ],
   },
   {
-    title: 'Social Media Marketing',
+    title: 'Social Media Management',
     image: '/assets/SettingResearch.gif',
-    href: '/services/social_media_marketing',
+    href: '/services/social_media_management',
     description: "Maximize your brand's presence and engagement on social media platforms.",
     subservices: [
       {

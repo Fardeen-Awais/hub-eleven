@@ -2,7 +2,7 @@ import TalkNowBtn from '@/app/(main)/_component/_subcomponents/TalkNowBtn'
 import Image from 'next/image'
 import React from 'react'
 
-const Seo_Hero = ({title, description}:any) => {
+const Smm_Hero = ({title, description}:any) => {
     return (
         <div className='flex flex-col items-center justify-end gap-10 min-h-screen w-full mx-auto max-w-7xl'>
             <div className='flex flex-col md:flex-row items-center justify-between gap-5 bg-gray-900 p-5 rounded-md w-full'>
@@ -22,4 +22,4 @@ const Seo_Hero = ({title, description}:any) => {
     )
 }
 
-export default Seo_Hero
+export default Smm_Hero

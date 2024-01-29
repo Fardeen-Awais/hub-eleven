@@ -32,7 +32,7 @@ const NavigationMenu2 = () => {
       <ul className='sm:flex hidden justify-center items-center text-xs text-cyan-400 transition-all gap-x-10 '>
         {routes.map((route, index) => (
           <Link href={route.href} key={index} onClick={route.label === 'Services' ? toggleSubMenu : undefined}
-            onMouseEnter={route.label === 'Service' ? MouseToggle : undefined}> <li className='flex items-center opacity-100 cursor-pointer hover:underline decoration-yellow-400 underline-offset-4 p-5 transition-all'> {route.label}</li></Link>
+            onMouseEnter={route.label === 'Service' ? MouseToggle : undefined}> <li className='flex items-center opacity-100 cursor-pointer hover:underline decoration-yellow-400 underline-offset-4 p-5 transition-all text-base'> {route.label}</li></Link>
         ))
         }
       </ul>
