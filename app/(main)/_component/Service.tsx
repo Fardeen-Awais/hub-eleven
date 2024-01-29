@@ -33,7 +33,7 @@ const Service = () => {
     <div className='flex flex-col justify-center items-center min-h-screen gap-5'>
       <div className='flex flex-col items-center'>
         <h2 className='text-3xl sm:text-4xl font-bold p-3'>Our Services</h2>
-        <p className='text-gray-600'>The services that can help you to grow your business</p>
+        <p className='text-gray-600 text-center'>The services that can help you to grow your business</p>
       </div>
 
       <div className='flex flex-col items-center gap-2 mx-auto max-w-7xl p-5'>
