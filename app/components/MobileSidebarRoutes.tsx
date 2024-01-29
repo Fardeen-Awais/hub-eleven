@@ -1,6 +1,5 @@
 'use client'
 
-import SidebarRouteItems from "./SidebarRouteItem"
 import { Home, MessageCircleIcon } from "lucide-react"
 import { FcBusinessman} from "react-icons/fc"
 import { BsBriefcase } from "react-icons/bs"
