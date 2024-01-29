@@ -1,12 +1,14 @@
+'use client'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import Image from 'next/image'
 import React from 'react'
 import ServiceCards from './_subcomponents/Cards';
-
+import Lottie from 'lottie-react';
+import animateData from '../../../public/services/DM/Digital_marketing.json'
 const Service = () => {
   const cardData = [
     {
-      title: 'Seo Services',
+      title: 'Content Creation',
       description: 'Powerful SEO campaigns that create long-lasting visibility, traffic and revenue growth. Help your web app to reach into the larger audience',
       image: '/assets/SettingResearch.gif'
     },
@@ -16,12 +18,12 @@ const Service = () => {
       image: '/assets/WebDesignerWithIdea.gif'
     },
     {
-      title: 'Consultancy',
+      title: 'Social Media Management',
       description: 'We provide IT Consultancy to businesses to help them choose, implement, upgrade, and migrate business solutions and applications.',
       image: '/services/consult_1.png'
     },
     {
-      title: 'Graphic Design',
+      title: 'Graphic Designing',
       description: 'A team of graphic designers with years of experience is ready to complete projects for companies worldwide',
       image: '/assets/designing.gif'
     },
@@ -47,7 +49,8 @@ const Service = () => {
                 <span className='text-4xl sm:text-5xl font-semibold'>Digital Marketing</span>
               </CardTitle>
               <CardDescription className='max-w-md text-base'>We provide a range of digital marketing solutions to help your business succeed. Help you to manage your business compaigns</CardDescription></div>
-            <Image className='relative top-4 h-60 w-60 md:h-96 md:w-96' src={'/assets/social-media-exp.svg'} alt='hero' width={400} height={400}/>
+            {/* <Image className='relative top-4 h-60 w-60 md:h-96 md:w-96' src={'/services/DM/'} alt='hero' width={400} height={400}/> */}
+            <Lottie animationData={animateData} loop={true} className='relative top-4 h-60 w-60 ' />
           </CardContent>
         </Card>
       </div>

@@ -12,7 +12,7 @@ export default function Home() {
     <main className='flex flex-col overflow-hidden h-full w-full z-30 '>
       <div style={{ position: 'absolute', height: '100%', width: '100%', top: 0 }}>
         <Image
-          src={'/assets/Background-01.webp'}
+          src={'/assets/Background-01.png'}
           alt="Hero Background"
           fill
           quality={100}

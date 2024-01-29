@@ -8,11 +8,6 @@ import MobileRouteItem from "./MobileRouteItem"
 
 const routes = [
     {
-        label: 'Home',
-        href: '/',
-        icon: Home
-    },
-    {
         label: 'About',
         href: '/about',
         icon: FcBusinessman

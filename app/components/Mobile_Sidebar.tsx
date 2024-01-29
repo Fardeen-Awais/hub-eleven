@@ -8,9 +8,6 @@ const Sidebar = () => {
         <div className="p-6">
             <Logo/>
         </div>
-        <div className="hidden sm:flex flex-col w-full">
-            <SidebarRoutes/>
-        </div>
         <div className="sm:hidden flex flex-col w-full">
             <MobileSidebarRoutes/>
         </div>

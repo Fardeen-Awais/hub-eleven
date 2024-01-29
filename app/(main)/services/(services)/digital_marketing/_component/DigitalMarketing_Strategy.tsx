@@ -13,7 +13,7 @@ const DigitalMarketing_Strategy = () => {
         <MenuSquare />,
     ]
     return (
-        <div className="flex max-w-screen-xl min-h-80 mx-auto px-4 md:px-8">
+        <div className="flex max-w-screen-xl min-h-60 mx-auto px-4 md:px-8">
             <ul aria-label="Steps" className="items-center text-gray-600 md:flex ">
                 {steps.stepsItems.map((item, idx) => (
                     <li aria-current={steps.currentStep == idx + 1 ? "step" : false} className="flex-1 flex md:items-center ">

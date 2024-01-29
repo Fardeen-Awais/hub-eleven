@@ -1,56 +1,49 @@
-import Image from "next/image";
-import Link from "next/link";
-import { BsDiscord, BsFacebook, BsLinkedin, BsWhatsapp } from "react-icons/bs";
+import TalkNowBtn from "../(main)/_component/_subcomponents/TalkNowBtn"
+import Logo from "./Logo"
 
-const Social_url = [
-    {
-        url: <BsDiscord />,
-        alt: 'My Discord Profile',
-        href: 'https://discordapp.com/users/fardeenawais'
-    },
-    {
-        url: <BsWhatsapp />,
-        alt: 'My Page in X (twitter)',
-        href: 'https://twitter.com/alfarnex'
-    },
-    {
-        url: <BsFacebook />,
-        alt: 'My Github Account',
-        href: 'https://github.com/Fardeen-Awais'
-    },
-    {
-        url: <BsLinkedin />,
-        alt: 'My Linkedin Account',
-        href: 'https://www.linkedin.com/in/fardeen-awais-b464b1200/'
-    },
-];
-const Footer = () => (
-    <footer className='flex flex-col text-white  mt-5 border-t border-gray-100 bg-gray-900 '>
-   
-        <div className='flex items-center justify-center min-h-screen p-5'>
-            <div className='flex flex-col sm:flex-row justify-between items-center gap-20'>
-                <div><Image src={'/assets/spline.webp'} alt='hero icon' width={350} height={350} /></div>
-                <div className='flex flex-col max-w-96 gap-5'>
-                    <h3 className='text-3xl font-semibold'>Have an good web design today</h3>
-                    <p className='text-gray-300'>High level experience in web design and development knowledge, producing quality work.</p>
+export default () => {
+
+    const footerNavs = [
+        {
+            href: '/terms&condition',
+            name: 'Term & Condition'
+        },
+        {
+            href: '/about',
+            name: 'About us'
+        }
+    ]
+    return (
+        <footer className="">
+            <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
+                <div className="space-y-6 sm:max-w-md sm:mx-auto sm:text-center">
+                    <div className="flex flex-col items-center justify-center gap-5">
+                        <div>
+                            <Logo />
+                        </div>
+                        <p>
+                            What you are waiting for now. Start your journey with us now and grow your business.
+                        </p>
+                    </div>
+                    <div className="items-center gap-x-3 space-y-3 sm:flex sm:justify-center sm:space-y-0">
+                        <TalkNowBtn/>
+                    </div>
+                </div>
+                <div className="mt-10 py-10 border-t items-center justify-between sm:flex">
+                    <p>© 2022 Hub Eleven Inc. All rights reserved.</p>
+                    <ul className="flex flex-wrap items-center gap-4 mt-6 sm:text-sm sm:mt-0">
+                        {
+                            footerNavs.map((item, idx) => (
+                                <li className="text-gray-800 hover:text-gray-500 duration-150">
+                                    <a key={idx} href={item.href}>
+                                        {item.name}
+                                    </a>
+                                </li>
+                            ))
+                        }
+                    </ul>
                 </div>
             </div>
-        </div>
-
-        <div className='flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10'>
-            <p>@2023 Hubeleven.</p>
-
-            <div className='flex gap-3'>
-                {Social_url.map((social) => (
-                    <div key={social.alt} className='opacity-80 hover:opacity-100 transition-all'>
-                        <Link href={social.href} target="_blank" aria-label={social.alt}>
-                            {social.url}
-                        </Link>
-                    </div>
-                ))}
-            </div>
-        </div>
-    </footer>
-);
-
-export default Footer;
+        </footer>
+    )
+}

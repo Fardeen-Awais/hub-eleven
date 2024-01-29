@@ -40,7 +40,7 @@ const About_Team = () => {
         },
     ]
     return (
-        <section className="flex">
+        <section className="flex pb-10">
             <div className="max-w-screen-xl mx-auto px-4 md:px-8">
                 <div className="max-w-xl">
                     <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
