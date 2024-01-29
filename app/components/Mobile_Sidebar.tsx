@@ -1,6 +1,5 @@
 import Logo from "./Logo"
 import MobileSidebarRoutes from "./MobileSidebarRoutes"
-import SidebarRoutes from "./SidebarRoutes"
 
 const Sidebar = () => {
   return (
