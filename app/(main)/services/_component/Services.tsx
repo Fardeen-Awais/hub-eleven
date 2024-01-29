@@ -11,7 +11,6 @@ import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 
 const Services = ({subservices}:any) => {
-  console.log({subservices})
   return (
     <div className='flex flex-col gap-10 px-5'>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>

@@ -1,23 +1,8 @@
 import React from 'react'
-import { ChevronDown, LucideIcon } from "lucide-react"
 import { usePathname, useRouter } from 'next/navigation'
 import { cn } from '@/lib/utils';
-import { RxDropdownMenu } from 'react-icons/rx';
-import { BiDownArrow, BiDownArrowAlt } from 'react-icons/bi';
 
 
-import {
-    NavigationMenu,
-    NavigationMenuContent,
-    NavigationMenuItem,
-    NavigationMenuLink,
-    NavigationMenuList,
-    NavigationMenuTrigger,
-    navigationMenuTriggerStyle,
-} from "@/components/ui/navigation-menu"
-import ListItem from './ListItem';
-import Logo from './Logo';
-import { services } from '../constant';
 
 interface SidebarRouteItemsProps {
     icon: any;
