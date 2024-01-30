@@ -3,7 +3,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div className='flex flex-col justify-center items-center min-h-screen max-w-7xl mx-auto'>
+        <div className='flex flex-col justify-center items-start max-h-screen max-w-7xl mx-auto py-0 pb-10'>
             <div className='flex flex-col sm:flex-row justify-between items-center'>
                 <div>
                     <Image src={'/assets/creative-boxes.webp'} alt='hero' width={600} height={600} quality={100} priority />

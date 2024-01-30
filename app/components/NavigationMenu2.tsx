@@ -12,6 +12,10 @@ const routes = [
     href: '/about',
   },
   {
+    label: 'Our Work',
+    href: '/about',
+  },
+  {
     label: 'Contact',
     href: '/contact',
   },
@@ -29,7 +33,7 @@ const NavigationMenu2 = () => {
 
   return (
     <div  >
-      <ul className='sm:flex hidden justify-center items-center text-xs text-cyan-400 transition-all gap-x-10 '>
+      <ul className='sm:flex hidden justify-center items-center text-xs text-cyan-400 font-semibold transition-all gap-x-0 lg:gap-x-10 '>
         {routes.map((route, index) => (
           <Link href={route.href} key={index} onClick={route.label === 'Services' ? toggleSubMenu : undefined}
             onMouseEnter={route.label === 'Service' ? MouseToggle : undefined}> <li className='flex items-center opacity-100 cursor-pointer hover:underline decoration-yellow-400 underline-offset-4 p-5 transition-all text-base'> {route.label}</li></Link>
@@ -38,7 +42,7 @@ const NavigationMenu2 = () => {
       </ul>
 
       {isSubMenuOpen && (
-        <div onMouseLeave={MouseToggle} className='w-full h-[600px] lg:h-[400px] bg-white absolute inset-2 top-20 left-0 p-5 rounded-lg border-4 border-cyan-500'>
+        <div onMouseLeave={MouseToggle} className='w-full h-[520px] lg:h-[220px] bg-white absolute inset-2 top-20 left-0 p-5 rounded-lg border-4 border-cyan-500'>
           <ul className='grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 text-xs transition-all gap-10'>
             {services.map((service: any, index) => (
               <div className='flex flex-col gap-5 w-full' key={index}>
