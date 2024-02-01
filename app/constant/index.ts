@@ -20,16 +20,16 @@ export const services = [
         description: 'Improve your website rankings and visibility with our SEO services. Our proven strategies drive organic traffic and enhance your online authority.',
       },
       {
-        title: 'Google Ads',
+        title: 'PPC',
         image: '/services/google_ads.gif',
-        href: '/services/digital_marketing/google_ads',
+        href: '/services/digital_marketing/ppc',
         description: 'Run effective advertising campaigns on Google to reach your target audience. Optimize ad placements and maximize your ROI with our expert Google Ads management.',
       },
       {
-        title: 'Keyword Research',
+        title: 'Email Marketing',
         image: '/services/keyword_research.gif',
-        href: '/services/digital_marketing/keyword_research',
-        description: 'Strategize your content with in-depth keyword research. Identify and target the right keywords to enhance your online visibility and attract relevant traffic.',
+        href: '/services/digital_marketing/email_marketing',
+        description: 'Strategize your content with in-depth Email Marketing. Identify and target the right keywords to enhance your online visibility and attract relevant traffic.',
       },
     ],
   },
@@ -141,28 +141,34 @@ export const DigitalMarketing = {
   description: `Elevate your online presence and drive meaningful results with our comprehensive Digital Marketing Solutions. At HubEleven, we go beyond traditional marketing approaches, leveraging the power of digital channels to connect your brand with the right audience.`,
   sections: [
     {
+      title: 'SEO Strategies',
       description: `Craft a powerful plan to elevate your website's visibility and rankings on search engines through our proven SEO strategies. We meticulously optimize your online content, conduct in-depth keyword analysis, and implement effective tactics to drive sustainable organic traffic.`,
       image: '/services/DM/digitalmarketing_1.svg', // Replace with the actual path to your image
     },
     {
+      title: 'Social Media Management',
       description: `Efficiently manage your brand's presence on various social media platforms. Our dedicated social media experts curate engaging content, execute targeted campaigns, and adeptly manage interactions to foster a vibrant and strong online community around your brand.`,
-      image: '/services/DM/digitalmarketing_3.svg', // Replace with the actual path to your image
+      image: '/services/DM/digitalmarketing_6.jpg', // Replace with the actual path to your image
     },
     {
+      title: 'PPC Advertising',
       description: `Align your marketing goals with instant visibility and targeted traffic through our strategic PPC campaigns. We skillfully optimize ad placements, set budget-friendly bids, and conduct thorough performance analysis, ensuring a substantial return on investment for your business.`,
       image: '/services/DM/digitalmarketing_2.jpg', // Replace with the actual path to your image
     },
     {
+      title: 'Content Creation',
       description: `Enhance your content marketing strategy with compelling visuals and storytelling. Our creative team crafts engaging multimedia content that resonates with your audience, driving brand awareness and fostering meaningful connections.`,
       image: '/services/DM/digitalmarketing_4.jpg', // Replace with the actual path to your image
     },
     {
+      title: 'Influencer Marketing',
       description: `Build brand loyalty and foster community engagement through influencer marketing. Our expert team identifies and collaborates with influencers who align with your brand values, expanding your reach and building authentic connections.`,
       image: '/services/DM/digitalmarketing_5.jpg', // Replace with the actual path to your image
     },
     {
+      title: 'Email Marketing',
       description: `Maximize your reach with effective email marketing campaigns. Our tailored strategies focus on delivering personalized content, nurturing leads, and driving conversions, ensuring that your email marketing contributes to your overall digital success.`,
-      image: '/services/DM/digitalmarketing_6.jpg', // Replace with the actual path to your image
+      image: '/services/DM/digitalmarketing_3.svg', // Replace with the actual path to your image
     },
   ],
   
@@ -209,16 +215,16 @@ export const DigitalMarketing = {
       description: 'Improve your website rankings and visibility with our SEO services. Our proven strategies drive organic traffic and enhance your online authority.',
     },
     {
-      title: 'Google Ads',
+      title: 'PPC',
       image: '/services/google_ads.gif',
-      href: '/services/digital_marketing/google_ads',
+      href: '/services/digital_marketing/ppc',
       description: 'Run effective advertising campaigns on Google to reach your target audience. Optimize ad placements and maximize your ROI with our expert Google Ads management.',
     },
     {
-      title: 'Keyword Research',
+      title: 'Email Marketing',
       image: '/services/keyword_research.gif',
-      href: '/services/digital_marketing/keyword_research',
-      description: 'Strategize your content with in-depth keyword research. Identify and target the right keywords to enhance your online visibility and attract relevant traffic.',
+      href: '/services/digital_marketing/email_marketing',
+      description: 'Strategize your content with in-depth Email Marketing. Identify and target the right keywords to enhance your online visibility and attract relevant traffic.',
     },
   ],
 

@@ -1,7 +1,6 @@
 import Link from "next/link"
 import TalkNowBtn from "../(main)/_component/_subcomponents/TalkNowBtn"
 import Logo from "./Logo"
-import Image from "next/image"
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
 
 export default () => {
@@ -57,7 +56,7 @@ export default () => {
 
                     <div className='flex gap-x-5 items-center justify-center mx-auto relative md:left-10 lg:left-16'>
                         {socialIcons.map((social, index) => (
-                            <div key={index} className='opacity-80 hover:opacity-100 transition-all'>
+                            <div key={index} className='opacity-80 hover:opacity-100 hover:text-cyan-400 transition-all'>
                                 <Link href={social.link} target="_blank">
                                     {social.icon}
                                 </Link>

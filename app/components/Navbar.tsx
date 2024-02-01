@@ -1,12 +1,10 @@
 'use client'
-
-import { Button } from '@/components/ui/button'
-import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import { MobileSideBar } from './MobileSidebar'
 import TalkNowBtn from '../(main)/_component/_subcomponents/TalkNowBtn'
 import Logo from './Logo'
-import NavigationMenu2 from './NavigationMenu2'
+import NavigationMenu from './NavigationMenu'
+
 const Navbar = () => {
 
     const [isMounted, setIsMounted] = useState(false)
@@ -24,7 +22,7 @@ const Navbar = () => {
                     <Logo />
                 </div>
                 <div className='w-full flex items-center justify-center'>
-                    <NavigationMenu2/>
+                    <NavigationMenu/>
                 </div>
                 <div className='Customizer flex items-center '>
                     <div>

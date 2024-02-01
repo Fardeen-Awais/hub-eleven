@@ -9,7 +9,7 @@ import Services from '../../_component/Services'
 const page = () => {
   const {title, description, sections, faq,stats,subservices} = DigitalMarketing
   return (
-    <section className="flex flex-col max-w-screen-xl min-h-screen items-center justify-start gap-5 w-full mx-auto">
+    <section className="flex flex-col max-w-screen min-h-screen items-center justify-start gap-5 w-full mx-auto overflow-hidden">
       <DigitalMarketing_Hero title={title} description={description}/>
       <Service_About data={sections}/>
       <DigitalMarketing_Strategy/>

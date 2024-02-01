@@ -6,7 +6,7 @@ import { services } from "@/app/constant";
 export const HoverImageLinks = () => {
   return (
     <section className="p-4 md:p-8">
-      <div className="mx-auto max-w-5xl">
+      <div className="grid grid-cols-2 mx-auto max-w-5xl">
         {services.map((service:any) => (
           <Link
             key={service.id}
@@ -69,7 +69,7 @@ const Link = ({ heading, imgSrc, subheading, href }:any) => {
             staggerChildren: 0.075,
             delayChildren: 0.25,
           }}
-          className="relative z-10 block text-4xl font-bold text-gray-900 transition-colors duration-500 group-hover:text-gray-200 md:text-6xl "
+          className="relative z-10 block text-2xl font-bold text-cyan-900 transition-colors duration-500 group-hover:text-gray-200 md:text-3xl "
         >
           {heading.split(".").map((l:any, i:any) => (
             <motion.span
