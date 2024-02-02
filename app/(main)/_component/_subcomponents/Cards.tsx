@@ -1,8 +1,13 @@
+'use client'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import Image from 'next/image'
+import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 import React from 'react'
 
-const ServiceCards = ({ title, description, image }: { title: string, description: string, image: string }) => {
+
+const ServiceCards = ({ title, description, image}: { title: string, description: string, image: string }) => {
+    const router = useRouter();
     return (
         <div>
             <Card className='flex flex-col overflow-hidden justify-center items-center py-2 h-full'>

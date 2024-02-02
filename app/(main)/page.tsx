@@ -6,10 +6,11 @@ import Section01 from "./_component/Section01";
 import Section02 from "./_component/Section02";
 import Explore from "./_component/Explore";
 import Company from "./_component/Company";
+import Seperator from "./_component/_subcomponents/Seperator";
 
 export default function Home() {
   return (
-    <main className='flex flex-col overflow-hidden h-full w-full z-30 '>
+    <main className='flex flex-col overflow-hidden h-full w-full z-30 text-center sm:text-start'>
       <div style={{ position: 'absolute', height: '100%', width: '100%', top: 0 }}>
         <Image
           src={'/assets/Background-01.png'}
@@ -25,6 +26,7 @@ export default function Home() {
       <About />
       <Service />
       <Section01 />
+      <Seperator/>
       <Section02 />
       <Explore />
       <Company />

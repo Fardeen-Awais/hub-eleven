@@ -5,7 +5,7 @@ import { DigitalMarketing } from '@/app/constant'
 import Service_About from '../../_component/Service_About'
 import Service_FAQ from '../../_component/Service_FAQ'
 import Service_Stats from '../../_component/Service_Stats'
-import Services from '../../_component/Services'
+import Service_company from '../../_component/Service_company'
 const page = () => {
   const {title, description, sections, faq,stats,subservices} = DigitalMarketing
   return (
@@ -13,7 +13,8 @@ const page = () => {
       <DigitalMarketing_Hero title={title} description={description}/>
       <Service_About data={sections}/>
       <DigitalMarketing_Strategy/>
-      <Services subservices={subservices}/>
+      <Service_company/>
+      {/* <Services subservices={subservices}/> */}
       <Service_Stats stats={stats}/>
       <Service_FAQ faq={faq}/>
     </section>

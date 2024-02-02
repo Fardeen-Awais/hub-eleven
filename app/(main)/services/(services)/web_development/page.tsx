@@ -10,10 +10,11 @@ const page = () => {
   const {title, description, sections, faq,stats} = WebDevelopment
   return (
     <section className="flex flex-col min-h-screen items-center justify-start overflow-hidden gap-5 w-full mx-auto">
-    <Web_Hero/>
+      Web developement
+    {/* <Web_Hero/>
     <Service_About data={sections}/>
     <Service_Stats stats={stats}/>
-    <Service_FAQ faq={faq}/>
+    <Service_FAQ faq={faq}/> */}
   </section>
   )
 }

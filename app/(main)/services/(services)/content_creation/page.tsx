@@ -14,10 +14,11 @@ const page = () => {
   const { title, description, sections, faq,stats } = ConsultancyService
   return (
     <section className="flex flex-col min-h-screen items-center justify-center max-w-7xl overflow-hidden mx-auto">
-      <Consultant_Hero/>
+Consultant Page
+      {/* <Consultant_Hero/>
       <Service_About data={sections}/>
       <Service_Stats stats={stats}/>
-      <Service_FAQ faq={faq}/>
+      <Service_FAQ faq={faq}/> */}
     </section>
   )
 }
