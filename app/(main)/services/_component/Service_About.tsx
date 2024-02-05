@@ -5,9 +5,9 @@ import React from 'react'
 
 const Service_About = ({ data }: any) => {
     return (
-        <div className='flex flex-col  justify-center items-center min-h-fit max-w-7xl mx-auto gap-20 sm:gap-0 p-5'>
+        <div className='flex flex-col  justify-center items-center min-h-fit max-w-7xl mx-auto gap-20 sm:gap-0 px-5'>
             {data.map((item: any, index: number) => (
-                <div className='flex flex-col sm:flex-row items-center gap-5 sm:gap-40 sm:py-10' key={index}>
+                <div className='flex flex-col sm:flex-row items-center gap-5 sm:py-10' key={index}>
                     {(index % 2 === 1) ? ( // Check if it's the second item
                         <div className='flex justify-between '>
                             <div className='hidden sm:flex flex-col sm:flex-row items-center justify-between gap-10 mx-auto px-10 '>

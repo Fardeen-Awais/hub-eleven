@@ -42,19 +42,19 @@ export const services = [
       {
         title: 'Social Media Organic',
         image: '/services/social_media_organic.gif',
-        href: '/services/social_media_marketing/organic',
+        href: '/services/social_media_management/organic',
         description: 'Build organic reach and engagement on your social media channels.',
       },
       {
         title: 'Meta Ads',
         image: '/services/meta_ads.gif',
-        href: '/services/social_media_marketing/meta_ads',
+        href: '/services/social_media_management/meta_ads',
         description: 'Leverage meta ads for targeted social media advertising.',
       },
       {
         title: 'Influencer Marketing',
         image: '/services/influencer_marketing.gif',
-        href: '/services/social_media_marketing/influencer_marketing',
+        href: '/services/social_media_management/influencer_marketing',
         description: 'Collaborate with influencers to enhance your brand presence.',
       },
     ]
@@ -139,7 +139,6 @@ export const services = [
 export const DigitalMarketing = {
   title: 'Digital Marketing',
   description: `Elevate your online presence and drive meaningful results with our comprehensive Digital Marketing Solutions. At HubEleven, we go beyond traditional marketing approaches, leveraging the power of digital channels to connect your brand with the right audience.`,
-  
   sections: [
     {
       title: 'Amazon Marketing',
@@ -167,7 +166,6 @@ export const DigitalMarketing = {
       href: '/services/digital_marketing/email_marketing',
     },
   ],
-
   faq: [
     {
       question: 'What Digital Marketing services do you offer?',
@@ -196,52 +194,31 @@ export const DigitalMarketing = {
       title: "Total revenue"
     },
   ],
-  subservices: [
-    {
-      title: 'Amazon',
-      image: '/services/amazon.gif',
-      href: '/services/digital_marketing/amazon',
-      description: 'Leverage the power of Amazon for your digital marketing strategies. Enhance your product visibility and drive sales through Amazon’s vast marketplace.',
-    },
-    {
-      title: 'Search Engine Optimization',
-      image: '/services/seo.gif',
-      href: '/services/digital_marketing/seo',
-      description: 'Improve your website rankings and visibility with our SEO services. Our proven strategies drive organic traffic and enhance your online authority.',
-    },
-    {
-      title: 'PPC',
-      image: '/services/google_ads.gif',
-      href: '/services/digital_marketing/ppc',
-      description: 'Run effective advertising campaigns on Google to reach your target audience. Optimize ad placements and maximize your ROI with our expert Google Ads management.',
-    },
-    {
-      title: 'Email Marketing',
-      image: '/services/keyword_research.gif',
-      href: '/services/digital_marketing/email_marketing',
-      description: 'Strategize your content with in-depth Email Marketing. Identify and target the right keywords to enhance your online visibility and attract relevant traffic.',
-    },
-  ],
-
 };
+
 export const WebDevelopment = {
   title: 'Web Development Services',
   description: `Unlock the potential of modern web technologies with our Web Development services. At HubEleven, we specialize in building cutting-edge web applications tailored to your specific needs.`,
   sections: [
     {
-      description: `Address the unique challenges of your business by harnessing the power of modern web technologies. Our expert developers use the latest frameworks and languages to create scalable and customizable web applications that cater to your specific requirements.`,
-      image: '/services/webdev_01.gif', // Replace with the actual path to your image
+      title: 'Ecommerce Store',
+      image: '/services/WEB/web_ecommerce.jpg',
+      href: '/services/web_development/ecommerce_store',
+      description: `Establish a dominant online presence with our Ecommerce Store development services. We craft powerful and scalable platforms that not only showcase your products effectively but also provide a seamless shopping experience for your customers. From intuitive navigation to secure payment gateways, we ensure your ecommerce store stands out.`,
     },
     {
-      description: `Define and achieve your online goals with our Web Development expertise. Whether it's creating a dynamic e-commerce platform, a robust content management system, or a sleek portfolio website, our developers ensure that your web presence aligns with your business objectives.`,
-      image: '/services/webdev_02.jpg', // Replace with the actual path to your image
+      title: 'Business Sites',
+      image: '/services/WEB/web_business.jpg',
+      href: '/services/web_development/business_sites',
+      description: `Enhance your brand image with our Business Sites development. Our team creates professional and effective websites tailored to your business needs. We focus on user-friendly interfaces, responsive designs, and strategic content placement to ensure your business site attracts and engages visitors effectively.`,
     },
     {
-      description: `Experience the success that our Web Development services can bring to your business. From responsive and user-friendly designs to seamless functionality, we ensure that your web application stands out in the digital landscape and drives user engagement and satisfaction.`,
-      image: '/services/webdev_03.gif', // Replace with the actual path to your image
+      title: 'Custom Web Application',
+      image: '/services/WEB/web_custom.jpg',
+      href: '/services/web_development/custom_web_application',
+      description: `Unlock the full potential of your online presence with Custom Web Applications. We specialize in building tailored web applications that address your specific business requirements. From database management to user authentication, our solutions are designed to streamline processes and enhance overall efficiency.`,
     },
   ],
-
   faq: [
     {
       question: 'What Web Development services do you offer?',
@@ -270,46 +247,34 @@ export const WebDevelopment = {
       title: "Total revenue"
     },
   ],
-  subservices: [
-    {
-      title: 'Ecommerce Store',
-      image: '/services/ecommerce_store.gif',
-      href: '/services/web_development/ecommerce_store',
-      description: 'Create a powerful and scalable ecommerce platform for your business.',
-    },
-    {
-      title: 'Business Sites',
-      image: '/services/business_sites.gif',
-      href: '/services/web_development/business_sites',
-      description: 'Develop professional and effective websites tailored to your business needs.',
-    },
-    {
-      title: 'Custom Web Application',
-      image: '/services/custom_web_app.gif',
-      href: '/services/web_development/custom_web_application',
-      description: 'Build customized web applications to meet your specific requirements.',
-    },
+ 
     // Add more subservices as needed...
-  ],
-  
+ 
 };
 export const SocialMediaManagement = {
-  title: 'Social Media Management Services',
+  title: 'Social Media Management',
   description: `Enhance your brand's online presence and engage with your audience through our comprehensive Social Media Management services. At HubEleven, we offer a range of strategies to optimize your social media channels for maximum impact.`,
   sections: [
     {
+      title: 'Social Media Organic',
+      image: '/services/SMM/social_media_organic.jpg',
+      href: '/services/social_media_management/organic',
       description: `Overcome the common challenges faced by businesses on social media. Our advanced strategies address issues such as low organic reach, ineffective content, and the need for efficient social media management. We focus on building organic engagement and boosting your brand's visibility.`,
-      image: '/services/social_media_1.svg', // Replace with the actual path to your image
     },
     {
+      title: 'Meta Ads',
+      image: '/services/SMM/social_media_meta.jpg',
+      href: '/services/social_media_management/meta_ads',
       description: `Define and achieve your online goals with our expertise in Social Media Management. Whether it's increasing organic reach, running targeted advertising campaigns, or collaborating with influencers, our strategies are tailored to meet your unique objectives.`,
-      image: '/services/social_media_2.svg', // Replace with the actual path to your image
     },
     {
+      title: 'Influencer Marketing',
+      image: '/services/SMM/social_media_influncer.jpg',
+      href: '/services/social_media_management/influencer_marketing',
       description: `Experience the success that our Social Media Management services can bring to your business. Watch as your brand gains traction on social platforms, attracts a larger audience, and achieves higher engagement rates. Our proven track record ensures your satisfaction and long-term success.`,
-      image: '/services/social_media_3.svg', // Replace with the actual path to your image
     },
   ],
+  
   faq: [
     {
       question: 'What Social Media Management services do you offer?',
@@ -338,91 +303,83 @@ export const SocialMediaManagement = {
       title: "Total revenue"
     },
   ],
-  // subservices: [
-  //   {
-  //     title: 'Social Media Organic',
-  //     image: '/services/social_media_organic.gif',
-  //     href: '/services/social_media_marketing/organic',
-  //     description: 'Build organic reach and engagement on your social media channels.',
-  //   },
-  //   {
-  //     title: 'Meta Ads',
-  //     image: '/services/meta_ads.gif',
-  //     href: '/services/social_media_marketing/meta_ads',
-  //     description: 'Leverage meta ads for targeted social media advertising.',
-  //   },
-  //   {
-  //     title: 'Influencer Marketing',
-  //     image: '/services/influencer_marketing.gif',
-  //     href: '/services/social_media_marketing/influencer_marketing',
-  //     description: 'Collaborate with influencers to enhance your brand presence.',
-  //   },
-  // ],
+
 };
-export const ConsultancyService = {
-  title: 'Consultancy Services',
-  description: `Navigate the ever-evolving tech landscape with our Consultancy Services. Our team of seasoned experts is here to provide you with strategic guidance and actionable insights, ensuring your tech initiatives align with your business goals.`,
+export const ContentCreation = {
+  title: 'Content Creation',
+  description: `Elevate your brand's narrative and captivate your audience with our comprehensive Content Creation services. At HubEleven, we bring your ideas to life through compelling written content and visually stunning videos.`,
+
   sections: [
     {
-      description: `Get personalized advice on adopting new technologies, optimizing your IT infrastructure, and making informed decisions. Our consultants bring clarity to complex tech issues, helping you make confident choices that drive your business forward.`,
-      image: '/services/consult_1.png', // Replace with the actual path to your image
+      title: 'Content Writing',
+      description: `Craft compelling and engaging written content for your brand with our Content Writing services. Our expert writers create content that resonates with your target audience, communicates your brand message effectively, and drives meaningful engagement.`,
+      image: '/services/CONTENT/content_write.jpg', // Replace with the actual path to your image
+      href: '/services/content_creation/content_writing', // Replace with the actual href
     },
     {
-      description: `Unlock the potential of your tech investments with our consultancy. We offer hands-on assistance in planning and executing tech projects, ensuring they align with industry best practices and your unique business requirements.`,
-      image: '/services/consult_2.png', // Replace with the actual path to your image
-    },
-    {
-      description: `Stay ahead in the digital landscape with our consultancy services. From technology roadmaps to innovation strategies, we provide the expertise needed to thrive in a competitive market, making your tech journey a path of growth and success.`,
-      image: '/services/consult_3.svg', // Replace with the actual path to your image
+      title: 'Videography',
+      description: `Produce high-quality videos that tell your brand story effectively. Our Videography services are designed to capture the essence of your brand, creating visually appealing and impactful videos that leave a lasting impression on your audience.`,
+      image: '/services/CONTENT/content_graphy.jpg', // Replace with the actual path to your image
+      href: '/services/content_creation/videography', // Replace with the actual href
     },
   ],
 
   faq: [
     {
-      question: 'What Consultancy services do you offer?',
-      answer: "Our consultancy services cover a range of tech-related topics, including technology adoption, IT infrastructure optimization, project planning, and innovation strategies. We tailor our services to address your specific business needs.",
+      question: 'What services do you offer under Content Creation?',
+      answer: 'We offer Content Writing and Videography services. Our Content Writing services focus on creating written content that resonates with your audience, while our Videography services produce high-quality videos that effectively tell your brand story.',
     },
     {
-      question: 'How will Consultancy benefit my business?',
-      answer: "Our consultancy services provide strategic guidance, helping you make informed decisions, optimize tech investments, and stay competitive. Whether you're a startup or an established enterprise, our experts ensure that your tech initiatives contribute to your overall business success.",
+      question: "How does Content Creation benefit my brand?",
+      answer: "Content Creation enhances your brand's narrative, captivates your audience, and communicates your message effectively. Compelling written content and visually stunning videos contribute to a memorable and impactful brand presence.",
     },
     {
-      question: 'Is Consultancy suitable for my industry or business size?',
-      answer: "Absolutely! Our consultancy services are adaptable and designed to cater to businesses of all sizes and industries. Whether you're in technology, finance, healthcare, or any other sector, we customize our guidance to align with your unique goals and challenges.",
+      question: 'Can I customize the Content Creation services for my specific needs?',
+      answer: 'Absolutely! Our services are customizable to meet your unique requirements. Whether you need tailored content writing or specific videography styles, we work closely with you to bring your ideas to life.',
     },
   ],
+
   stats: [
     {
-      data: "120+",
-      title: "Consultancy Projects"
+      data: '95%',
+      title: 'Increased Reach',
     },
     {
-      data: "95%",
-      title: "Client Satisfaction"
+      data: '5+',
+      title: 'Company trusted',
     },
     {
-      data: "24/7",
-      title: "Consultancy Support"
+      data: '4x',
+      title: 'Success Rate',
     },
   ],
 };
 export const GraphicDesigning = {
   title: 'Graphic Designing Services',
   description: `Transform your brand's visual identity and captivate your audience with our expert Graphic Designing services. At HubEleven, we offer a range of creative solutions to elevate your brand's design elements.`,
+
   sections: [
     {
-      description: `Overcome design challenges with our advanced Graphic Designing services. We specialize in creating distinctive logos, enhancing user experience through UI/UX design, and crafting visually appealing flyers and brochures. Our goal is to bring your brand's vision to life with captivating design elements.`,
-      image: '/services/graphic_designing_1.svg', // Replace with the actual path to your image
+      title: 'Logo Designing',
+      image: '/services/DESIGN/Design_logo.jpg',
+      href: '/services/graphic_designing/logo_designing',
+      description: `Create a distinctive and memorable brand identity with our logo design services. Our expert designers work collaboratively with you to craft a logo that reflects your brand's values and leaves a lasting impression on your audience. Whether you're starting a new venture or rebranding, we ensure your logo stands out amidst the competition.`,
     },
     {
-      description: `Define and achieve your brand's visual goals with our Graphic Designing expertise. Whether it's establishing a memorable brand identity, improving user interaction, or creating compelling marketing materials, our designers ensure your brand stands out in the market.`,
-      image: '/services/graphic_designing_2.svg', // Replace with the actual path to your image
+      title: 'UI/UX Design',
+      image: '/services/DESIGN/Design-ui.jpg',
+      href: '/services/graphic_designing/ui_ux_design',
+      description: `Enhance user experience and engagement with our expert UI/UX design solutions. Our designers focus on creating seamless and visually appealing interfaces that align with your brand's aesthetic and provide an optimal user experience. From website interfaces to mobile apps, we prioritize design elements that resonate with your target audience.`,
     },
     {
-      description: `Experience the success that our Graphic Designing services can bring to your brand. Watch as your visual elements become a key differentiator, communicating your brand message effectively and leaving a lasting impression on your audience.`,
-      image: '/services/graphic_designing_3.svg', // Replace with the actual path to your image
+      title: 'Flyers and Brochures',
+      image: '/services/DESIGN/Design-flyers.jpg',
+      href: '/services/graphic_designing/flyers_brochures',
+      description: `Craft visually appealing flyers and brochures to communicate your brand message effectively. Our graphic design team combines creativity and strategic thinking to design marketing collateral that stands out. Whether you're promoting an event, product, or service, our designs capture attention and drive engagement.`,
     },
+    // Add more subservices as needed...
   ],
+
   faq: [
     {
       question: 'What Graphic Designing services do you offer?',
@@ -437,6 +394,7 @@ export const GraphicDesigning = {
       answer: "Absolutely! Graphic Designing is adaptable and can be customized for brands of all sizes and industries. Whether you're a startup, a small business, or a large enterprise, our designers tailor solutions to align with your unique goals and target audience.",
     },
   ],
+
   stats: [
     {
       data: "85%",
@@ -451,26 +409,5 @@ export const GraphicDesigning = {
       title: "Design Elements Created"
     },
   ],
-  subservices: [
-    {
-      title: 'Logo Designing',
-      image: '/services/logo_designing.gif',
-      href: '/services/graphic_designing/logo_designing',
-      description: 'Create a distinctive and memorable brand identity with our logo design services.',
-    },
-    {
-      title: 'UI/UX Design',
-      image: '/services/ui_ux_design.gif',
-      href: '/services/graphic_designing/ui_ux_design',
-      description: 'Enhance user experience and engagement with our expert UI/UX design solutions.',
-    },
-    {
-      title: 'Flyers and Brochures',
-      image: '/services/flyers_brochures.gif',
-      href: '/services/graphic_designing/flyers_brochures',
-      description: 'Craft visually appealing flyers and brochures to communicate your brand message effectively.',
-    },
-    // Add more subservices as needed...
-  ],
+  
 };
-

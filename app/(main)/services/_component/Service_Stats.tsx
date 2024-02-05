@@ -3,13 +3,13 @@ import { MenuSquare } from "lucide-react"
 const Service_Stats = ({stats}:any) => {
     return (
         <section className="py-28 bg-gray-900 w-full mx-auto flex items-center">
-            <div className="max-w-screen-xl mx-auto px-4 md:px-8">
-                <div className="max-w-2xl mx-auto text-center">
+            <div className="max-w-screen-xl mx-auto ">
+                <div className="flex flex-col items-center p-5 max-w-xl mx-auto text-center">
                     <h3 className="text-white text-3xl font-semibold sm:text-4xl">
                         Our customers are always happy
                     </h3>
                     <p className="max-w-xl mt-3 text-gray-300">
-                        Helping our customer to grow their business with digital marketing services that help them to achieve their goals and reach larger audience 
+                        Helping our customer to grow their business with our services that help them to achieve their goals and reach larger audience 
                     </p>
                 </div>
                 <div className="mt-12">
