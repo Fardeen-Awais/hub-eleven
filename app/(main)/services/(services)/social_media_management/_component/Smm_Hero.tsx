@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Smm_Hero = ({ title, description }: any) => {
     return (
-        <div className='flex flex-col sm:flex-row items-center justify-center gap-0 mx-auto max-w-7xl px-5 pt-12'>
+        <div className='flex flex-col sm:flex-row items-center justify-center gap-0 mx-auto max-w-7xl px-16'>
 
                 <div className='flex flex-col items-center sm:items-start justify-start gap-5 '>
                     <div className='flex flex-col items-center sm:items-start justify-center'>
