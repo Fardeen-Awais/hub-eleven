@@ -7,11 +7,12 @@ import Service_About from '../../_component/Service_About'
 import { WebDevelopment } from '@/app/constant'
 import Service_Stats from '../../_component/Service_Stats'
 import Web_Strategy from './_components/Web_Strategy'
+import Service_Hero from '../../_component/Service_Hero'
 const page = () => {
-  const {title, description, sections, faq,stats} = WebDevelopment
+  const {title, description,image, sections, faq,stats} = WebDevelopment
   return (
     <section className="flex flex-col min-h-screen items-center justify-start overflow-hidden gap-5 w-full mx-auto">
-    <Web_Hero/>
+    <Service_Hero title={title} description={description} image={image} />
     <Service_About data={sections}/>
     <Web_Strategy/>
     <Service_Stats stats={stats}/>

@@ -12,7 +12,7 @@ const Service_About = ({ data }: any) => {
                         <div className='flex justify-between '>
                             <div className='hidden sm:flex flex-col sm:flex-row items-center justify-between gap-10 mx-auto px-10 '>
                                 <div className='flex flex-col items-center md:items-start gap-5 '>
-                                    <Image className='sm:flex md:hidden w-60 h-60 sm:w-72 sm:h-72 lg:w-96 lg:h-full relative' src={item.image} width={500} height={500} alt='Digital marketing related picture' />
+                                    <Image className='sm:flex md:hidden w-60 h-60 sm:w-72 sm:h-72 lg:w-96 lg:h-96 relative' src={item.image} width={500} height={500} alt='Digital marketing related picture' />
                                     <div className='flex flex-col gap-5'>
                                         <h2 className='font-semibold'>{item.title}</h2>
                                         <p className='lg:text-lg sm:text-sm md:text-base'>{item.description}</p>
@@ -22,7 +22,7 @@ const Service_About = ({ data }: any) => {
 
                                 </div>
 
-                                <Image className='sm:hidden md:flex w-60 h-60 sm:w-72 sm:h-72 lg:w-96 lg:h-full relative' src={item.image} width={500} height={500} alt='Digital marketing related picture' />
+                                <Image className='sm:hidden md:flex w-60 h-60 sm:w-72 sm:h-72 lg:w-96 lg:h-96 relative' src={item.image} width={500} height={500} alt='Digital marketing related picture' />
                             </div>
 
                             <div className='flex flex-col justify-between items-center sm:hidden gap-10 px-0 sm:px-10 max-h-screen '>
@@ -40,7 +40,7 @@ const Service_About = ({ data }: any) => {
                                 <h3 className='font-semibold'>{item.title}</h3>
                                 <p className='text-sm max-w-md'>{item.description}</p>
                             </div>
-                            <Image className='w-60 h-full sm:w-72 sm:h-full lg:w-96 lg:h-full relative' src={item.image} width={500} height={500} alt='Digital marketing related picture' />
+                            <Image className='w-60 h-full sm:w-72 sm:h-96 lg:w-96 lg:h-96 relative' src={item.image} width={500} height={500} alt='Digital marketing related picture' />
 
                             <div className='sm:flex hidden flex-col gap-5 min-h-60'>
                                 <div className='flex flex-col gap-5'>

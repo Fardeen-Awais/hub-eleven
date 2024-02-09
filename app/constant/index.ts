@@ -199,6 +199,7 @@ export const DigitalMarketing = {
 export const WebDevelopment = {
   title: 'Web Development Services',
   description: `Unlock the potential of modern web technologies with our Web Development services. At HubEleven, we specialize in building cutting-edge web applications tailored to your specific needs.`,
+  image: '/services/WEB/web.gif',
   sections: [
     {
       title: 'Ecommerce Store',
@@ -254,6 +255,7 @@ export const WebDevelopment = {
 export const SocialMediaManagement = {
   title: 'Social Media Management',
   description: `Enhance your brand's online presence and engage with your audience through our comprehensive Social Media Management services. At HubEleven, we offer a range of strategies to optimize your social media channels for maximum impact.`,
+  image: '/services/SMM/social_media_management.gif',
   sections: [
     {
       title: 'Social Media Organic',
@@ -308,7 +310,7 @@ export const SocialMediaManagement = {
 export const ContentCreation = {
   title: 'Content Creation',
   description: `Elevate your brand's narrative and captivate your audience with our comprehensive Content Creation services. At HubEleven, we bring your ideas to life through compelling written content and visually stunning videos.`,
-
+  image: '/services/CONTENT/content-animation.gif',
   sections: [
     {
       title: 'Content Writing',
@@ -355,9 +357,9 @@ export const ContentCreation = {
   ],
 };
 export const GraphicDesigning = {
-  title: 'Graphic Designing Services',
+  title: 'Graphic Designing',
   description: `Transform your brand's visual identity and captivate your audience with our expert Graphic Designing services. At HubEleven, we offer a range of creative solutions to elevate your brand's design elements.`,
-
+  image: '/services/DESIGN/WebDesignerWithIdea.gif',
   sections: [
     {
       title: 'Logo Designing',

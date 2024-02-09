@@ -25,7 +25,7 @@ const Service = () => {
     {
       title: 'Social Media Management',
       description: 'We provide IT Consultancy to businesses to help them choose, implement, upgrade, and migrate business solutions and applications.',
-      image: '/services/consult_1.png',
+      image: '/services/CONTENT/content-animation.gif',
       href: '/services/social_media_management',
 
     },
@@ -60,8 +60,7 @@ const Service = () => {
                   <span className='text-4xl sm:text-5xl font-semibold'>Digital Marketing</span>
                 </CardTitle>
                 <CardDescription className='max-w-md text-base'>We provide a range of digital marketing solutions to help your business succeed. Help you to manage your business compaigns</CardDescription></div>
-              <Image className='relative top-4 h-60 w-60' src={'/services/DM/digitalmarketing_5.jpg'} alt='hero' width={400} height={400} />
-              {/* <Lottie animationData={animateData} loop={true} className='relative top-4 h-60 w-60 ' /> */}
+              <Image className='relative top-4 h-60 w-60' src={'/services/WEB/web.gif'} alt='hero' width={500} height={500} />
             </CardContent>
           </Link>
         </Card>

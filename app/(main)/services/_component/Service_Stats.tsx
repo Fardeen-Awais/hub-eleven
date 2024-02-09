@@ -3,7 +3,7 @@ import { MenuSquare } from "lucide-react"
 const Service_Stats = ({stats}:any) => {
     return (
         <section className="py-28 bg-gray-900 w-full mx-auto flex items-center">
-            <div className="max-w-screen-xl mx-auto ">
+            <div className="max-w-screen-xl mx-auto px-5">
                 <div className="flex flex-col items-center p-5 max-w-xl mx-auto text-center">
                     <h3 className="text-white text-3xl font-semibold sm:text-4xl">
                         Our customers are always happy
