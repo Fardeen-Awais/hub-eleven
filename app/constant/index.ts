@@ -137,7 +137,7 @@ export const services = [
 ];
 
 export const DigitalMarketing = {
-  title: 'Digital Marketing',
+  title: 'Digital Marketing Services',
   description: `Elevate your online presence and drive meaningful results with our comprehensive Digital Marketing Solutions. At HubEleven, we go beyond traditional marketing approaches, leveraging the power of digital channels to connect your brand with the right audience.`,
   sections: [
     {
@@ -308,7 +308,7 @@ export const SocialMediaManagement = {
 
 };
 export const ContentCreation = {
-  title: 'Content Creation',
+  title: 'Content Creation Creation',
   description: `Elevate your brand's narrative and captivate your audience with our comprehensive Content Creation services. At HubEleven, we bring your ideas to life through compelling written content and visually stunning videos.`,
   image: '/services/CONTENT/content-animation.gif',
   sections: [
@@ -357,7 +357,7 @@ export const ContentCreation = {
   ],
 };
 export const GraphicDesigning = {
-  title: 'Graphic Designing',
+  title: 'Graphic Designing Services',
   description: `Transform your brand's visual identity and captivate your audience with our expert Graphic Designing services. At HubEleven, we offer a range of creative solutions to elevate your brand's design elements.`,
   image: '/services/DESIGN/WebDesignerWithIdea.gif',
   sections: [

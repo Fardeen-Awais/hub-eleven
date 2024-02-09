@@ -10,7 +10,7 @@ const page = () => {
   const {title, description,image, sections, faq,stats} = GraphicDesigning
   return (
     <div>
-      <section className="flex flex-col max-w-screen min-h-screen items-center justify-start gap-5 w-full mx-auto overflow-hidden">
+      <section className="flex flex-col min-h-screen items-center justify-start overflow-hidden gap-5 w-full mx-auto">
         <Service_Hero title={title} description={description} image={image}/>
         <Service_About data={sections}/>
         <Designing_Strategy />
