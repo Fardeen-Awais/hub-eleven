@@ -8,7 +8,7 @@ import Image from 'next/image'
 import mobileimg from "../../../../../../public/services/DM/Digital_marketing_mobile.png"
 const DigitalMarketing_Hero = ({ title, description, image }: any) => {
     return (
-        <div className='flex flex-col sm:flex-row items-start justify-center gap-0 mx-auto max-w-7xl px-5 pt-12'>
+        <div className='flex flex-col sm:flex-row items-start justify-center gap-0 mx-auto max-w-7xl px-10 pt-12'>
             <div className='flex flex-col items-center sm:items-start justify-start gap-5 '>
                 <div className='flex flex-col items-center sm:items-start justify-center'>
                     <h2 className={`text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-black via-cyan-400 to-cyan-600 text-transparent bg-clip-text py-3`}>{title}</h2>

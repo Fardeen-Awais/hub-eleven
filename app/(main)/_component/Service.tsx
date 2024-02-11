@@ -18,7 +18,7 @@ const Service = () => {
     {
       title: 'Web developement',
       description: 'We stay up-to-date on the latest website trends so that your business can outshine competitors.',
-      image: '/assets/WebDesignerWithIdea.gif',
+      image: '/services/WEB/Web.gif',
       href: '/services/web_development',
 
     },
@@ -60,7 +60,7 @@ const Service = () => {
                   <span className='text-4xl sm:text-5xl font-semibold'>Digital Marketing</span>
                 </CardTitle>
                 <CardDescription className='max-w-md text-base'>We provide a range of digital marketing solutions to help your business succeed. Help you to manage your business compaigns</CardDescription></div>
-              <Image className='relative top-4 h-60 w-60' src={'/services/WEB/web.gif'} alt='hero' width={500} height={500} />
+              <Image className='relative top-4 h-60 w-60' src={'/services/DM/digital_marketing.gif'} alt='hero' width={500} height={500} />
             </CardContent>
           </Link>
         </Card>

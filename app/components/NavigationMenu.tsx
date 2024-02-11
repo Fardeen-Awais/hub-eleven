@@ -42,7 +42,7 @@ const NavigationMenu = () => {
       </ul>
 
       {isSubMenuOpen && (
-        <div onMouseLeave={MouseToggle} className='w-full h-[650px] lg:h-[280px] bg-white absolute inset-2 top-20 left-0 p-5 rounded-lg border-4 border-cyan-500'>
+        <div onMouseLeave={MouseToggle} className='w-full h-[600px] lg:h-[350px] bg-white absolute inset-2 top-20 left-0 p-5 rounded-lg border-4 border-cyan-500'>
           <ul className='grid grid-cols-3 sm:grid-cols-3 lg:grid-cols-5 text-xs transition-all gap-10'>
             {services.map((service: any, index) => (
               <div className='flex flex-col gap-1 lg:gap-5 w-full' key={index}>
