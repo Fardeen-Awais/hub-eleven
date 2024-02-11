@@ -11,21 +11,21 @@ const Service = () => {
     {
       title: 'Content Creation',
       description: 'Powerful SEO campaigns that create long-lasting visibility, traffic and revenue growth. Help your web app to reach into the larger audience',
-      image: '/assets/SettingResearch.gif',
+      image: '/services/CONTENT/content.gif',
       href: '/services/content_creation',
 
     },
     {
       title: 'Web developement',
       description: 'We stay up-to-date on the latest website trends so that your business can outshine competitors.',
-      image: '/services/WEB/Web.gif',
+      image: '/services/WEB/web.gif',
       href: '/services/web_development',
 
     },
     {
       title: 'Social Media Management',
       description: 'We provide IT Consultancy to businesses to help them choose, implement, upgrade, and migrate business solutions and applications.',
-      image: '/services/CONTENT/content-animation.gif',
+      image: '/services/SMM/social_media.gif',
       href: '/services/social_media_management',
 
     },
