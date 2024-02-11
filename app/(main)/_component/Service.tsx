@@ -11,7 +11,7 @@ const Service = () => {
     {
       title: 'Content Creation',
       description: 'Powerful SEO campaigns that create long-lasting visibility, traffic and revenue growth. Help your web app to reach into the larger audience',
-      image: '/services/CONTENT/content.gif',
+      image: '/services/CONTENT/Content.gif',
       href: '/services/content_creation',
 
     },

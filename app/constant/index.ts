@@ -311,7 +311,7 @@ export const SocialMediaManagement = {
 export const ContentCreation = {
   title: 'Content Creation Creation',
   description: `Elevate your brand's narrative and captivate your audience with our comprehensive Content Creation services. At HubEleven, we bring your ideas to life through compelling written content and visually stunning videos.`,
-  image: '/services/CONTENT/content.gif',
+  image: '/services/CONTENT/Content.gif',
   sections: [
     {
       title: 'Content Writing',
