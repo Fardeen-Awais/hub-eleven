@@ -256,7 +256,7 @@ export const WebDevelopment = {
 export const SocialMediaManagement = {
   title: 'Social Media Management',
   description: `Enhance your brand's online presence and engage with your audience through our comprehensive Social Media Management services. At HubEleven, we offer a range of strategies to optimize your social media channels for maximum impact.`,
-  image: '/services/SMM/social_media_management.gif',
+  image: '/services/SMM/social_media.gif',
   sections: [
     {
       title: 'Social Media Organic',
