@@ -147,6 +147,71 @@ export const DigitalMarketing = {
       Our Amazon Marketing services are designed to maximize your presence on the e-commerce giant, ensuring that your products stand out amidst the competition. We strategically optimize product listings, implement targeted advertising, and employ data-driven approaches to boost your success on Amazon.`,
       image: '/services/DM/digitalmarketing_amazon.jpg',
       href: '/services/digital_marketing/amazon',
+      sections: [
+        {
+          title: 'Data-Driven Optimization Centered on Profitability',
+          subheading:"PPC",
+          description: `Unlock the potential of Amazon's advertising platform with our data-led optimization services tailored for profitability. We specialize in navigating Amazon's advertising ecosystem to deliver targeted ads that drive results.
+
+          Amazon PPC campaigns are most effective when paired with strategic organic optimizations, ensuring maximum visibility for your products while optimizing your budget allocation. Our approach focuses on efficiency, utilizing your resources effectively to achieve the best possible outcomes.
+          .`,
+          image: 'https://images.pexels.com/photos/7661590/pexels-photo-7661590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+          href: '/services/digital_marketing/ppc',
+        },
+        {
+          title: 'SEO Strategies',
+          subheading:"SEO",
+          description: `Craft a powerful plan to elevate your website's visibility and rankings on search engines through our proven SEO strategies. We meticulously optimize your online content, conduct in-depth keyword analysis, and implement effective tactics to drive sustainable organic traffic. Our SEO experts stay abreast of industry trends and algorithm updates to ensure that your website remains at the forefront of search engine results, attracting the right audience and enhancing online authority.`,
+          image: 'https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+          href: '/services/digital_marketing/seo',
+        },
+        {
+          title: 'Enhance Your Email Marketing Efforts',
+          subheading:"Email Marketing",
+          description: `Elevate your digital marketing strategy by incorporating email marketing campaigns tailored to your audience. Our expert team crafts compelling email content, designs visually appealing templates, and implements targeted email automation to engage your subscribers effectively. With our data-driven approach, we analyze metrics and user behavior to optimize your email campaigns for maximum impact and conversion. Let us help you unlock the full potential of email marketing to drive engagement, nurture leads, and boost sales.          `,
+          image: 'https://images.pexels.com/photos/1591062/pexels-photo-1591062.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+          href: '/services/digital_marketing/email_marketing',
+        },
+
+      ],
+      faq: [
+        {
+          question: 'What Amazon services do you offer?',
+          answer: 'We provide comprehensive Amazon services tailored to optimize your presence on the platform. Our offerings include Amazon PPC management, product listing optimization, brand store setup, and strategic consulting to maximize your sales and visibility on the e-commerce giant.'
+        },
+        {
+          question: 'How can Amazon marketing benefit my business?',
+          answer: 'Amazon marketing is instrumental in enhancing your product visibility, driving targeted traffic, and ultimately increasing sales on the platform. With our strategic approach to Amazon marketing, we help you reach a wider audience, improve brand recognition, and achieve higher conversion rates, leading to significant revenue growth.'
+        },
+        {
+          question: 'Is Amazon marketing suitable for my business?',
+          answer: "Absolutely! Amazon marketing is adaptable and beneficial for businesses of all sizes and industries. Whether you're a small startup or a large enterprise, our customized Amazon marketing strategies are designed to align with your specific business goals and market dynamics, ensuring optimal results and ROI."
+        },
+        {
+          question: 'What benefits does Amazon PPC offer?',
+          answer: 'Amazon PPC (Pay-Per-Click) advertising offers several benefits, including increased product visibility, precise targeting of potential customers, measurable results through detailed analytics, and the ability to control ad spend according to your budget and goals.'
+        },
+        {
+          question: 'How do you optimize Amazon product listings?',
+          answer: "We optimize Amazon product listings by conducting keyword research, optimizing product titles and descriptions, enhancing product images, and ensuring that listings adhere to Amazon's guidelines and best practices. This optimization process helps improve search rankings and visibility, leading to higher click-through rates and sales."
+        }
+      ],
+      
+      stats: [
+        {
+          data: "90%",
+          title: "Client Success Rate"
+        },
+        {
+          data: "13+",
+          title: "Countries Served"
+        },
+        {
+          data: "2x",
+          title: "Revenue Growth"
+        }
+      ]
+         
     },
     {
       title: 'SEO Strategies',

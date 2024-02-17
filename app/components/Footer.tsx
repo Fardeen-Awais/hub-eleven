@@ -44,8 +44,8 @@ export default () => {
                         <ul className="flex flex-wrap items-center gap-4 mt-6 sm:text-sm sm:mt-0">
                             {
                                 footerNavs.map((item, idx) => (
-                                    <li className="duration-150">
-                                        <a key={idx} href={item.href}>
+                                    <li key={item.name} className="duration-150">
+                                        <a href={item.href}>
                                             {item.name}
                                         </a>
                                     </li>

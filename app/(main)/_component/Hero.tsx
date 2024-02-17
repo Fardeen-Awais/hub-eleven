@@ -1,8 +1,5 @@
-import { Button } from '@/components/ui/button'
 import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
-import styles from "._component/Hero.module.css"
 import TalkNowBtn from './_subcomponents/TalkNowBtn'
 const Hero = () => {
     return (

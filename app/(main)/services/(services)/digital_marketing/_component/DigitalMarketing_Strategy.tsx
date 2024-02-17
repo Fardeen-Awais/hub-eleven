@@ -16,7 +16,7 @@ const DigitalMarketing_Strategy = () => {
         <div className="flex max-w-screen-xl min-h-60 mx-auto p-16">
             <ul aria-label="Steps" className="items-center text-gray-600 md:flex ">
                 {steps.stepsItems.map((item, idx) => (
-                    <li aria-current={steps.currentStep == idx + 1 ? "step" : false} className="flex-1 flex md:items-center">
+                    <li key={item} aria-current={steps.currentStep == idx + 1 ? "step" : false} className="flex-1 flex md:items-center">
                         <div className={`flex-1 flex items-center gap-x-3 md:block ${idx != 0 ? "" : ""}`}>
                             <div className="flex my-4">
                                 {steps.icons[idx]}

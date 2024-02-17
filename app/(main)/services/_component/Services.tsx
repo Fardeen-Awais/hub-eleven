@@ -15,7 +15,7 @@ const Services = ({subservices}:any) => {
     <div className='flex flex-col gap-10 px-5'>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
         {subservices.map((subservice:any) => (
-            <Card className='max-w-lg flex flex-col sm:items-start items-center justify-center'>
+            <Card key={subservice.title} className='max-w-lg flex flex-col sm:items-start items-center justify-center'>
             <CardHeader className='flex items-center sm:items-start justify-center'>
               <CardTitle>{subservice.title}</CardTitle>
               <CardDescription className='text-center sm:text-start max-w-xl'>

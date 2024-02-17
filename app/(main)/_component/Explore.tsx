@@ -1,7 +1,4 @@
-import { Button } from '@/components/ui/button'
 import React from 'react'
-import styles from "./_subcomponents/bg-image.module.css"
-import TalkNowBtn from './_subcomponents/TalkNowBtn'
 import Image from 'next/image'
 
 const Explore = () => {

@@ -8,6 +8,7 @@ import { WebDevelopment } from '@/app/constant'
 import Service_Stats from '../../_component/Service_Stats'
 import Web_Strategy from './_components/Web_Strategy'
 import Service_Hero from '../../_component/Service_Hero'
+import Service_company from '../../_component/Service_company'
 const page = () => {
   const {title, description,image, sections, faq,stats} = WebDevelopment
   return (
@@ -15,6 +16,7 @@ const page = () => {
     <Service_Hero title={title} description={description} image={image} />
     <Service_About data={sections}/>
     <Web_Strategy/>
+    <Service_company/>
     <Service_Stats stats={stats}/>
     <Service_FAQ faq={faq}/>
   </section>
