@@ -10,7 +10,7 @@ import Image from 'next/image'
 import { twMerge } from 'tailwind-merge'
 
 const page = () => {
-  const { title, description, sections, stats, image } = DigitalMarketing
+  const { title,sections, stats } = DigitalMarketing
   const amazon = sections[0]
   return (
     <section className='flex flex-col max-w-screen min-h-screen items-center justify-start gap-5 w-full mx-auto overflow-hidden'>
@@ -70,7 +70,7 @@ const pageContent = [
       "https://images.pexels.com/photos/907607/pexels-photo-907607.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
-    title: "Why work with tigerbond?",
+    title: "Why work with Hubeleven?",
     description: (
       <>
         <p>
