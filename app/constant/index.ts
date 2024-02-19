@@ -381,7 +381,7 @@ export const DigitalMarketing = {
           image: 'https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
           href: '/services/integrated-marketing/amazon-email-seo',
         }
-        
+
       ],
       faq: [
         {
@@ -450,7 +450,231 @@ export const DigitalMarketing = {
     },
   ],
 };
+export const SocialMediaManagement = {
+  title: 'Social Media Management',
+  description: `Enhance your brand's online presence and engage with your audience through our comprehensive Social Media Management services. At HubEleven, we offer a range of strategies to optimize your social media channels for maximum impact.`,
+  image: '/services/SMM/social_media.gif',
+  sections: [
+    {
+      title: 'Social Media Organic',
+      image: '/services/SMM/social_media_organic.jpg',
+      href: '/services/social_media_management/organic',
+      description: `Overcome the common challenges faced by businesses on social media. Our advanced strategies address issues such as low organic reach, ineffective content, and the need for efficient social media management. We focus on building organic engagement and boosting your brand's visibility.`,
+      sections: [
+        {
+          title: 'Social Media Organic Integrated with Influencer Marketing',
+          subheading: "Influencer Marketing",
+          description: `Unlock the potential of influencer marketing by integrating it with your social media organic efforts. By partnering with influencers who align with your brand values and target audience, you can amplify your social media presence, increase engagement, and reach new demographics.
+            
+          Our integrated approach combines influencer marketing with social media organic strategies to create a cohesive and impactful marketing strategy. By leveraging the reach and authenticity of influencers alongside your organic content, we help you build trust, foster meaningful connections, and drive measurable results.`,
+          image: 'https://images.unsplash.com/photo-1605557833955-43b5db995535?q=80&w=1452&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+          href: '/services/social_media_management/influencer_marketing',
+        },
+        {
+          title: 'Enhance social media organic with Meta Ads ',
+          subheading: "meta ads",
+          description: `Amplify your influencer marketing efforts by integrating them with meta ads (formerly Facebook ads). Our tailored strategies leverage the power of influencer-generated content and combine it with targeted meta ads to maximize reach, engagement, and conversions.
+            
+          With our approach, you can extend the impact of influencer collaborations by reaching a broader audience through meta ads. By delivering personalized messages and compelling visuals to your target audience, we help you drive traffic, increase conversions, and achieve your marketing objectives.`,
+          image: 'https://images.unsplash.com/photo-1453574503519-1ae2536262ec?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+          href: '/services/social_media_management/meta_ads',
+        },
+      ],
+      faq: [
+        {
+          "question": "What social media organic services do you offer?",
+          "answer": "We offer a comprehensive range of social media organic services tailored to help you maximize your brand's presence and engagement on social media platforms. Our services include developing tailored organic content strategies, managing social media profiles, community engagement, content creation, audience growth, and more."
+        },
+        {
+          "question": "How can social media organic services benefit my business?",
+          "answer": "Social media organic services offer numerous benefits for your business. By leveraging organic strategies on platforms like Facebook, Instagram, Twitter, and LinkedIn, you can build a loyal community, increase brand awareness, foster authentic engagement, drive website traffic, and enhance customer relationships."
+        },
+        {
+          "question": "Is social media organic suitable for my business?",
+          "answer": "Absolutely! Social media organic strategies are highly adaptable and suitable for businesses of all sizes and industries. Whether you're a startup, a small business, or a large corporation, social media organic services can help you achieve your marketing objectives and grow your brand online."
+        },
+        {
+          "question": "What are the benefits of investing in social media organic services?",
+          "answer": "Investing in social media organic services offers a multitude of benefits for your business. Some key advantages include increased brand visibility, enhanced audience engagement, improved brand reputation, higher website traffic, and stronger customer loyalty."
+        },
+        {
+          "question": "How do you measure the success of social media organic campaigns?",
+          "answer": "We measure the success of social media organic campaigns through various key performance indicators (KPIs) such as reach, engagement, impressions, follower growth, website referrals, and overall brand sentiment. Additionally, we utilize advanced analytics tools to track campaign performance in real-time, allowing us to optimize strategies for maximum effectiveness."
+        }
+      ],
 
+      stats: [
+        {
+          data: "90%",
+          title: "Client Success Rate"
+        },
+        {
+          data: "30+",
+          title: "Managed Accounts"
+        },
+        {
+          data: "4x",
+          title: "Engagement"
+        }
+      ]
+    },
+    {
+      title: 'Meta Ads',
+      image: '/services/SMM/social_media_meta.jpg',
+      href: '/services/social_media_management/meta_ads',
+      description: `Let us manage your meta advertising campaigns. We offer a range of strategies to optimize your social media channels for maximum impact. We focus on building organic engagement and boosting your brand's visibility.`,
+      sections: [
+        {
+          title: 'Integrated meta ads with Social Media Organic',
+          subheading: "Social Media Organic",
+          description: `Unlock the potential of influencer marketing by integrating it with your social media organic efforts. By partnering with influencers who align with your brand values and target audience, you can amplify your social media presence, increase engagement, and reach new demographics.
+            
+          Our integrated approach combines influencer marketing with social media organic strategies to create a cohesive and impactful marketing strategy. By leveraging the reach and authenticity of influencers alongside your organic content, we help you build trust, foster meaningful connections, and drive measurable results.`,
+          image: 'https://images.unsplash.com/photo-1605557833955-43b5db995535?q=80&w=1452&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+          href: '/services/integrated-social_media_management/organic',
+        },
+        {
+          title: 'Enhance Meta Ads with Influencer Marketing',
+          subheading: "Influencer Marketing",
+          description: `Amplify your influencer marketing efforts by integrating them with meta ads (formerly Facebook ads). Our tailored strategies leverage the power of influencer-generated content and combine it with targeted meta ads to maximize reach, engagement, and conversions.
+            
+          With our approach, you can extend the impact of influencer collaborations by reaching a broader audience through meta ads. By delivering personalized messages and compelling visuals to your target audience, we help you drive traffic, increase conversions, and achieve your marketing objectives.`,
+          image: 'https://images.unsplash.com/photo-1453574503519-1ae2536262ec?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+          href: '/services/social_media_management/influencer_marketing',
+        },
+      ],
+      faq: [
+        {
+          question: 'What meta ads services do you offer?',
+          answer: "We offer a comprehensive range of meta ads services tailored to help you leverage the power of meta advertising platforms and drive impactful brand campaigns. Our services include meta ads strategy development, campaign setup and optimization, ad creative design, audience targeting, performance tracking, and more."
+        },
+        {
+          question: 'How can meta ads benefit my business?',
+          answer: "Meta ads can benefit your business in numerous ways. By utilizing meta advertising platforms such as Facebook and Instagram, you can reach a highly targeted audience, increase brand visibility, drive website traffic, and boost conversions and sales. Meta ads provide advanced targeting options, allowing you to reach specific demographics, interests, and behaviors, resulting in higher ad relevance and engagement."
+        },
+        {
+          question: 'Is meta ads suitable for my business?',
+          answer: "Absolutely! Meta ads are a versatile advertising strategy suitable for businesses of all sizes and industries. Whether you're a small startup or a large corporation, meta ads can help you achieve your marketing goals and drive business growth. Our customized meta ads campaigns are designed to align with your brand objectives, target audience, and budget, ensuring maximum impact and results."
+        },
+        {
+          question: 'What are the benefits of investing in meta ads?',
+          answer: "Investing in meta ads offers a multitude of benefits for your business. Some key advantages include increased brand awareness, enhanced audience targeting and engagement, improved ad relevance and performance, higher conversion rates, and measurable ROI. With meta ads, you can leverage the advanced targeting capabilities of meta advertising platforms to reach the right audience with the right message at the right time."
+        },
+        {
+          question: 'How do you measure the success of meta ads campaigns?',
+          answer: "We measure the success of meta ads campaigns through various key performance indicators (KPIs) such as reach, engagement, impressions, click-through rates, conversions, and overall campaign ROI. Additionally, we utilize advanced analytics and tracking tools to monitor ad performance in real-time, allowing us to optimize campaigns for maximum effectiveness. By continuously analyzing campaign data and making data-driven decisions, we ensure that our meta ads campaigns deliver tangible results and value for your business."
+        }
+      ],
+      stats: [
+        {
+          data: "90%",
+          title: "Client Success Rate"
+        },
+        {
+          data: "30+",
+          title: "Satisfied Clients"
+        },
+        {
+          data: "10x",
+          title: "Profit reach"
+        }
+      ]
+    },
+    {
+      title: 'Influencer Marketing',
+      image: '/services/SMM/social_media_influncer.jpg',
+      href: '/services/social_media_management/influencer_marketing',
+      description: `Experience the success that our Social Media Management services can bring to your business. Watch as your brand gains traction on social platforms, attracts a larger audience, and achieves higher engagement rates. Our proven track record ensures your satisfaction and long-term success.`,
+      sections: [
+        {
+          title: 'Integrated Influencer Marketing with Social Media Organic',
+          subheading: "Social Media Organic",
+          description: `Unlock the potential of influencer marketing by integrating it with your social media organic efforts. By partnering with influencers who align with your brand values and target audience, you can amplify your social media presence, increase engagement, and reach new demographics.
+            
+          Our integrated approach combines influencer marketing with social media organic strategies to create a cohesive and impactful marketing strategy. By leveraging the reach and authenticity of influencers alongside your organic content, we help you build trust, foster meaningful connections, and drive measurable results.`,
+          image: 'https://images.unsplash.com/photo-1605557833955-43b5db995535?q=80&w=1452&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+          href: '/services/integrated-social_media_management/organic',
+        },
+        {
+          title: 'Enhance Influencer Marketing with Meta Ads',
+          subheading: "Meta Ads",
+          description: `Amplify your influencer marketing efforts by integrating them with meta ads (formerly Facebook ads). Our tailored strategies leverage the power of influencer-generated content and combine it with targeted meta ads to maximize reach, engagement, and conversions.
+            
+          With our approach, you can extend the impact of influencer collaborations by reaching a broader audience through meta ads. By delivering personalized messages and compelling visuals to your target audience, we help you drive traffic, increase conversions, and achieve your marketing objectives.`,
+          image: 'https://images.unsplash.com/photo-1453574503519-1ae2536262ec?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+          href: '/services/social_media_management/meta_ads',
+        },
+      ],
+      faq: [
+        {
+          question: 'What influencer marketing services do you offer?',
+          answer: "We offer a comprehensive range of influencer marketing services tailored to help you leverage the power of influencers and drive impactful brand collaborations. Our services include influencer identification and vetting, campaign strategy development, content creation, influencer outreach and management, performance tracking, and more."
+        },
+        {
+          question: 'How can influencer marketing benefit my business?',
+          answer: "Influencer marketing can benefit your business in numerous ways. By partnering with relevant influencers, you can tap into their engaged audience, build credibility and trust, increase brand visibility, reach new demographics, drive website traffic, and boost conversions and sales. Additionally, influencer marketing provides authentic and relatable content that resonates with your target audience, fostering meaningful connections and long-term customer relationships."
+        },
+        {
+          question: 'Is influencer marketing suitable for my business?',
+          answer: "Absolutely! Influencer marketing is a versatile strategy that can be tailored to suit businesses of all sizes and industries. Whether you're a B2C or B2B company, influencer marketing can help you amplify your brand message, generate buzz around your products or services, and stand out in a crowded marketplace. Our customized influencer marketing campaigns are designed to align with your brand values, objectives, and target audience, ensuring maximum impact and results."
+        },
+        {
+          question: 'What are the benefits of investing in influencer marketing?',
+          answer: "Investing in influencer marketing offers a multitude of benefits for your business. Some key advantages include increased brand awareness, enhanced brand credibility and authority, expanded reach and audience engagement, improved social proof, higher conversion rates, and measurable ROI. With influencer marketing, you can leverage the influence and trust of key opinion leaders to drive brand advocacy and achieve your marketing goals."
+        },
+        {
+          question: 'How do you measure the success of influencer marketing campaigns?',
+          answer: "We measure the success of influencer marketing campaigns through various key performance indicators (KPIs) such as reach, engagement, impressions, click-through rates, conversions, and overall campaign ROI. Additionally, we conduct in-depth performance analyses and sentiment tracking to gauge audience sentiment and brand perception. By continuously monitoring and optimizing campaign performance, we ensure that our influencer marketing efforts deliver maximum impact and value for your business."
+        }
+      ],
+      stats: [
+        {
+          data: "90%",
+          title: "Client Success Rate"
+        },
+        {
+          data: "30+",
+          title: "Satisfied Clients"
+        },
+        {
+          data: "10x",
+          title: "Increase in Brand Awareness"
+        }
+      ],
+
+    },
+  ],
+
+  faq: [
+    {
+      question: 'What Social Media Management services do you offer?',
+      answer: "We offer a comprehensive suite of Social Media Management services, including organic growth strategies, meta ads campaigns, influencer marketing collaborations, and efficient social media channel management.",
+    },
+    {
+      question: 'How will Social Media Management benefit my business?',
+      answer: "Social Media Management enhances your brand's online visibility, increases organic reach, and improves audience engagement. Whether you're looking to run targeted ads, collaborate with influencers, or efficiently manage your social media channels, our strategies contribute to your brand's success.",
+    },
+    {
+      question: 'Is Social Media Management suitable for my industry or business size?',
+      answer: "Absolutely! Social Media Management is adaptable and can be customized for businesses of all sizes and industries. Whether you're a startup, a local business, or a large enterprise, our strategies are tailored to align with your specific goals and target audience.",
+    },
+  ],
+  stats: [
+    {
+      data: "90%",
+      title: "The success rate"
+    },
+    {
+      data: "40+",
+      title: "Countries"
+    },
+    {
+      data: "2x",
+      title: "Total revenue"
+    },
+  ],
+
+};
 export const WebDevelopment = {
   title: 'Web Development Services',
   description: `Unlock the potential of modern web technologies with our Web Development services. At HubEleven, we specialize in building cutting-edge web applications tailored to your specific needs.`,
@@ -505,61 +729,6 @@ export const WebDevelopment = {
   ],
 
   // Add more subservices as needed...
-
-};
-export const SocialMediaManagement = {
-  title: 'Social Media Management',
-  description: `Enhance your brand's online presence and engage with your audience through our comprehensive Social Media Management services. At HubEleven, we offer a range of strategies to optimize your social media channels for maximum impact.`,
-  image: '/services/SMM/social_media.gif',
-  sections: [
-    {
-      title: 'Social Media Organic',
-      image: '/services/SMM/social_media_organic.jpg',
-      href: '/services/social_media_management/organic',
-      description: `Overcome the common challenges faced by businesses on social media. Our advanced strategies address issues such as low organic reach, ineffective content, and the need for efficient social media management. We focus on building organic engagement and boosting your brand's visibility.`,
-    },
-    {
-      title: 'Meta Ads',
-      image: '/services/SMM/social_media_meta.jpg',
-      href: '/services/social_media_management/meta_ads',
-      description: `Define and achieve your online goals with our expertise in Social Media Management. Whether it's increasing organic reach, running targeted advertising campaigns, or collaborating with influencers, our strategies are tailored to meet your unique objectives.`,
-    },
-    {
-      title: 'Influencer Marketing',
-      image: '/services/SMM/social_media_influncer.jpg',
-      href: '/services/social_media_management/influencer_marketing',
-      description: `Experience the success that our Social Media Management services can bring to your business. Watch as your brand gains traction on social platforms, attracts a larger audience, and achieves higher engagement rates. Our proven track record ensures your satisfaction and long-term success.`,
-    },
-  ],
-
-  faq: [
-    {
-      question: 'What Social Media Management services do you offer?',
-      answer: "We offer a comprehensive suite of Social Media Management services, including organic growth strategies, meta ads campaigns, influencer marketing collaborations, and efficient social media channel management.",
-    },
-    {
-      question: 'How will Social Media Management benefit my business?',
-      answer: "Social Media Management enhances your brand's online visibility, increases organic reach, and improves audience engagement. Whether you're looking to run targeted ads, collaborate with influencers, or efficiently manage your social media channels, our strategies contribute to your brand's success.",
-    },
-    {
-      question: 'Is Social Media Management suitable for my industry or business size?',
-      answer: "Absolutely! Social Media Management is adaptable and can be customized for businesses of all sizes and industries. Whether you're a startup, a local business, or a large enterprise, our strategies are tailored to align with your specific goals and target audience.",
-    },
-  ],
-  stats: [
-    {
-      data: "90%",
-      title: "The success rate"
-    },
-    {
-      data: "40+",
-      title: "Countries"
-    },
-    {
-      data: "2x",
-      title: "Total revenue"
-    },
-  ],
 
 };
 export const ContentCreation = {
