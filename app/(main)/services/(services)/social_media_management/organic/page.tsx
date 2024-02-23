@@ -53,7 +53,7 @@ const pageContent = [
     description: (
       <>
         <p>Expand your brand's reach and influence with our expertly crafted social media organic services tailored to meet your business objectives. In today's digital era, social media has become a powerful tool for brands to connect with consumers and drive meaningful engagement.</p>
-        <p>At [Your Company Name], we leverage our expertise and industry insights to create impactful organic social media strategies that resonate with your target audience and drive real results. Whether you're looking to increase brand awareness, drive sales, or foster brand loyalty, our social media organic services can help you achieve your goals.</p>
+        <p>At HubEleven, we leverage our expertise and industry insights to create impactful organic social media strategies that resonate with your target audience and drive real results. Whether you're looking to increase brand awareness, drive sales, or foster brand loyalty, our social media organic services can help you achieve your goals.</p>
         <p>Why Partner with Us for Social Media Organic Services?</p>
         <ul className='flex flex-col gap-3 text-gray-600'>
           <li>Strategic Planning: Our team develops comprehensive social media organic strategies tailored to your unique business objectives, ensuring that every campaign is aligned with your goals and delivers measurable results.</li>

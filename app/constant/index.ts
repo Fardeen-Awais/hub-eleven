@@ -685,18 +685,188 @@ export const WebDevelopment = {
       image: '/services/WEB/web_ecommerce.jpg',
       href: '/services/web_development/ecommerce_store',
       description: `Establish a dominant online presence with our Ecommerce Store development services. We craft powerful and scalable platforms that not only showcase your products effectively but also provide a seamless shopping experience for your customers. From intuitive navigation to secure payment gateways, we ensure your ecommerce store stands out.`,
+      sections: [
+        {
+          title: 'Professional Business Website Development',
+          subheading: "Business Sites",
+          description: `Elevate your online presence with our professional business website development services. We specialize in creating custom websites tailored to meet the unique needs and goals of your business.
+        
+        Our team of skilled developers and designers will work closely with you to understand your brand identity, target audience, and objectives. From sleek and modern designs to intuitive user experiences, we ensure that your business website stands out and delivers results.`,
+          image: 'https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+          href: '/services/web_development/business_sites',
+        },
+
+        {
+          title: 'Custom Application Development',
+          subheading: "Custom Application",
+          description: `Transform your business processes and enhance productivity with our custom application development services. Whether you need a web-based application, mobile app, or enterprise solution, we have the expertise to bring your ideas to life.
+        
+        Our team of experienced developers will work closely with you to understand your unique requirements and business objectives. From concept to deployment, we ensure that your custom application is user-friendly, scalable, and tailored to meet your specific needs.`,
+          image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+          href: '/services/web_development/custom_application',
+        },
+      ],
+      faq: [
+        {
+          question: "What ecommerce web development services do you offer?",
+          answer: "We offer a comprehensive range of ecommerce web development services tailored to help you create robust and scalable online stores. Our services include custom website design, development of intuitive user interfaces, integration of secure payment gateways, implementation of advanced ecommerce functionalities, mobile optimization, and ongoing support and maintenance."
+        },
+        {
+          question: "How can ecommerce web development benefit my business?",
+          answer: "Ecommerce web development can benefit your business in numerous ways. By establishing a professional and user-friendly online store, you can expand your reach to a global audience, increase sales and revenue, streamline operations, provide a seamless shopping experience, and build brand credibility and trust."
+        },
+        {
+          question: "Is ecommerce web development suitable for my business?",
+          answer: "Absolutely! Ecommerce web development is essential for businesses of all sizes and industries that want to sell products or services online. Whether you're a small startup, a growing enterprise, or an established brand, having a robust ecommerce website can significantly enhance your online presence and drive business growth."
+        },
+        {
+          question: "What are the benefits of investing in ecommerce web development?",
+          answer: "Investing in ecommerce web development offers a multitude of benefits for your business. Some key advantages include increased sales and revenue, expanded market reach, improved customer experience, enhanced brand visibility, greater operational efficiency, and the ability to adapt to evolving consumer preferences and market trends."
+        },
+        {
+          question: "How do you measure the success of ecommerce web development projects?",
+          answer: "We measure the success of ecommerce web development projects through various key performance indicators (KPIs) such as website traffic, conversion rates, average order value, customer retention rates, and overall user satisfaction. Additionally, we conduct thorough usability testing and performance analysis to ensure that your ecommerce website meets the highest standards of functionality, security, and user experience."
+        }
+      ],
+      stats: [
+        {
+          data: "90%",
+          title: "Client Satisfaction Rate"
+        },
+        {
+          data: "30+",
+          title: "Successfully Launched Stores"
+        },
+        {
+          data: "4x",
+          title: "Increase in Conversion Rates"
+        }
+      ]
     },
     {
       title: 'Business Sites',
       image: '/services/WEB/web_business.jpg',
       href: '/services/web_development/business_sites',
       description: `Enhance your brand image with our Business Sites development. Our team creates professional and effective websites tailored to your business needs. We focus on user-friendly interfaces, responsive designs, and strategic content placement to ensure your business site attracts and engages visitors effectively.`,
+      sections: [
+        {
+          title: 'Custom Application Development',
+          subheading: "Custom Application",
+          description: `Transform your business processes and enhance productivity with our custom application development services. Whether you need a web-based application, mobile app, or enterprise solution, we have the expertise to bring your ideas to life.
+          
+          Our team of experienced developers will work closely with you to understand your unique requirements and business objectives. From concept to deployment, we ensure that your custom application is user-friendly, scalable, and tailored to meet your specific needs.`,
+          image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+          href: '/services/web_development/custom_application',
+        },
+        {
+          title: 'Ecommerce Store Development',
+          subheading: "Ecommerce Store",
+          description: `Boost your online sales and expand your market reach with our ecommerce store development services. We specialize in creating user-friendly and feature-rich online stores that drive conversions and enhance customer experience.
+          
+          Our team of ecommerce experts will work closely with you to understand your product offerings, target audience, and business goals. Whether you're a small boutique or a large enterprise, we can create a custom ecommerce solution tailored to your needs.`,
+          image: 'https://images.unsplash.com/photo-1604066867775-43f48e3957d8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+          href: '/services/web_development/ecommerce_store',
+        },
+      ],
+      faq: [
+        {
+          question: "What business site services do you offer?",
+          answer: "We offer a comprehensive range of business site services tailored to help you establish a professional online presence for your brand. Our services include custom website design, development of intuitive user interfaces, implementation of essential business functionalities, mobile responsiveness, SEO optimization, and ongoing support and maintenance."
+        },
+        {
+          question: "How can business site development benefit my business?",
+          answer: "Business site development can benefit your business in numerous ways. By creating a visually appealing and user-friendly website, you can enhance brand visibility, attract and engage customers, showcase your products or services effectively, generate leads, and drive conversions and sales."
+        },
+        {
+          question: "Is business site development suitable for my business?",
+          answer: "Absolutely! Business site development is essential for businesses of all sizes and industries that want to establish a strong online presence and effectively communicate their brand message to their target audience. Whether you're a startup, a small business, or a large enterprise, having a well-designed website is crucial for success in today's digital landscape."
+        },
+        {
+          question: "What are the benefits of investing in business site development?",
+          answer: "Investing in business site development offers a multitude of benefits for your business. Some key advantages include increased brand credibility, improved customer engagement and retention, enhanced brand visibility, expanded market reach, and the ability to showcase your products or services 24/7 to a global audience."
+        },
+        {
+          question: "How do you measure the success of business site development projects?",
+          answer: "We measure the success of business site development projects through various key performance indicators (KPIs) such as website traffic, conversion rates, bounce rates, average session duration, lead generation, and overall user satisfaction. Additionally, we conduct thorough usability testing and performance analysis to ensure that your website meets the highest standards of functionality, usability, and performance."
+        }
+      ],
+      stats: [
+        {
+          data: "90%",
+          title: "Client Satisfaction Rate"
+        },
+        {
+          data: "30+",
+          title: "Successfully Launched Business Sites"
+        },
+        {
+          data: "4x",
+          title: "Increase in Conversion Rates"
+        }
+      ]
     },
     {
       title: 'Custom Web Application',
       image: '/services/WEB/web_custom.jpg',
       href: '/services/web_development/custom_web_application',
       description: `Unlock the full potential of your online presence with Custom Web Applications. We specialize in building tailored web applications that address your specific business requirements. From database management to user authentication, our solutions are designed to streamline processes and enhance overall efficiency.`,
+      sections: [
+        {
+          title: 'Professional Business Website Development',
+          subheading: "Business Sites",
+          description: `Elevate your online presence with our professional business website development services. We specialize in creating custom websites tailored to meet the unique needs and goals of your business.
+        
+        Our team of skilled developers and designers will work closely with you to understand your brand identity, target audience, and objectives. From sleek and modern designs to intuitive user experiences, we ensure that your business website stands out and delivers results.`,
+          image: 'https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+          href: '/services/web_development/business_sites',
+        },
+        {
+          title: 'Ecommerce Store Development',
+          subheading: "Ecommerce Store",
+          description: `Boost your online sales and expand your market reach with our ecommerce store development services. We specialize in creating user-friendly and feature-rich online stores that drive conversions and enhance customer experience.
+          
+          Our team of ecommerce experts will work closely with you to understand your product offerings, target audience, and business goals. Whether you're a small boutique or a large enterprise, we can create a custom ecommerce solution tailored to your needs.`,
+          image: 'https://images.unsplash.com/photo-1604066867775-43f48e3957d8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+          href: '/services/web_development/ecommerce_store',
+        },
+      ],
+      faq : [
+        {
+          question: "What custom web application services do you offer?",
+          answer: "We offer a wide range of custom web application services designed to address your unique business needs and requirements. Our services include custom web application development, database design and implementation, API integration, user authentication and authorization, responsive design for various devices, testing, deployment, and ongoing maintenance and support."
+        },
+        {
+          question: "How can custom web application development benefit my business?",
+          answer: "Custom web application development can provide numerous benefits for your business. By creating tailored solutions, you can streamline your operations, improve efficiency, enhance productivity, automate processes, access real-time data insights, enhance collaboration, and provide better customer experiences. Whether you need internal business tools or customer-facing applications, custom web applications can significantly boost your business performance."
+        },
+        {
+          question: "Is custom web application development suitable for my business?",
+          answer: "Absolutely! Custom web application development is suitable for businesses of all sizes and industries that require tailored solutions to address their specific challenges and goals. Whether you're a startup, a small business, or a large enterprise, custom web applications can be designed to meet your unique requirements, improve workflow efficiency, and drive business growth."
+        },
+        {
+          question: "What are the benefits of investing in custom web application development?",
+          answer: "Investing in custom web application development offers a plethora of benefits for your business. Some key advantages include increased efficiency and productivity, reduced operational costs, enhanced data security, improved scalability and flexibility, better integration with existing systems, and the ability to gain a competitive edge in the market by offering unique and innovative solutions tailored to your business needs."
+        },
+        {
+          question: "How do you measure the success of custom web application development projects?",
+          answer: "We measure the success of custom web application development projects through various key performance indicators (KPIs) such as user satisfaction, system uptime and performance, adoption rate, time and cost savings, return on investment (ROI), and achievement of project objectives. Additionally, we conduct thorough testing, user feedback analysis, and continuous improvement processes to ensure that the custom web applications we deliver meet the highest standards of quality and performance."
+        }
+      ],
+      stats : [
+        {
+          data: "95%",
+          title: "Client Satisfaction Rate"
+        },
+        {
+          data: "50+",
+          title: "Successfully Developed Web Applications"
+        },
+        {
+          data: "3x",
+          title: "Increase in Operational Efficiency"
+        }
+      ],
+      
     },
   ],
   faq: [
@@ -727,9 +897,6 @@ export const WebDevelopment = {
       title: "Total revenue"
     },
   ],
-
-  // Add more subservices as needed...
-
 };
 export const ContentCreation = {
   title: 'Content Creation Creation',
@@ -739,8 +906,8 @@ export const ContentCreation = {
     {
       title: 'Content Writing',
       description: `Craft compelling and engaging written content for your brand with our Content Writing services. Our expert writers create content that resonates with your target audience, communicates your brand message effectively, and drives meaningful engagement.`,
-      image: '/services/CONTENT/content_write.jpg', // Replace with the actual path to your image
-      href: '/services/content_creation/content_writing', // Replace with the actual href
+      image: '/services/CONTENT/content_write.jpg', 
+      href: '/services/content_creation/content_writing',
     },
     {
       title: 'Videography',
