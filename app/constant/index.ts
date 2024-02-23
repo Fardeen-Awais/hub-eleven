@@ -830,7 +830,7 @@ export const WebDevelopment = {
           href: '/services/web_development/ecommerce_store',
         },
       ],
-      faq : [
+      faq: [
         {
           question: "What custom web application services do you offer?",
           answer: "We offer a wide range of custom web application services designed to address your unique business needs and requirements. Our services include custom web application development, database design and implementation, API integration, user authentication and authorization, responsive design for various devices, testing, deployment, and ongoing maintenance and support."
@@ -852,7 +852,7 @@ export const WebDevelopment = {
           answer: "We measure the success of custom web application development projects through various key performance indicators (KPIs) such as user satisfaction, system uptime and performance, adoption rate, time and cost savings, return on investment (ROI), and achievement of project objectives. Additionally, we conduct thorough testing, user feedback analysis, and continuous improvement processes to ensure that the custom web applications we deliver meet the highest standards of quality and performance."
         }
       ],
-      stats : [
+      stats: [
         {
           data: "95%",
           title: "Client Satisfaction Rate"
@@ -866,7 +866,6 @@ export const WebDevelopment = {
           title: "Increase in Operational Efficiency"
         }
       ],
-      
     },
   ],
   faq: [
@@ -906,17 +905,113 @@ export const ContentCreation = {
     {
       title: 'Content Writing',
       description: `Craft compelling and engaging written content for your brand with our Content Writing services. Our expert writers create content that resonates with your target audience, communicates your brand message effectively, and drives meaningful engagement.`,
-      image: '/services/CONTENT/content_write.jpg', 
+      image: '/services/CONTENT/content_write.jpg',
       href: '/services/content_creation/content_writing',
+      sections: [
+        {
+          title: 'Professional Video Production Services',
+          subheading: "Video Graphy",
+          description: `Enhance your brand's storytelling and engagement with our professional video production services. We specialize in creating captivating videos tailored to convey your unique message and connect with your audience.
+        
+        Our team of experienced videographers and editors will collaborate closely with you to understand your brand identity, target audience, and objectives. Whether you need promotional videos, product demonstrations, corporate films, or event coverage, we ensure that your videos are visually stunning, emotionally compelling, and effectively communicate your story.`,
+          image: 'https://images.unsplash.com/photo-1486693128850-a77436e7ba3c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+          href: '/services/content_creation/videography',
+        }
+      ],
+      faq : [
+        {
+          question: "What content creation services do you offer?",
+          answer: "We offer a comprehensive range of content creation services tailored to meet your specific business needs and objectives. Our services include content strategy development, content writing and editing, graphic design for visual content creation, video production, social media content creation, SEO optimization, and content performance analysis."
+        },
+        {
+          question: "How can content creation benefit my business?",
+          answer: "Content creation can benefit your business in various ways. By producing high-quality and relevant content, you can increase brand awareness, engage your target audience, drive website traffic, generate leads, establish thought leadership, foster customer loyalty, and ultimately, boost sales and revenue. Whether you need blog posts, social media content, videos, or email newsletters, our content creation services can help you achieve your business goals."
+        },
+        {
+          question: "Is content creation suitable for my business?",
+          answer: "Absolutely! Content creation is essential for businesses of all sizes and industries that want to connect with their audience, build credibility, and drive growth. Whether you're a startup, a small business, or a large enterprise, creating valuable and engaging content can help you stand out in a crowded marketplace, attract potential customers, and retain existing ones."
+        },
+        {
+          question: "What are the benefits of investing in content creation?",
+          answer: "Investing in content creation offers numerous benefits for your business. Some key advantages include improved brand visibility and recognition, enhanced online presence, increased website traffic and engagement, higher search engine rankings, better customer relationships, increased trust and credibility, and ultimately, higher conversion rates and revenue. By consistently producing valuable content, you can position your business as a trusted authority in your industry and drive long-term success."
+        },
+        {
+          question: "How do you measure the success of content creation projects?",
+          answer: "We measure the success of content creation projects through various key performance indicators (KPIs) such as audience engagement metrics (e.g., likes, shares, comments), website traffic, conversion rates, email open and click-through rates, social media reach and engagement, search engine rankings, and overall content performance. Additionally, we conduct content audits, analyze user feedback, and track ROI to ensure that our content creation efforts align with your business objectives and deliver tangible results."
+        }
+      ],
+      stats : [
+        {
+          data: "90%",
+          title: "Client Satisfaction Rate"
+        },
+        {
+          data: "1000+",
+          title: "Content Pieces Created"
+        },
+        {
+          data: "2x",
+          title: "Increase in Website Engagement"
+        }
+      ],
     },
     {
       title: 'Videography',
       description: `Produce high-quality videos that tell your brand story effectively. Our Videography services are designed to capture the essence of your brand, creating visually appealing and impactful videos that leave a lasting impression on your audience.`,
       image: '/services/CONTENT/content_graphy.jpg', // Replace with the actual path to your image
       href: '/services/content_creation/videography', // Replace with the actual href
+      sections: [
+          {
+            title: 'Professional Content Writing Services',
+            subheading: "Content Writing",
+            description: `Enhance your brand's storytelling and engagement with our professional content creation services. We specialize in creating captivating content tailored to convey your unique message and connect with your audience.
+        
+            Our team of experienced creators will collaborate closely with you to understand your brand identity, target audience, and objectives. Whether you need promotional videos, product demonstrations, corporate films, or event coverage, we ensure that your content is visually stunning, emotionally compelling, and effectively communicates your story.`,
+            image: 'https://images.unsplash.com/photo-1504691342899-4d92b50853e1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            href: '/services/content_creation/content_writing',
+          }
+        
+      ],
+      faq: [
+        {
+          question: "What video graphy services do you offer?",
+          answer: "We offer a wide range of video graphy services tailored to meet your specific needs and objectives. Our services include video production, editing, scriptwriting, storyboard development, motion graphics, animation, drone videography, and more."
+        },
+        {
+          question: "How can video graphy benefit my business?",
+          answer: "Video graphy can benefit your business in numerous ways. It helps you tell your brand's story effectively, engage your audience on various platforms, increase brand visibility, showcase products or services in action, enhance customer trust and loyalty, and ultimately drive conversions and sales."
+        },
+        {
+          question: "Is video graphy suitable for my business?",
+          answer: "Absolutely! Video graphy is suitable for businesses of all sizes and industries. Whether you're a startup, a small business, or a large corporation, incorporating videos into your marketing strategy can help you reach and connect with your target audience more effectively, stand out from competitors, and achieve your business goals."
+        },
+        {
+          question: "What are the benefits of investing in video graphy?",
+          answer: "Investing in video graphy offers numerous benefits for your business. Some key advantages include increased engagement and social shares, improved SEO rankings, higher conversion rates, enhanced brand storytelling, better audience understanding, and the ability to convey complex messages in a simple and engaging manner."
+        },
+        {
+          question: "How do you measure the success of video graphy projects?",
+          answer: "We measure the success of video graphy projects through various key performance indicators (KPIs) such as video views, watch time, engagement metrics (likes, comments, shares), conversion rates, website traffic, and overall impact on brand awareness and perception. Additionally, we analyze audience feedback and conduct post-project evaluations to ensure that our video graphy efforts align with your business objectives and deliver tangible results."
+        }
+      ],
+      
+      stats: [
+        {
+          data: "90%",
+          title: "Client Satisfaction Rate"
+        },
+        {
+          data: "500+",
+          title: "Videos Produced"
+        },
+        {
+          data: "3x",
+          title: "Increase in Engagement"
+        }
+      ]
+      
     },
   ],
-
   faq: [
     {
       question: 'What services do you offer under Content Creation?',
@@ -931,7 +1026,6 @@ export const ContentCreation = {
       answer: 'Absolutely! Our services are customizable to meet your unique requirements. Whether you need tailored content writing or specific videography styles, we work closely with you to bring your ideas to life.',
     },
   ],
-
   stats: [
     {
       data: '95%',
