@@ -7,14 +7,14 @@ import Service_Form from '../../../_component/Service_Form'
 import { TracingBeam } from '../../../_component/tracing-beam'
 import Image from 'next/image'
 import { twMerge } from 'tailwind-merge'
-import { ContentCreation} from '@/app/constant'
+import { GraphicDesigning} from '@/app/constant'
 
 const page = () => {
-  const { title, sections } = ContentCreation
-  const content_creation = sections[0]
+  const { title, sections } = GraphicDesigning
+  const ui_design = sections[1]
   return (
     <section className='flex flex-col max-w-screen min-h-screen items-center justify-start gap-5 w-full mx-auto overflow-hidden'>
-      <SubService_Hero amazon={content_creation} title={title} />
+      <SubService_Hero amazon={ui_design} title={title} />
       <TracingBeam>
         <div className="flex flex-col items-center justify-center max-w-2xl mx-auto antialiased p-5 relative ">
           {pageContent.map((item, index) => (
@@ -39,10 +39,10 @@ const page = () => {
           ))}
         </div>
       </TracingBeam>
-      <SubService_About data={content_creation.sections} />
-      <Service_Stats stats={content_creation.stats} />
+      <SubService_About data={ui_design.sections} />
+      <Service_Stats stats={ui_design.stats} />
       <Service_Form />
-      <Service_FAQ faq={content_creation.faq} />
+      <Service_FAQ faq={ui_design.faq} />
     </section>
   )
 }

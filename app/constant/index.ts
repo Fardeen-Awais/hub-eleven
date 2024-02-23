@@ -1051,20 +1051,191 @@ export const GraphicDesigning = {
       image: '/services/DESIGN/Design_logo.jpg',
       href: '/services/graphic_designing/logo_designing',
       description: `Create a distinctive and memorable brand identity with our logo design services. Our expert designers work collaboratively with you to craft a logo that reflects your brand's values and leaves a lasting impression on your audience. Whether you're starting a new venture or rebranding, we ensure your logo stands out amidst the competition.`,
+      sections : [
+        {
+          title: 'Professional UI/UX Design Services',
+          subheading: "UI/UX Design",
+          description: `Create intuitive and visually appealing digital experiences with our professional UI/UX design services. We specialize in crafting user-centric designs that enhance usability, engage audiences, and drive conversions.
+      
+        Our team of skilled designers follows a human-centered design approach, conducting user research, creating wireframes and prototypes, and conducting usability testing to ensure optimal user satisfaction. Whether you need website design, mobile app design, or software interface design, we are committed to delivering designs that delight users and achieve your business objectives.`,
+          image: 'https://images.unsplash.com/photo-1541462608143-67571c6738dd?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+          href: '/services/graphic_designing/ui_ux_design',
+        },
+        {
+          title: 'Professional Flyers & Brochures Design',
+          subheading: "Flyers & Brochures",
+          description: `Capture attention and convey your message effectively with our professional flyers and brochures design services. We specialize in creating eye-catching and informative marketing collateral that helps you stand out in a crowded marketplace.
+      
+        Our team of creative designers will work closely with you to understand your brand identity, target audience, and marketing objectives. Whether you need flyers, brochures, pamphlets, or posters, we ensure that your marketing materials are visually appealing, engaging, and aligned with your brand image and messaging.`,
+          image: 'https://images.unsplash.com/photo-1571420632775-096b42bee0c2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+          href: '/services/graphic_designing/flyers_brochures',
+        }],      
+      faq : [
+        {
+          question: "What logo design services do you offer?",
+          answer: "We offer a wide range of logo design services tailored to meet the unique needs of businesses across various industries. Our services include logo conceptualization, brand identity design, logo refinement and enhancement, logo vectorization, and logo resizing for different platforms and applications."
+        },
+        {
+          question: "How can professional logo design benefit my business?",
+          answer: "Professional logo design is crucial for establishing a strong brand identity and making a memorable impression on your audience. A well-designed logo communicates your brand's values, personality, and offerings effectively, helping you stand out in a competitive market, build trust and credibility with customers, and foster brand loyalty. Whether you're launching a new business or rebranding an existing one, investing in professional logo design can contribute to your business's success."
+        },
+        {
+          question: "Is professional logo design suitable for my business?",
+          answer: "Absolutely! Professional logo design is essential for businesses of all sizes and industries that want to create a strong visual identity and differentiate themselves from competitors. Whether you're a startup, a small business, or a large corporation, having a professionally designed logo can enhance brand recognition, instill trust in your target audience, and contribute to long-term brand success."
+        },
+        {
+          question: "What are the benefits of investing in professional logo design?",
+          answer: "Investing in professional logo design offers numerous benefits for your business. Some key advantages include increased brand recognition and recall, improved brand credibility and trustworthiness, enhanced brand consistency across marketing channels, differentiation from competitors, and better alignment with your brand values and messaging. A professionally designed logo serves as the foundation of your brand identity, influencing how customers perceive and interact with your business."
+        },
+        {
+          question: "How do you measure the success of logo design projects?",
+          answer: "We measure the success of logo design projects through various key performance indicators (KPIs) such as brand recognition, customer feedback and perception, brand consistency across touchpoints, and alignment with business objectives. Additionally, we assess the effectiveness of the logo in achieving its intended purpose, whether it's increasing brand visibility, attracting target customers, or supporting brand positioning. By evaluating these metrics, we ensure that our logo design efforts contribute to your business's overall success."
+        }
+      ],
+      stats : [
+        {
+          data: "95%",
+          title: "Client Satisfaction Rate"
+        },
+        {
+          data: "500+",
+          title: "Logos Designed"
+        },
+        {
+          data: "3x",
+          title: "Increase in Brand Recognition"
+        }
+      ],
+      
     },
     {
       title: 'UI/UX Design',
       image: '/services/DESIGN/Design-ui.jpg',
       href: '/services/graphic_designing/ui_ux_design',
       description: `Enhance user experience and engagement with our expert UI/UX design solutions. Our designers focus on creating seamless and visually appealing interfaces that align with your brand's aesthetic and provide an optimal user experience. From website interfaces to mobile apps, we prioritize design elements that resonate with your target audience.`,
+      sections : [
+        {
+          title: 'Professional Logo Design Services',
+          subheading: "Logo Design",
+          description: `Establish a strong brand identity with our professional logo design services. We specialize in creating unique and memorable logos that effectively represent your brand's values, personality, and offerings.
+      
+            Our team of talented designers will collaborate with you to understand your brand vision and target audience, ensuring that the logo design reflects your business objectives and resonates with your customers. Whether you're starting a new venture or rebranding an existing one, our custom logo designs will set you apart from the competition.`,
+          image: 'https://images.unsplash.com/photo-1655437448243-08a76744b048?q=80&w=1462&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+          href: '/services/graphic_designing/logo_designing',
+        },
+        {
+          title: 'Professional Flyers & Brochures Design',
+          subheading: "Flyers & Brochures",
+          description: `Capture attention and convey your message effectively with our professional flyers and brochures design services. We specialize in creating eye-catching and informative marketing collateral that helps you stand out in a crowded marketplace.
+      
+        Our team of creative designers will work closely with you to understand your brand identity, target audience, and marketing objectives. Whether you need flyers, brochures, pamphlets, or posters, we ensure that your marketing materials are visually appealing, engaging, and aligned with your brand image and messaging.`,
+          image: 'https://images.unsplash.com/photo-1571420632775-096b42bee0c2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+          href: '/services/graphic_designing/flyers_brochures',
+        }
+      ],    
+        faq : [
+          {
+            question: "What UI/UX design services do you offer?",
+            answer: "We offer a comprehensive range of UI/UX design services tailored to meet the specific needs and objectives of businesses across various industries. Our services include user research and analysis, wireframing and prototyping, user interface design, user experience design, usability testing, and UI/UX optimization for web and mobile applications."
+          },
+          {
+            question: "How can professional UI/UX design benefit my business?",
+            answer: "Professional UI/UX design plays a crucial role in enhancing user satisfaction and engagement with your digital products and services. By creating intuitive and user-friendly interfaces, you can improve user interactions, increase conversion rates, and foster customer loyalty. Whether you're developing a website, mobile app, or software product, investing in professional UI/UX design ensures a seamless and enjoyable user experience, ultimately driving business growth and success."
+          },
+          {
+            question: "Is professional UI/UX design suitable for my business?",
+            answer: "Absolutely! Professional UI/UX design is essential for businesses of all sizes and industries that want to deliver exceptional digital experiences to their customers. Whether you're a startup, a small business, or a large corporation, investing in professional UI/UX design can differentiate your brand, increase user satisfaction, and give you a competitive edge in the market. Regardless of your industry or target audience, a well-designed user interface and experience are critical for driving user engagement and achieving business objectives."
+          },
+          {
+            question: "What are the benefits of investing in professional UI/UX design?",
+            answer: "Investing in professional UI/UX design offers numerous benefits for your business. Some key advantages include improved user satisfaction and retention, higher conversion rates, reduced bounce rates, increased customer loyalty and advocacy, enhanced brand reputation, and a competitive advantage in the market. By prioritizing user experience and interface design, you can create digital products and services that resonate with your audience, drive engagement, and ultimately contribute to business success."
+          },
+          {
+            question: "How do you measure the success of UI/UX design projects?",
+            answer: "We measure the success of UI/UX design projects through various key performance indicators (KPIs) such as user satisfaction surveys, usability testing results, conversion rates, bounce rates, user engagement metrics, and retention rates. Additionally, we track qualitative feedback from users and stakeholders to assess the effectiveness of the design in meeting business objectives and user needs. By continuously monitoring and evaluating these metrics, we ensure that our UI/UX design efforts align with your business goals and deliver tangible results."
+          }
+        ],
+
+        stats : [
+          {
+            data: "90%",
+            title: "Client Satisfaction Rate"
+          },
+          {
+            data: "300+",
+            title: "Projects Completed"
+          },
+          {
+            data: "4x",
+            title: "Increase in User Engagement"
+          }
+        ],
+        
+      
     },
     {
       title: 'Flyers and Brochures',
       image: '/services/DESIGN/Design-flyers.jpg',
       href: '/services/graphic_designing/flyers_brochures',
       description: `Craft visually appealing flyers and brochures to communicate your brand message effectively. Our graphic design team combines creativity and strategic thinking to design marketing collateral that stands out. Whether you're promoting an event, product, or service, our designs capture attention and drive engagement.`,
+      sections : [
+        {
+          title: 'Professional UI/UX Design Services',
+          subheading: "UI/UX Design",
+          description: `Create intuitive and visually appealing digital experiences with our professional UI/UX design services. We specialize in crafting user-centric designs that enhance usability, engage audiences, and drive conversions.
+      
+        Our team of skilled designers follows a human-centered design approach, conducting user research, creating wireframes and prototypes, and conducting usability testing to ensure optimal user satisfaction. Whether you need website design, mobile app design, or software interface design, we are committed to delivering designs that delight users and achieve your business objectives.`,
+          image: 'https://images.unsplash.com/photo-1541462608143-67571c6738dd?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+          href: '/services/ui_ux_design',
+        },
+        {
+          title: 'Professional Logo Design Services',
+          subheading: "Logo Design",
+          description: `Establish a strong brand identity with our professional logo design services. We specialize in creating unique and memorable logos that effectively represent your brand's values, personality, and offerings.
+      
+            Our team of talented designers will collaborate with you to understand your brand vision and target audience, ensuring that the logo design reflects your business objectives and resonates with your customers. Whether you're starting a new venture or rebranding an existing one, our custom logo designs will set you apart from the competition.`,
+          image: 'https://images.unsplash.com/photo-1655437448243-08a76744b048?q=80&w=1462&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+          href: '/services/graphic_designing/logo_designing',
+        },
+      ],    
+        faq :[
+          {
+            question: "What flyer and brochure design services do you offer?",
+            answer: "We offer a comprehensive range of flyer and brochure design services tailored to meet the specific needs of businesses across various industries. Our services include flyer design, brochure design, leaflet design, poster design, catalogue design, and print-ready file preparation. Whether you need promotional materials for events, product launches, or marketing campaigns, our experienced designers can create visually stunning and impactful designs that effectively communicate your message and captivate your audience."
+          },
+          {
+            question: "How can professional flyer and brochure design benefit my business?",
+            answer: "Professional flyer and brochure design are essential for capturing the attention of your target audience and conveying your brand message effectively. Well-designed flyers and brochures can help you stand out in a crowded marketplace, attract potential customers, and drive engagement with your brand. Whether you're promoting a new product, showcasing your services, or highlighting key information, investing in professional flyer and brochure design can enhance brand visibility, credibility, and memorability, ultimately leading to increased sales and revenue."
+          },
+          {
+            question: "Is professional flyer and brochure design suitable for my business?",
+            answer: "Absolutely! Professional flyer and brochure design are beneficial for businesses of all sizes and industries that want to create impactful marketing collateral and leave a lasting impression on their audience. Whether you're a small business, a nonprofit organization, or a multinational corporation, well-designed flyers and brochures can effectively communicate your brand message, showcase your offerings, and drive customer engagement. Regardless of your industry or target market, professional flyer and brochure design can help you achieve your marketing objectives and stand out from the competition."
+          },
+          {
+            question: "What are the benefits of investing in professional flyer and brochure design?",
+            answer: "Investing in professional flyer and brochure design offers numerous benefits for your business. Some key advantages include increased brand visibility and recognition, enhanced marketing effectiveness, improved customer engagement and response rates, differentiation from competitors, and a professional image. Professionally designed flyers and brochures can help you attract attention, generate interest, and motivate action among your target audience, ultimately driving business growth and success."
+          },
+          {
+            question: "How do you measure the success of flyer and brochure design projects?",
+            answer: "We measure the success of flyer and brochure design projects through various key performance indicators (KPIs) such as engagement metrics (e.g., views, clicks, conversions), response rates, brand recall, customer feedback, and sales impact. Additionally, we assess the alignment of the designs with your brand identity and marketing objectives, as well as their effectiveness in conveying the intended message and driving the desired action. By analyzing these metrics and insights, we ensure that our flyer and brochure design efforts deliver measurable results and contribute to your business's marketing success."
+          }
+        ],
+        stats : [
+          {
+            data: "95%",
+            title: "Client Satisfaction Rate"
+          },
+          {
+            data: "500+",
+            title: "Projects Completed"
+          },
+          {
+            data: "3x",
+            title: "Increase in Brand Visibility"
+          }
+        ],
     },
-    // Add more subservices as needed...
+    
   ],
 
   faq: [
