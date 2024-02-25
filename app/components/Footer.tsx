@@ -2,6 +2,7 @@ import Link from "next/link"
 import TalkNowBtn from "../(main)/_component/_subcomponents/TalkNowBtn"
 import Logo from "./Logo"
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
+import Image from "next/image"
 
 export default () => {
 
@@ -23,8 +24,8 @@ export default () => {
     ];
 
     return (
-        <footer className="bg-black text-white py-3 ">
-            <div className="flex flex-col  max-w-7xl mx-auto">
+        <footer style={{content:"", backgroundImage: 'url("/assets/footer-worldmap.svg")', backgroundSize: 'contain',backgroundRepeat: 'no-repeat', backgroundPosition: 'center', zIndex: -1}} className="bg-black text-white h-screen flex flex-col items-end justify-end ">
+            <div className="flex flex-col min-w-7xl mx-auto w-full">
                 <div className="flex flex-col items-center space-y-6 ">
                     <div className="flex flex-col items-center justify-center gap-5">
                         <div>
@@ -34,6 +35,7 @@ export default () => {
                             What you are waiting for now. Start your journey with us now and grow your business.
                         </p>
                     </div>
+                    <Image src="/assets/footer-worldmap.svg" alt="footer" className="w-full h-full relative -z-10" fill/>
                     <div className="items-center gap-x-3 space-y-3 sm:flex sm:justify-center sm:space-y-0">
                         <TalkNowBtn />
                     </div>
