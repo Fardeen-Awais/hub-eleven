@@ -1,5 +1,3 @@
-import { icons } from "lucide-react";
-
 export const services = [
   {
     title: 'Digital Marketing',
@@ -12,26 +10,31 @@ export const services = [
         image: '/services/amazon.gif',
         href: '/services/digital_marketing/amazon',
         description: 'Leverage the power of Amazon for your digital marketing strategies. Enhance your product visibility and drive sales through Amazon’s vast marketplace.',
+        icon: '/assets/icons/amazon.png'
       },
       {
         title: 'Search Engine Optimization',
         image: '/services/seo.gif',
         href: '/services/digital_marketing/seo',
         description: 'Improve your website rankings and visibility with our SEO services. Our proven strategies drive organic traffic and enhance your online authority.',
+        icon: '/assets/icons/seo.png'
       },
       {
         title: 'PPC',
         image: '/services/google_ads.gif',
         href: '/services/digital_marketing/ppc',
         description: 'Run effective advertising campaigns on Google to reach your target audience. Optimize ad placements and maximize your ROI with our expert Google Ads management.',
+        icon: '/assets/icons/ppc.png'
       },
       {
         title: 'Email Marketing',
         image: '/services/keyword_research.gif',
         href: '/services/digital_marketing/email_marketing',
         description: 'Strategize your content with in-depth Email Marketing. Identify and target the right keywords to enhance your online visibility and attract relevant traffic.',
+        icon: '/assets/icons/mail.png'
       },
     ],
+    icon: '/assets/icons/digital-marketing.png'
   },
   {
     title: 'Social Media Management',
@@ -44,20 +47,24 @@ export const services = [
         image: '/services/social_media_organic.gif',
         href: '/services/social_media_management/organic',
         description: 'Build organic reach and engagement on your social media channels.',
+        icon: '/assets/icons/social-organic.png'
       },
       {
         title: 'Meta Ads',
         image: '/services/meta_ads.gif',
         href: '/services/social_media_management/meta_ads',
         description: 'Leverage meta ads for targeted social media advertising.',
+        icon: '/assets/icons/meta.png'
       },
       {
         title: 'Influencer Marketing',
         image: '/services/influencer_marketing.gif',
         href: '/services/social_media_management/influencer_marketing',
         description: 'Collaborate with influencers to enhance your brand presence.',
+        icon: '/assets/icons/influencer.png'
       },
-    ]
+    ],
+    icon: '/assets/icons/social-media.png'
   },
   {
     title: 'Web Development',
@@ -70,21 +77,25 @@ export const services = [
         image: '/services/ecommerce_store.gif',
         href: '/services/web_development/ecommerce_store',
         description: 'Create a powerful and scalable ecommerce platform for your business.',
+        icon: '/assets/icons/store.png'
       },
       {
         title: 'Business Sites',
         image: '/services/business_sites.gif',
         href: '/services/web_development/business_sites',
         description: 'Develop professional and effective websites tailored to your business needs.',
+        icon: '/assets/icons/site.png'
       },
       {
         title: 'Custom Web Application',
         image: '/services/custom_web_app.gif',
         href: '/services/web_development/custom_web_application',
         description: 'Build customized web applications to meet your specific requirements.',
+        icon: '/assets/icons/web-dev.png'
       },
       // Add more subservices as needed...
     ],
+    icon: '/assets/icons/web-dev.png'
   },
   {
     title: 'Content Creation',
@@ -97,15 +108,18 @@ export const services = [
         image: '/services/content_writing.gif',
         href: '/services/content_creation/content_writing',
         description: 'Craft compelling and engaging written content for your brand.',
+        icon: '/assets/icons/content-write.png'
       },
       {
         title: 'Videography',
         image: '/services/videography.gif',
         href: '/services/content_creation/videography',
         description: 'Produce high-quality videos that tell your brand story effectively.',
+        icon: '/assets/icons/video.png'
       },
       // Add more subservices as needed...
     ],
+    icon: '/assets/icons/content-creation.png',
   },
   {
     title: 'Graphic Designing',
@@ -118,24 +132,27 @@ export const services = [
         image: '/services/logo_designing.gif',
         href: '/services/graphic_designing/logo_designing',
         description: 'Create a distinctive and memorable brand identity with our logo design services.',
+        icon: '/assets/icons/logo-design.png'
       },
       {
         title: 'UI/UX Design',
         image: '/services/ui_ux_design.gif',
         href: '/services/graphic_designing/ui_ux_design',
         description: 'Enhance user experience and engagement with our expert UI/UX design solutions.',
+        icon: '/assets/icons/ux-design.png'
       },
       {
         title: 'Flyers and Brochures',
         image: '/services/flyers_brochures.gif',
         href: '/services/graphic_designing/flyers_brochures',
         description: 'Craft visually appealing flyers and brochures to communicate your brand message effectively.',
+        icon: '/assets/icons/flyer.png'
       },
       // Add more subservices as needed...
     ],
+    icon: '/assets/icons/graphic-designing.png',
   },
 ];
-
 export const DigitalMarketing = {
   title: 'Digital Marketing Services',
   description: `Elevate your online presence and drive meaningful results with our comprehensive Digital Marketing Solutions. At HubEleven, we go beyond traditional marketing approaches, leveraging the power of digital channels to connect your brand with the right audience.`,
@@ -918,7 +935,7 @@ export const ContentCreation = {
           href: '/services/content_creation/videography',
         }
       ],
-      faq : [
+      faq: [
         {
           question: "What content creation services do you offer?",
           answer: "We offer a comprehensive range of content creation services tailored to meet your specific business needs and objectives. Our services include content strategy development, content writing and editing, graphic design for visual content creation, video production, social media content creation, SEO optimization, and content performance analysis."
@@ -940,7 +957,7 @@ export const ContentCreation = {
           answer: "We measure the success of content creation projects through various key performance indicators (KPIs) such as audience engagement metrics (e.g., likes, shares, comments), website traffic, conversion rates, email open and click-through rates, social media reach and engagement, search engine rankings, and overall content performance. Additionally, we conduct content audits, analyze user feedback, and track ROI to ensure that our content creation efforts align with your business objectives and deliver tangible results."
         }
       ],
-      stats : [
+      stats: [
         {
           data: "90%",
           title: "Client Satisfaction Rate"
@@ -961,16 +978,16 @@ export const ContentCreation = {
       image: '/services/CONTENT/content_graphy.jpg', // Replace with the actual path to your image
       href: '/services/content_creation/videography', // Replace with the actual href
       sections: [
-          {
-            title: 'Professional Content Writing Services',
-            subheading: "Content Writing",
-            description: `Enhance your brand's storytelling and engagement with our professional content creation services. We specialize in creating captivating content tailored to convey your unique message and connect with your audience.
+        {
+          title: 'Professional Content Writing Services',
+          subheading: "Content Writing",
+          description: `Enhance your brand's storytelling and engagement with our professional content creation services. We specialize in creating captivating content tailored to convey your unique message and connect with your audience.
         
             Our team of experienced creators will collaborate closely with you to understand your brand identity, target audience, and objectives. Whether you need promotional videos, product demonstrations, corporate films, or event coverage, we ensure that your content is visually stunning, emotionally compelling, and effectively communicates your story.`,
-            image: 'https://images.unsplash.com/photo-1504691342899-4d92b50853e1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            href: '/services/content_creation/content_writing',
-          }
-        
+          image: 'https://images.unsplash.com/photo-1504691342899-4d92b50853e1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+          href: '/services/content_creation/content_writing',
+        }
+
       ],
       faq: [
         {
@@ -994,7 +1011,7 @@ export const ContentCreation = {
           answer: "We measure the success of video graphy projects through various key performance indicators (KPIs) such as video views, watch time, engagement metrics (likes, comments, shares), conversion rates, website traffic, and overall impact on brand awareness and perception. Additionally, we analyze audience feedback and conduct post-project evaluations to ensure that our video graphy efforts align with your business objectives and deliver tangible results."
         }
       ],
-      
+
       stats: [
         {
           data: "90%",
@@ -1009,7 +1026,7 @@ export const ContentCreation = {
           title: "Increase in Engagement"
         }
       ]
-      
+
     },
   ],
   faq: [
@@ -1051,7 +1068,7 @@ export const GraphicDesigning = {
       image: '/services/DESIGN/Design_logo.jpg',
       href: '/services/graphic_designing/logo_designing',
       description: `Create a distinctive and memorable brand identity with our logo design services. Our expert designers work collaboratively with you to craft a logo that reflects your brand's values and leaves a lasting impression on your audience. Whether you're starting a new venture or rebranding, we ensure your logo stands out amidst the competition.`,
-      sections : [
+      sections: [
         {
           title: 'Professional UI/UX Design Services',
           subheading: "UI/UX Design",
@@ -1069,8 +1086,8 @@ export const GraphicDesigning = {
         Our team of creative designers will work closely with you to understand your brand identity, target audience, and marketing objectives. Whether you need flyers, brochures, pamphlets, or posters, we ensure that your marketing materials are visually appealing, engaging, and aligned with your brand image and messaging.`,
           image: 'https://images.unsplash.com/photo-1571420632775-096b42bee0c2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
           href: '/services/graphic_designing/flyers_brochures',
-        }],      
-      faq : [
+        }],
+      faq: [
         {
           question: "What logo design services do you offer?",
           answer: "We offer a wide range of logo design services tailored to meet the unique needs of businesses across various industries. Our services include logo conceptualization, brand identity design, logo refinement and enhancement, logo vectorization, and logo resizing for different platforms and applications."
@@ -1092,7 +1109,7 @@ export const GraphicDesigning = {
           answer: "We measure the success of logo design projects through various key performance indicators (KPIs) such as brand recognition, customer feedback and perception, brand consistency across touchpoints, and alignment with business objectives. Additionally, we assess the effectiveness of the logo in achieving its intended purpose, whether it's increasing brand visibility, attracting target customers, or supporting brand positioning. By evaluating these metrics, we ensure that our logo design efforts contribute to your business's overall success."
         }
       ],
-      stats : [
+      stats: [
         {
           data: "95%",
           title: "Client Satisfaction Rate"
@@ -1106,14 +1123,14 @@ export const GraphicDesigning = {
           title: "Increase in Brand Recognition"
         }
       ],
-      
+
     },
     {
       title: 'UI/UX Design',
       image: '/services/DESIGN/Design-ui.jpg',
       href: '/services/graphic_designing/ui_ux_design',
       description: `Enhance user experience and engagement with our expert UI/UX design solutions. Our designers focus on creating seamless and visually appealing interfaces that align with your brand's aesthetic and provide an optimal user experience. From website interfaces to mobile apps, we prioritize design elements that resonate with your target audience.`,
-      sections : [
+      sections: [
         {
           title: 'Professional Logo Design Services',
           subheading: "Logo Design",
@@ -1132,53 +1149,53 @@ export const GraphicDesigning = {
           image: 'https://images.unsplash.com/photo-1571420632775-096b42bee0c2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
           href: '/services/graphic_designing/flyers_brochures',
         }
-      ],    
-        faq : [
-          {
-            question: "What UI/UX design services do you offer?",
-            answer: "We offer a comprehensive range of UI/UX design services tailored to meet the specific needs and objectives of businesses across various industries. Our services include user research and analysis, wireframing and prototyping, user interface design, user experience design, usability testing, and UI/UX optimization for web and mobile applications."
-          },
-          {
-            question: "How can professional UI/UX design benefit my business?",
-            answer: "Professional UI/UX design plays a crucial role in enhancing user satisfaction and engagement with your digital products and services. By creating intuitive and user-friendly interfaces, you can improve user interactions, increase conversion rates, and foster customer loyalty. Whether you're developing a website, mobile app, or software product, investing in professional UI/UX design ensures a seamless and enjoyable user experience, ultimately driving business growth and success."
-          },
-          {
-            question: "Is professional UI/UX design suitable for my business?",
-            answer: "Absolutely! Professional UI/UX design is essential for businesses of all sizes and industries that want to deliver exceptional digital experiences to their customers. Whether you're a startup, a small business, or a large corporation, investing in professional UI/UX design can differentiate your brand, increase user satisfaction, and give you a competitive edge in the market. Regardless of your industry or target audience, a well-designed user interface and experience are critical for driving user engagement and achieving business objectives."
-          },
-          {
-            question: "What are the benefits of investing in professional UI/UX design?",
-            answer: "Investing in professional UI/UX design offers numerous benefits for your business. Some key advantages include improved user satisfaction and retention, higher conversion rates, reduced bounce rates, increased customer loyalty and advocacy, enhanced brand reputation, and a competitive advantage in the market. By prioritizing user experience and interface design, you can create digital products and services that resonate with your audience, drive engagement, and ultimately contribute to business success."
-          },
-          {
-            question: "How do you measure the success of UI/UX design projects?",
-            answer: "We measure the success of UI/UX design projects through various key performance indicators (KPIs) such as user satisfaction surveys, usability testing results, conversion rates, bounce rates, user engagement metrics, and retention rates. Additionally, we track qualitative feedback from users and stakeholders to assess the effectiveness of the design in meeting business objectives and user needs. By continuously monitoring and evaluating these metrics, we ensure that our UI/UX design efforts align with your business goals and deliver tangible results."
-          }
-        ],
+      ],
+      faq: [
+        {
+          question: "What UI/UX design services do you offer?",
+          answer: "We offer a comprehensive range of UI/UX design services tailored to meet the specific needs and objectives of businesses across various industries. Our services include user research and analysis, wireframing and prototyping, user interface design, user experience design, usability testing, and UI/UX optimization for web and mobile applications."
+        },
+        {
+          question: "How can professional UI/UX design benefit my business?",
+          answer: "Professional UI/UX design plays a crucial role in enhancing user satisfaction and engagement with your digital products and services. By creating intuitive and user-friendly interfaces, you can improve user interactions, increase conversion rates, and foster customer loyalty. Whether you're developing a website, mobile app, or software product, investing in professional UI/UX design ensures a seamless and enjoyable user experience, ultimately driving business growth and success."
+        },
+        {
+          question: "Is professional UI/UX design suitable for my business?",
+          answer: "Absolutely! Professional UI/UX design is essential for businesses of all sizes and industries that want to deliver exceptional digital experiences to their customers. Whether you're a startup, a small business, or a large corporation, investing in professional UI/UX design can differentiate your brand, increase user satisfaction, and give you a competitive edge in the market. Regardless of your industry or target audience, a well-designed user interface and experience are critical for driving user engagement and achieving business objectives."
+        },
+        {
+          question: "What are the benefits of investing in professional UI/UX design?",
+          answer: "Investing in professional UI/UX design offers numerous benefits for your business. Some key advantages include improved user satisfaction and retention, higher conversion rates, reduced bounce rates, increased customer loyalty and advocacy, enhanced brand reputation, and a competitive advantage in the market. By prioritizing user experience and interface design, you can create digital products and services that resonate with your audience, drive engagement, and ultimately contribute to business success."
+        },
+        {
+          question: "How do you measure the success of UI/UX design projects?",
+          answer: "We measure the success of UI/UX design projects through various key performance indicators (KPIs) such as user satisfaction surveys, usability testing results, conversion rates, bounce rates, user engagement metrics, and retention rates. Additionally, we track qualitative feedback from users and stakeholders to assess the effectiveness of the design in meeting business objectives and user needs. By continuously monitoring and evaluating these metrics, we ensure that our UI/UX design efforts align with your business goals and deliver tangible results."
+        }
+      ],
 
-        stats : [
-          {
-            data: "90%",
-            title: "Client Satisfaction Rate"
-          },
-          {
-            data: "300+",
-            title: "Projects Completed"
-          },
-          {
-            data: "4x",
-            title: "Increase in User Engagement"
-          }
-        ],
-        
-      
+      stats: [
+        {
+          data: "90%",
+          title: "Client Satisfaction Rate"
+        },
+        {
+          data: "300+",
+          title: "Projects Completed"
+        },
+        {
+          data: "4x",
+          title: "Increase in User Engagement"
+        }
+      ],
+
+
     },
     {
       title: 'Flyers and Brochures',
       image: '/services/DESIGN/Design-flyers.jpg',
       href: '/services/graphic_designing/flyers_brochures',
       description: `Craft visually appealing flyers and brochures to communicate your brand message effectively. Our graphic design team combines creativity and strategic thinking to design marketing collateral that stands out. Whether you're promoting an event, product, or service, our designs capture attention and drive engagement.`,
-      sections : [
+      sections: [
         {
           title: 'Professional UI/UX Design Services',
           subheading: "UI/UX Design",
@@ -1197,45 +1214,45 @@ export const GraphicDesigning = {
           image: 'https://images.unsplash.com/photo-1655437448243-08a76744b048?q=80&w=1462&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
           href: '/services/graphic_designing/logo_designing',
         },
-      ],    
-        faq :[
-          {
-            question: "What flyer and brochure design services do you offer?",
-            answer: "We offer a comprehensive range of flyer and brochure design services tailored to meet the specific needs of businesses across various industries. Our services include flyer design, brochure design, leaflet design, poster design, catalogue design, and print-ready file preparation. Whether you need promotional materials for events, product launches, or marketing campaigns, our experienced designers can create visually stunning and impactful designs that effectively communicate your message and captivate your audience."
-          },
-          {
-            question: "How can professional flyer and brochure design benefit my business?",
-            answer: "Professional flyer and brochure design are essential for capturing the attention of your target audience and conveying your brand message effectively. Well-designed flyers and brochures can help you stand out in a crowded marketplace, attract potential customers, and drive engagement with your brand. Whether you're promoting a new product, showcasing your services, or highlighting key information, investing in professional flyer and brochure design can enhance brand visibility, credibility, and memorability, ultimately leading to increased sales and revenue."
-          },
-          {
-            question: "Is professional flyer and brochure design suitable for my business?",
-            answer: "Absolutely! Professional flyer and brochure design are beneficial for businesses of all sizes and industries that want to create impactful marketing collateral and leave a lasting impression on their audience. Whether you're a small business, a nonprofit organization, or a multinational corporation, well-designed flyers and brochures can effectively communicate your brand message, showcase your offerings, and drive customer engagement. Regardless of your industry or target market, professional flyer and brochure design can help you achieve your marketing objectives and stand out from the competition."
-          },
-          {
-            question: "What are the benefits of investing in professional flyer and brochure design?",
-            answer: "Investing in professional flyer and brochure design offers numerous benefits for your business. Some key advantages include increased brand visibility and recognition, enhanced marketing effectiveness, improved customer engagement and response rates, differentiation from competitors, and a professional image. Professionally designed flyers and brochures can help you attract attention, generate interest, and motivate action among your target audience, ultimately driving business growth and success."
-          },
-          {
-            question: "How do you measure the success of flyer and brochure design projects?",
-            answer: "We measure the success of flyer and brochure design projects through various key performance indicators (KPIs) such as engagement metrics (e.g., views, clicks, conversions), response rates, brand recall, customer feedback, and sales impact. Additionally, we assess the alignment of the designs with your brand identity and marketing objectives, as well as their effectiveness in conveying the intended message and driving the desired action. By analyzing these metrics and insights, we ensure that our flyer and brochure design efforts deliver measurable results and contribute to your business's marketing success."
-          }
-        ],
-        stats : [
-          {
-            data: "95%",
-            title: "Client Satisfaction Rate"
-          },
-          {
-            data: "500+",
-            title: "Projects Completed"
-          },
-          {
-            data: "3x",
-            title: "Increase in Brand Visibility"
-          }
-        ],
+      ],
+      faq: [
+        {
+          question: "What flyer and brochure design services do you offer?",
+          answer: "We offer a comprehensive range of flyer and brochure design services tailored to meet the specific needs of businesses across various industries. Our services include flyer design, brochure design, leaflet design, poster design, catalogue design, and print-ready file preparation. Whether you need promotional materials for events, product launches, or marketing campaigns, our experienced designers can create visually stunning and impactful designs that effectively communicate your message and captivate your audience."
+        },
+        {
+          question: "How can professional flyer and brochure design benefit my business?",
+          answer: "Professional flyer and brochure design are essential for capturing the attention of your target audience and conveying your brand message effectively. Well-designed flyers and brochures can help you stand out in a crowded marketplace, attract potential customers, and drive engagement with your brand. Whether you're promoting a new product, showcasing your services, or highlighting key information, investing in professional flyer and brochure design can enhance brand visibility, credibility, and memorability, ultimately leading to increased sales and revenue."
+        },
+        {
+          question: "Is professional flyer and brochure design suitable for my business?",
+          answer: "Absolutely! Professional flyer and brochure design are beneficial for businesses of all sizes and industries that want to create impactful marketing collateral and leave a lasting impression on their audience. Whether you're a small business, a nonprofit organization, or a multinational corporation, well-designed flyers and brochures can effectively communicate your brand message, showcase your offerings, and drive customer engagement. Regardless of your industry or target market, professional flyer and brochure design can help you achieve your marketing objectives and stand out from the competition."
+        },
+        {
+          question: "What are the benefits of investing in professional flyer and brochure design?",
+          answer: "Investing in professional flyer and brochure design offers numerous benefits for your business. Some key advantages include increased brand visibility and recognition, enhanced marketing effectiveness, improved customer engagement and response rates, differentiation from competitors, and a professional image. Professionally designed flyers and brochures can help you attract attention, generate interest, and motivate action among your target audience, ultimately driving business growth and success."
+        },
+        {
+          question: "How do you measure the success of flyer and brochure design projects?",
+          answer: "We measure the success of flyer and brochure design projects through various key performance indicators (KPIs) such as engagement metrics (e.g., views, clicks, conversions), response rates, brand recall, customer feedback, and sales impact. Additionally, we assess the alignment of the designs with your brand identity and marketing objectives, as well as their effectiveness in conveying the intended message and driving the desired action. By analyzing these metrics and insights, we ensure that our flyer and brochure design efforts deliver measurable results and contribute to your business's marketing success."
+        }
+      ],
+      stats: [
+        {
+          data: "95%",
+          title: "Client Satisfaction Rate"
+        },
+        {
+          data: "500+",
+          title: "Projects Completed"
+        },
+        {
+          data: "3x",
+          title: "Increase in Brand Visibility"
+        }
+      ],
     },
-    
+
   ],
 
   faq: [
