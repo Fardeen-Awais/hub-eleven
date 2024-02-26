@@ -3,6 +3,24 @@ import TalkNowBtn from './_subcomponents/TalkNowBtn'
 import { Image } from '@nextui-org/react'
 import NextImage from 'next/image'
 const Hero = () => {
+    const words = [
+        {
+          text: "Build",
+        },
+        {
+          text: "awesome",
+        },
+        {
+          text: "apps",
+        },
+        {
+          text: "with",
+        },
+        {
+          text: "Aceternity.",
+          className: "text-blue-500 dark:text-blue-500",
+        },
+      ];
     return (
         <section className='flex flex-col md:flex-row justify-start sm:justify-start items-center max-w-7xl mx-auto gap-10 min-h-screen z-10'>
             <div className='flex flex-col sm:flex-row items-center py-5 lg:gap-20'>
