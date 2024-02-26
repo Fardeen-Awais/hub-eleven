@@ -6,7 +6,7 @@ import SubRoutes from "./SubRoutes"
 const Sidebar = () => {
   return (
     <div className="p-5 h-full border-r flex flex-col overflow-y-auto gap-10 shadow-sm ">
-        <div className="">
+        <div className="w-20 h-20">
             <Logo />
         </div>
         <div className="sm:hidden flex flex-col w-full">
