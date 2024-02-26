@@ -1,3 +1,4 @@
+import { nextui } from "@nextui-org/react";
 import type { Config } from "tailwindcss"
 const defaultTheme = require("tailwindcss/defaultTheme");
 const colors = require("tailwindcss/colors");
@@ -12,6 +13,7 @@ const config = {
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   prefix: "",
   theme: {
@@ -79,7 +81,7 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate",), require('@tailwindcss/typography'),addVariablesForColors,],
+  plugins: [require("tailwindcss-animate",), require('@tailwindcss/typography'),addVariablesForColors,nextui()],
 } satisfies Config
 function addVariablesForColors({ addBase, theme }: any) {
   let allColors = flattenColorPalette(theme("colors"));

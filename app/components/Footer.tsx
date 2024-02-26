@@ -31,7 +31,7 @@ export default () => {
                         <div>
                             <Logo />
                         </div>
-                        <p className="text-center px-5 max-w-lg">
+                        <p className="text-center px-5 max-w-sm md:max-w-md lg:max-w-lg">
                             What you are waiting for now. Start your journey with us now and grow your business.
                         </p>
                     </div>
@@ -41,7 +41,7 @@ export default () => {
                     </div>
                 </div>
                 
-                <div className="flex flex-col md:flex-row mt-10 py-10 border-t items-center justify-between gap-5 px-5">
+                <div className="flex flex-col md:flex-row mt-10 py-10 items-center justify-between gap-5 px-5">
                     <div className="flex">
                         <ul className="flex flex-wrap items-center gap-4 mt-6 sm:text-sm sm:mt-0">
                             {

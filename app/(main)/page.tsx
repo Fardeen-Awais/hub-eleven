@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Hero from "./_component/Hero";
 import About from "./_component/About";
 import Service from "./_component/Service";
@@ -7,6 +6,7 @@ import Section02 from "./_component/Section02";
 import Explore from "./_component/Explore";
 import Company from "./_component/Company";
 import Seperator from "./_component/_subcomponents/Seperator";
+import Image from "next/image";
 
 export default function Home() {
   return (

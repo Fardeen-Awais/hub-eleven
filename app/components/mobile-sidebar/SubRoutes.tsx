@@ -3,7 +3,8 @@ import React from 'react'
 import { services } from '@/app/constant'
 import { MinusIcon, PlusIcon } from 'lucide-react'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
-import Image from 'next/image'
+import { Image } from '@nextui-org/react'
+import NextImage from 'next/image'
 
 const SubRoutes = () => {
     const [plus, setPlus] = React.useState(true)
@@ -16,22 +17,22 @@ const SubRoutes = () => {
             <div className='flex flex-col gap-5'>
                 <Accordion type='multiple' className='flex flex-col items-start gap-2 border-b border-gray-300 '>
                     {services.map((service, index) => (
-                        <AccordionItem value={service.title} key={index} className='flex flex-col gap-5'>
+                        <AccordionItem value={service.title} key={service.title} className='flex flex-col gap-5'>
                             <div className='flex flex-col items-start gap-2 py-1'>
                                 <AccordionTrigger className='flex items-center gap-2'>
                                     <div className='flex gap-3 items-center justify-center'>
-                                    <Image src={service.icon} alt={service.title} width={120} height={120} className='w-8 h-8' />
+                                        <Image as={NextImage} src={service.icon} alt={service.title} width={120} height={120} radius='none' className='w-8 h-8' quality={50} priority />
 
-                                    <Link className='text-base' href={service.href}>{service.title}</Link></div>
+                                        <Link className='text-base' href={service.href}>{service.title}</Link></div>
 
                                     {
-                                    plus ? <PlusIcon onClick={() => setPlus(true)} className='w-4 h-4' /> : <MinusIcon onClick={() => setPlus(false)} className='w-4 h-4' />
+                                        plus ? <PlusIcon onClick={() => setPlus(true)} className='w-4 h-4' /> : <MinusIcon onClick={() => setPlus(false)} className='w-4 h-4' />
                                     }
                                 </AccordionTrigger>
                                 <AccordionContent className='flex flex-col gap-5'>
                                     {service.subservices.map((subservice, index) => (
-                                        <Link href={subservice.href} key={index} className='text-sm text-gray-600 flex gap-5'>
-                                            <Image src={subservice.icon} alt={subservice.title} width={120} height={120} className='w-6 h-6' />
+                                        <Link href={subservice.href} key={subservice.title} className='text-sm text-gray-600 flex gap-5'>
+                                            <Image as={NextImage} src={subservice.icon} alt={subservice.title} width={120} height={120} className='w-6 h-6' radius='none' />
                                             {subservice.title}
                                         </Link>
                                     ))}
