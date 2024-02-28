@@ -10,7 +10,7 @@ const Service_About = ({ data }: any) => {
                 <div className='flex flex-col sm:flex-row items-center gap-5 sm:py-10' key={index}>
                     {(index % 2 === 1) ? ( // Check if it's the second item
                         <div className='flex justify-between '>
-                            <div className='hidden sm:flex flex-col sm:flex-row items-center justify-between gap-10 mx-auto p-5 bg-red-400'>
+                            <div className='hidden sm:flex flex-col sm:flex-row items-center justify-between gap-10 mx-auto p-5 bg-secondary text-secondary-foreground hover:bg-secondary/90 rounded-lg'>
                                 <div className='flex flex-col items-center md:items-start gap-5 '>
                                     <Image className='sm:flex md:hidden w-60 h-60 sm:w-72 sm:h-60 lg:w-96 lg:h-80 relative' src={item.image} width={500} height={500} alt='Digital marketing related picture' />
                                     <div className='flex flex-col gap-5'>
@@ -35,7 +35,8 @@ const Service_About = ({ data }: any) => {
                             </div>
                         </div>
                     ) : (
-                        <div className='flex flex-col md:flex-row items-center justify-between gap-10 sm:gap-20 mx-auto max-w-7xl max-h-screen w-full bg-yellow-400 p-5'>
+                        <div className='flex flex-col md:flex-row items-center justify-between gap-10 sm:gap-20 mx-auto max-w-7xl max-h-screen w-full border-l-3 bg-primary text-primary-foreground hover:bg-primary/90 sm:rounded-r-full rounded-l-3xl hover:rounded-br-3xl hover:
+                        hover:rounded-tr-lg transition-all p-5'>
                             <div className='flex text-center sm:hidden flex-col gap-5 h-fit'>
                                 <h3 className='font-semibold'>{item.title}</h3>
                                 <p className='text-sm max-w-md'>{item.description}</p>
