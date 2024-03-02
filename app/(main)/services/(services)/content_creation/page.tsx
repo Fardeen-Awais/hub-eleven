@@ -5,6 +5,7 @@ import Service_About from '../../_component/Service_About'
 import { ContentCreation } from '@/app/constant'
 import Content_Strategy from './_components/Content_Strategy'
 import Service_Hero from '../../_component/Service_Hero'
+import Service_company from '../../_component/Service_company'
 const page = () => {
   const { title, description,image, sections, faq,stats } = ContentCreation
   return (
@@ -13,6 +14,7 @@ const page = () => {
       <Service_About data={sections}/>
       <Content_Strategy/>
       <Service_Stats stats={stats}/>
+      <Service_company/>
       <Service_FAQ faq={faq}/>
     </section>
   )

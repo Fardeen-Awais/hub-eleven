@@ -5,19 +5,19 @@ const Service_company = () => {
     const companies = [
         {
             title: 'Amazon',
-            image: '/assets/companies/amazon.png',
+            image: '/assets/companies/Logo-2.png.webp',
         },
         {
             title: 'meta',
-            image: '/assets/companies/meta.png',
+            image: '/assets/companies/Logo-Ahmed-2.png.webp',
         },
         {
             title: 'Upwork',
-            image: '/assets/companies/upwork.png',
+            image: '/assets/companies/logo.jpg.webp',
         },
         {
             title: 'Google',
-            image: '/assets/companies/google.png',
+            image: '/assets/companies/Ryan-Baker-980x264.png.webp',
         },
         // Add more card objects as needed
     ];
@@ -33,10 +33,10 @@ const Service_company = () => {
                 <div className='max-w-xs text-center sm:max-w-sm md:max-w-md lg:max-w-lg'>
                     <h3 className='font-semibold'>Trusted by our Results Driven Clients</h3>
                 </div>
-                <div>
+                <div className='flex items-center justify-center mx-auto'>
                     <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-20 place-items-center justify-items-center'>
                         {companies.map((company) => (
-                            <div key={company.title} className='w-24 h-24 border rounded-sm shadow-sm'>
+                            <div key={company.title} className='w-32 h-32 sm:w-40 sm:h-40 rounded-sm flex items-center justify-center'>
                                 <Image src={company.image} alt={company.title} width={300} height={300} />
                             </div>
                         ))}

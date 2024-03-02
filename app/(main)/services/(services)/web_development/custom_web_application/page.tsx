@@ -8,6 +8,7 @@ import { TracingBeam } from '../../../_component/tracing-beam'
 import Image from 'next/image'
 import { twMerge } from 'tailwind-merge'
 import { WebDevelopment } from '@/app/constant'
+import Service_company from '../../../_component/Service_company'
 
 const page = () => {
   const { title, sections } = WebDevelopment
@@ -40,6 +41,7 @@ const page = () => {
         </div>
       </TracingBeam>
       <SubService_About data={custome_app.sections} />
+      <Service_company/>
       <Service_Stats stats={custome_app.stats} />
       <Service_Form />
       <Service_FAQ faq={custome_app.faq} />

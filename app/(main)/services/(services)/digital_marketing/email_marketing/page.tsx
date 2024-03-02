@@ -8,6 +8,7 @@ import Service_Form from '../../../_component/Service_Form'
 import { TracingBeam } from '../../../_component/tracing-beam'
 import Image from 'next/image'
 import { twMerge } from 'tailwind-merge'
+import Service_company from '../../../_component/Service_company'
 
 const page = () => {
   const { title, sections } = DigitalMarketing
@@ -40,6 +41,7 @@ const page = () => {
         </div>
       </TracingBeam>
       <SubService_About data={email.sections} />
+      <Service_company/>
       <Service_Stats stats={email.stats} />
       <Service_Form />
       <Service_FAQ faq={email.faq} />

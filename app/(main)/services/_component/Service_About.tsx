@@ -25,7 +25,7 @@ const Service_About = ({ data }: any) => {
                                 <Image className='sm:hidden md:flex w-60 h-60 sm:w-72 sm:h-60 lg:w-96 lg:h-80 relative' src={item.image} width={500} height={500} alt='Digital marketing related picture' />
                             </div>
 
-                            <div className='flex flex-col justify-between items-center sm:hidden gap-10 px-0 sm:px-10 max-h-screen bg-green-400'>
+                            <div className='flex flex-col justify-between items-center sm:hidden gap-10 p-2 sm:px-10 max-h-screen bg-gray-200 rounded-3xl'>
                                 <div className='flex flex-col gap-5 text-center'>
                                     <h3 className='font-semibold'>{item.title}</h3>
                                     <p className='text-sm max-w-md '>{item.description}</p>
@@ -35,8 +35,7 @@ const Service_About = ({ data }: any) => {
                             </div>
                         </div>
                     ) : (
-                        <div className='flex flex-col md:flex-row items-center justify-between gap-10 sm:gap-20 mx-auto max-w-7xl max-h-screen w-full border-l-3 bg-primary text-primary-foreground hover:bg-primary/90 sm:rounded-r-full rounded-l-3xl hover:rounded-br-3xl hover:
-                        hover:rounded-tr-lg transition-all p-5'>
+                        <div className='flex flex-col md:flex-row items-center justify-between gap-10 sm:gap-20 mx-auto max-w-7xl max-h-screen w-full border-l-3 bg-primary text-primary-foreground rounded-3xl p-5'>
                             <div className='flex text-center sm:hidden flex-col gap-5 h-fit'>
                                 <h3 className='font-semibold'>{item.title}</h3>
                                 <p className='text-sm max-w-md'>{item.description}</p>
