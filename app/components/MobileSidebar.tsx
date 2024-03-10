@@ -16,7 +16,7 @@ import { useState } from "react";
 
 export const MobileSideBar = () => {
     const [plus, setPlus] = useState(true)
-    const [open, setOpen] = useState(true);
+    const [open, setOpen] = useState(false);
 
     // Function to toggle the 'open' state
     const toggleOpen = () => {
