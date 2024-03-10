@@ -16,7 +16,7 @@ import { useState } from "react";
 
 export const MobileSideBar = () => {
     const [plus, setPlus] = useState(true)
-    const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState(true);
 
     // Function to toggle the 'open' state
     const toggleOpen = () => {
@@ -25,7 +25,7 @@ export const MobileSideBar = () => {
 
     return (
         <>
-            <Sheet open={open} onOpenChange={toggleOpen} >
+            <Sheet open={!open} onOpenChange={toggleOpen} >
                 <SheetTrigger className="md:hidden pr-4 hover:opacity-75 transition ">
                     <Menu className="text-cyan-500" />
                 </SheetTrigger>
