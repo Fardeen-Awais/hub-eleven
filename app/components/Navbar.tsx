@@ -1,6 +1,6 @@
 'use client'
 import { useEffect, useState } from 'react'
-import { MobileSideBar } from './mobile-sidebar/MobileSidebar'
+import { MobileSideBar } from './MobileSidebar'
 import TalkNowBtn from '../(main)/_component/_subcomponents/TalkNowBtn'
 import Logo from './Logo'
 import NavigationMenu from './NavigationMenu'
