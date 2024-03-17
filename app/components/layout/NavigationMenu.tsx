@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { services } from '../constant';
+import { services } from '../../constant';
 import Link from 'next/link';
 
 const routes = [
@@ -13,7 +13,7 @@ const routes = [
   },
   {
     label: 'Our Work',
-    href: '/about',
+    href: '/work',
   },
   {
     label: 'Contact',

@@ -1,5 +1,5 @@
 import Link from "next/link"
-import TalkNowBtn from "../(main)/_component/_subcomponents/TalkNowBtn"
+import TalkNowBtn from "../../(main)/_component/_subcomponents/TalkNowBtn"
 import Logo from "./Logo"
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
 import Image from "next/image"

@@ -74,7 +74,7 @@ export const MobileSideBar = () => {
                                 <Link onClick={toggleOpen} className='border-b border-gray-300 py-4 hover:text-cyan-700 hover:scale-95 hover:opacity-85 transition-all' href={'/about'}>
                                     <p className='text-xl font-semibold cursor-pointer'>About</p>
                                 </Link>
-                                <Link onClick={toggleOpen} className='border-b border-gray-300 py-4 hover:text-cyan-700 hover:scale-95 hover:opacity-85 transition-all' href={'/about'}>
+                                <Link onClick={toggleOpen} className='border-b border-gray-300 py-4 hover:text-cyan-700 hover:scale-95 hover:opacity-85 transition-all' href={'/work'}>
                                     <p className='text-xl font-semibold cursor-pointer'>Our Work</p>
                                 </Link>
                                 <Link onClick={toggleOpen} className='border-b border-gray-300 py-4 hover:text-cyan-700 hover:scale-95 hover:opacity-85 transition-all' href={'/contact'}>
