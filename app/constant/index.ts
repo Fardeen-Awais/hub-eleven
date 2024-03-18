@@ -1,13 +1,13 @@
 export const services = [
   {
     title: 'Digital Marketing',
-    image: '/services/Digital_marketing.gif',
+    image: '/services/DM/Digital_marketing.gif',
     href: '/services/digital_marketing',
     description: 'Boost your online presence with our comprehensive Digital Marketing services.',
     subservices: [
       {
         title: 'Amazon',
-        image: '/services/amazon.gif',
+        image: '/services/DM/amazon_hero.jpg',
         href: '/services/digital_marketing/amazon',
         description: 'Leverage the power of Amazon for your digital marketing strategies. Enhance your product visibility and drive sales through Amazon’s vast marketplace.',
         icon: '/assets/icons/amazon.png'
@@ -38,7 +38,7 @@ export const services = [
   },
   {
     title: 'SM Management',
-    image: '/assets/SettingResearch.gif',
+    image: '/services/SMM/social_media.gif',
     href: '/services/social_media_management',
     description: "Maximize your brand's presence and engagement on social media platforms.",
     subservices: [
@@ -68,7 +68,7 @@ export const services = [
   },
   {
     title: 'Web Development',
-    image: '/services/webdev_01.gif',
+    image: '/services/WEB/web.gif',
     href: '/services/web_development',
     description: 'Unlock the potential of modern web technologies with our Web Development services.',
     subservices: [
@@ -99,7 +99,7 @@ export const services = [
   },
   {
     title: 'Content Creation',
-    image: '/services/content_creation.gif',
+    image: '/services/CONTENT/Content.gif',
     href: '/services/content_creation',
     description: 'Elevate your brand with our creative Content Creation services.',
     subservices: [
@@ -123,7 +123,7 @@ export const services = [
   },
   {
     title: 'Graphic Designing',
-    image: '/services/graphic_designing.gif',
+    image: '/services/DESIGN/designing.gif',
     href: '/services/graphic_designing',
     description: 'Transform your brand visuals with our creative Graphic Designing services.',
     subservices: [
@@ -215,15 +215,20 @@ export const DigitalMarketing = {
       ],
       stats: [
         {
-          data: "90%",
+          data: 90,
+      sign:"%",
           title: "Client Success Rate"
         },
         {
-          data: "13+",
+          data: 13,
+          
+      sign:"+",
           title: "Countries Served"
         },
         {
-          data: "2x",
+          data: 2,
+          
+      sign:"x",
           title: "Revenue Growth"
         }
       ]
@@ -285,15 +290,21 @@ export const DigitalMarketing = {
       ],
       stats: [
         {
-          data: "90%",
+          data: 90,
+          
+      sign:"%",
           title: "Client Success Rate"
         },
         {
-          data: "30+",
+          data: 30,
+          
+      sign:"+",
           title: "Satisfied Clients"
         },
         {
-          data: "10x",
+          data: 10,
+          
+      sign:"X",
           title: "Search Engine Traffic"
         }
       ]
@@ -351,15 +362,21 @@ export const DigitalMarketing = {
       ],
       stats: [
         {
-          data: "90%",
+          data: 90,
+          
+      sign:"%",
           title: "Client Success Rate"
         },
         {
-          data: "30+",
+          data: 30,
+          
+      sign:"+",
           title: "Satisfied Clients"
         },
         {
-          data: "10x",
+          data: 10,
+          
+      sign:"%",
           title: "Increase in Conversions"
         }
       ]
@@ -424,15 +441,21 @@ export const DigitalMarketing = {
       ],
       stats: [
         {
-          data: "90%",
+          data: 90,
+          
+      sign:"%",
           title: "Client Success Rate"
         },
         {
-          data: "30+",
+          data: 30,
+          
+      sign:"+",
           title: "Satisfied Clients"
         },
         {
-          data: "10x",
+          data: 10,
+          
+      sign:"x",
           title: "Increase in Email Engagement"
         }
       ],
@@ -454,15 +477,18 @@ export const DigitalMarketing = {
   ],
   stats: [
     {
-      data: "90%",
+      data: 90,
+      sign:"%",
       title: "The success rate"
     },
     {
-      data: "13+",
+      data: 13,
+      sign:"+",
       title: "Countries"
     },
     {
-      data: "2x",
+      data: 2,
+      sign:"x",
       title: "Total revenue"
     },
   ],
@@ -522,15 +548,21 @@ export const SocialMediaManagement = {
 
       stats: [
         {
-          data: "90%",
+          data: 90,
+          
+      sign:"%",
           title: "Client Success Rate"
         },
         {
-          data: "30+",
+          data: 30,
+          
+      sign:"+",
           title: "Managed Accounts"
         },
         {
-          data: "4x",
+          data: 4,
+          
+      sign:"x",
           title: "Engagement"
         }
       ]
@@ -584,15 +616,21 @@ export const SocialMediaManagement = {
       ],
       stats: [
         {
-          data: "90%",
+          data: 90,
+          
+      sign:"%",
           title: "Client Success Rate"
         },
         {
-          data: "30+",
+          data: 30,
+          
+      sign:"+",
           title: "Satisfied Clients"
         },
         {
-          data: "10x",
+          data: 10,
+          
+      sign:"x",
           title: "Profit reach"
         }
       ]
@@ -646,15 +684,21 @@ export const SocialMediaManagement = {
       ],
       stats: [
         {
-          data: "90%",
+          data: 90,
+          
+      sign:"%",
           title: "Client Success Rate"
         },
         {
-          data: "30+",
+          data: 30,
+          
+      sign:"+",
           title: "Satisfied Clients"
         },
         {
-          data: "10x",
+          data: 10,
+          
+      sign:"x",
           title: "Increase in Brand Awareness"
         }
       ],
@@ -678,15 +722,21 @@ export const SocialMediaManagement = {
   ],
   stats: [
     {
-      data: "90%",
+      data: 90,
+      
+      sign:"%",
       title: "The success rate"
     },
     {
-      data: "40+",
+      data: 40,
+      
+      sign:"+",
       title: "Countries"
     },
     {
-      data: "2x",
+      data: 2,
+      
+      sign:"x",
       title: "Total revenue"
     },
   ],
@@ -747,15 +797,18 @@ export const WebDevelopment = {
       ],
       stats: [
         {
-          data: "90%",
+          data: 90,
+          sign:"%",
           title: "Client Satisfaction Rate"
         },
         {
-          data: "30+",
+          data: 30,
+          sign:"%",
           title: "Successfully Launched Stores"
         },
         {
-          data: "4x",
+          data: 4,
+          sign:"x",
           title: "Increase in Conversion Rates"
         }
       ]
@@ -809,15 +862,21 @@ export const WebDevelopment = {
       ],
       stats: [
         {
-          data: "90%",
+          data: 90,
+          
+      sign:"%",
           title: "Client Satisfaction Rate"
         },
         {
-          data: "30+",
+          data: 30,
+          
+      sign:"+",
           title: "Successfully Launched Business Sites"
         },
         {
-          data: "4x",
+          data: 4,
+          
+      sign:"x",
           title: "Increase in Conversion Rates"
         }
       ]
@@ -871,15 +930,21 @@ export const WebDevelopment = {
       ],
       stats: [
         {
-          data: "95%",
+          data: 95,
+          
+      sign:"%",
           title: "Client Satisfaction Rate"
         },
         {
-          data: "50+",
+          data: 50,
+          
+      sign:"+",
           title: "Successfully Developed Web Applications"
         },
         {
-          data: "3x",
+          data: 3,
+          
+      sign:"x",
           title: "Increase in Operational Efficiency"
         }
       ],
@@ -901,15 +966,21 @@ export const WebDevelopment = {
   ],
   stats: [
     {
-      data: "48",
+      data: 48,
+      
+      sign:"+",
       title: "Web Development Projects"
     },
     {
-      data: "40+",
+      data: 40,
+      
+      sign:"+",
       title: "Countries"
     },
     {
-      data: "30M+",
+      data: 30,
+      
+      sign:"M+",
       title: "Total revenue"
     },
   ],
@@ -959,15 +1030,20 @@ export const ContentCreation = {
       ],
       stats: [
         {
-          data: "90%",
+          data: 90,
+          
+      sign:"%",
           title: "Client Satisfaction Rate"
         },
         {
-          data: "1000+",
+          data: 1000,
+          
+      sign:"+",
           title: "Content Pieces Created"
         },
         {
-          data: "2x",
+          data: 2,
+      sign:"x",
           title: "Increase in Website Engagement"
         }
       ],
@@ -1014,15 +1090,21 @@ export const ContentCreation = {
 
       stats: [
         {
-          data: "90%",
+          data: 90,
+          
+      sign:"%",
           title: "Client Satisfaction Rate"
         },
         {
-          data: "500+",
+          data: 500,
+          
+      sign:"+",
           title: "Videos Produced"
         },
         {
-          data: "3x",
+          data: 3,
+          
+      sign:"x",
           title: "Increase in Engagement"
         }
       ]
@@ -1045,15 +1127,21 @@ export const ContentCreation = {
   ],
   stats: [
     {
-      data: '95%',
+      data: 95,
+      
+      sign:"%",
       title: 'Increased Reach',
     },
     {
-      data: '5+',
+      data: 5,
+      
+      sign:"+",
       title: 'Company trusted',
     },
     {
-      data: '4x',
+      data: 4,
+      
+      sign:"x",
       title: 'Success Rate',
     },
   ],
@@ -1111,15 +1199,21 @@ export const GraphicDesigning = {
       ],
       stats: [
         {
-          data: "95%",
+          data: 95,
+          
+      sign:"%",
           title: "Client Satisfaction Rate"
         },
         {
-          data: "500+",
+          data: 500,
+          
+      sign:"+",
           title: "Logos Designed"
         },
         {
-          data: "3x",
+          data: 3,
+          
+      sign:"x",
           title: "Increase in Brand Recognition"
         }
       ],
@@ -1175,15 +1269,21 @@ export const GraphicDesigning = {
 
       stats: [
         {
-          data: "90%",
+          data: 90,
+          
+      sign:"%",
           title: "Client Satisfaction Rate"
         },
         {
-          data: "300+",
+          data: 300,
+          
+      sign:"+",
           title: "Projects Completed"
         },
         {
-          data: "4x",
+          data: 4,
+          
+      sign:"x",
           title: "Increase in User Engagement"
         }
       ],
@@ -1239,15 +1339,21 @@ export const GraphicDesigning = {
       ],
       stats: [
         {
-          data: "95%",
+          data: 95,
+          
+      sign:"%",
           title: "Client Satisfaction Rate"
         },
         {
-          data: "500+",
+          data: 500,
+          
+      sign:"+",
           title: "Projects Completed"
         },
         {
-          data: "3x",
+          data: 3,
+          
+      sign:"x",
           title: "Increase in Brand Visibility"
         }
       ],
@@ -1272,15 +1378,20 @@ export const GraphicDesigning = {
 
   stats: [
     {
-      data: "85%",
+      data: 85,
+      
+      sign:"%",
       title: "Design Satisfaction"
     },
     {
-      data: "30+",
+      data: 30,
+      
+      sign:"+",
       title: "Industries Served"
     },
     {
-      data: "1M+",
+      data: 1,
+      sign:"M+",
       title: "Design Elements Created"
     },
   ],

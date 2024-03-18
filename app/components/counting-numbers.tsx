@@ -6,7 +6,7 @@ export default function CountingNumbers({
   value,
   className,
   start = 0,
-  duration = 800,
+  duration = 1000,
 }: {
   value: number;
   className: string;

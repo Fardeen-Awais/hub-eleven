@@ -3,8 +3,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import Image from 'next/image'
 import React from 'react'
 import ServiceCards from './_subcomponents/Cards';
-import Lottie from 'lottie-react';
-import animateData from '../../../public/services/DM/Digital_marketing.json'
 import Link from 'next/link';
 const Service = () => {
   const cardData = [
