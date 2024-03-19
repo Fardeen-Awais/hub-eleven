@@ -1,13 +1,13 @@
 'use client'
 const ContactUs = () =>  {
 
-    const servicesItems = ["Mobile development", "UI/UX Design", "web development", "SEO"]
+    const servicesItems = ["Amazon", "SEO", "PPC", "Email marketing","Social media organic", "meta ads", "influence marketing","Ecommerce store","Business site","Custom web app","Content writing","Videography","Logo designing","UI/UX design","Flyer and Brochurs"]
 
     return (
         <main className="flex overflow-hidden max-w-7xl m-5 min-h-screen">
-            <div className="flex-1 hidden lg:block h-full">
+            {/* <div className="flex-1 hidden lg:block h-full">
                 <img src="https://images.unsplash.com/photo-1697135807547-5fa9fd22d9ec?auto=format&fit=crop&q=80&w=3387&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="w-full h-screen object-cover" />
-            </div>
+            </div> */}
             <div className="flex-1 lg:flex lg:justify-center lg:min-h-screen lg:overflow-hidden h-full">
                 <div className="max-w-lg flex-1 mx-auto px-4 text-gray-600">
                     <div>
@@ -55,7 +55,7 @@ const ContactUs = () =>  {
                                                 <input id={`service-${idx}`} type="checkbox" className="checkbox-item peer hidden" />
                                                 <label
                                                     htmlFor={`service-${idx}`}
-                                                    className="relative flex w-5 h-5 bg-white peer-checked:bg-indigo-600 rounded-md border ring-offset-2 ring-indigo-600 duration-150 peer-active:ring cursor-pointer after:absolute after:inset-x-0 after:top-[3px] after:m-auto after:w-1.5 after:h-2.5 after:border-r-2 after:border-b-2 after:border-white after:rotate-45"
+                                                    className="relative flex w-5 h-5 bg-white peer-checked:bg-cyan-600 rounded-md border ring-offset-2 ring-cyan-600 duration-150 peer-active:ring cursor-pointer after:absolute after:inset-x-0 after:top-[3px] after:m-auto after:w-1.5 after:h-2.5 after:border-r-2 after:border-b-2 after:border-white after:rotate-45"
                                                 >
                                                 </label>
                                             </div>

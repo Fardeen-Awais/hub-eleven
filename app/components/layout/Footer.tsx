@@ -24,18 +24,18 @@ export default () => {
     ];
 
     return (
-        <footer style={{ content: "", backgroundImage: 'url("/assets/footer-worldmap.svg")', backgroundSize: 'fill', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', zIndex: -1 }} className="bg-black text-white sm:h-[480px] md:h-[450px] h-[680px] flex flex-col items-center justify-center px-5">
+        <footer style={{ content: "", backgroundImage: 'url("/assets/footer-worldmap.svg")', backgroundSize: 'fill', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', zIndex: -1 }} className="bg-black text-white sm:h-[500px] md:h-[480px] h-[680px] flex flex-col items-center justify-center px-5">
             <div className="flex flex-col mx-auto w-full justify-between gap-10">
 
                 <div className="flex flex-col sm:flex-row items-center justify-between px-5 gap-10">
                     <div className="flex flex-col gap-5 items-center">
                         <Logo />
-                        <p className="max-w-md text-xs sm:max-w-sm sm:text-sm">Anwar IT services limited trading as Hub Eleven since 2013 is a renowned establishment that provides digital services, consultation, support, and more to a wide spectrum of customers from FMCGs to small family-run businesses. Our 10 years of knowledge and experience has allowed us to effectively aid our customers with strategies unique to them.</p>
+                        <p className="max-w-md text-xs sm:max-w-80 sm:text-sm">Anwar IT services limited trading as Hub Eleven since 2013 is a renowned establishment that provides digital services, consultation, support, and more to a wide spectrum of customers from FMCGs to small family-run businesses. Our 10 years of knowledge and experience has allowed us to effectively aid our customers with strategies unique to them.</p>
                         <TalkNowBtn/>
                     </div>
                     <div className="flex gap-5">
-                        <div className="flex flex-col items-start">
-                            <h4 className="text-lg font-semibold">Navigate</h4>
+                        <div className="flex flex-col items-start gap-5">
+                            <h4 className="text-xl font-semibold">Navigate</h4>
                             <ul className="flex flex-col gap-1 items-start">
                                 <li className="hover:text-cyan-400 transition-all"><Link href={'/about'}>About Us</Link></li>
                                 <li className="hover:text-cyan-400 transition-all"><Link href={'/services'}>Services</Link></li>
@@ -44,8 +44,8 @@ export default () => {
                                 <li className="hover:text-cyan-400 transition-all"><Link href={'/contact'}>Contact</Link></li>
                             </ul>
                         </div>
-                        <div className="flex flex-col items-start ">
-                            <h4 className="text-lg font-semibold">Contact Info</h4>
+                        <div className="flex flex-col items-start gap-5">
+                            <h4 className="text-xl font-semibold">Contact Info</h4>
                             <div className="flex flex-col items-start">
                                 <p><span className="font-semibold text-base">Phone:</span>+44 161 791 1352</p>
                                 <p><span className="font-semibold text-base">Email:</span> info@hubeleven.com</p>
