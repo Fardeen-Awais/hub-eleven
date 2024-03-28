@@ -1,5 +1,4 @@
 import React from 'react'
-import DigitalMarketing_Hero from './_component/DigitalMarketing_Hero'
 import DigitalMarketing_Strategy from './_component/DigitalMarketing_Strategy'
 import { DigitalMarketing } from '@/app/constant'
 import Service_About from '../../_component/Service_About'
@@ -10,11 +9,9 @@ const page = () => {
   const {title, description, sections, faq,stats,image} = DigitalMarketing
   return (
     <section className="flex flex-col max-w-screen min-h-screen items-center justify-start gap-5 w-full mx-auto overflow-hidden px-5">
-      {/* <DigitalMarketing_Hero title={title} description={description}/> */}
       <Service_Hero title={title} description={description} image={image}/>
       <Service_About data={sections}/>      
       <DigitalMarketing_Strategy/>
-      {/* <Services subservices={subservices}/> */}
       <Service_Stats stats={stats}/>
       <Service_FAQ faq={faq}/>
     </section>
