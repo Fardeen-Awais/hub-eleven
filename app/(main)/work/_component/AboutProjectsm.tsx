@@ -1,37 +1,34 @@
 
-import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar"
 import { Separator } from "@/components/ui/separator"
 
-export function AboutProjectsm() {
+interface AboutProjectsmProps {
+  title: string
+  serviceprovided: Array<string>
+  techprovided: Array<string>
+}
+export function AboutProjectsm({ title, serviceprovided, techprovided }: AboutProjectsmProps) {
   return (
     <div className="border border-gray-400 text-black rounded-lg p-5 space-y-6 w-full">
       <div className="flex items-center space-x-3">
-        <Avatar>
-          <AvatarImage alt="gitness logo" src="/placeholder.svg?height=40&width=40" />
-          <AvatarFallback>CN</AvatarFallback>
-        </Avatar>
-        <div className="text-2xl font-bold">gitness</div>
+        <div className="text-2xl font-bold">{title}</div>
       </div>
-      <Separator/>
+      <Separator />
       <div className="flex flex-col gap-10 sm:flex-row sm:gap-40 w-full">
         <div>
           <h4 className="text-base font-semibold mb-2 text-cyan-800">Provided services</h4>
           <ul className="space-y-2">
-            <li>Brand Identity</li>
-            <li>Motion Design</li>
-            <li>Web Design</li>
-            <li>Web Development</li>
+            {serviceprovided.map((service, index) => (
+              <li key={index}>{service}</li>
+            ))}
           </ul>
+
         </div>
         <div>
           <h4 className="text-base font-semibold mb-2 text-cyan-800">Technology stack</h4>
           <ul className="space-y-2">
-            <li>React</li>
-            <li>TypeScript</li>
-            <li>Next.js</li>
-            <li>TailwindCSS</li>
-            <li>Docusaurus</li>
-            <li>Rive</li>
+            {techprovided.map((tech, index) => (
+              <li key={index}>{tech}</li>
+            ))}
           </ul>
         </div>
       </div>

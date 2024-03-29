@@ -4,29 +4,34 @@ import { Image } from '@nextui-org/react';
 import NextImage from "next/image"
 import RedirectBtn from '../RedirectButton';
 import { Separator } from '@/components/ui/separator';
-import { Check } from 'lucide-react';
-// import Header from './header';
-// import Social from './social';
-// import BackButton from './back-button';
+import imageUrlBuilder from '@sanity/image-url'
+import { client } from '@/sanity/lib/client';
+
 
 interface CardWrapperProps {
-    // children: React.ReactNode
     description: string;
     industry: string;
     title: string;
     label: string;
     href: string
+    image: string
 }
-const CaseStudy = ({ industry,title, description, label }: CardWrapperProps) => {
+
+const CaseStudy = ({ industry, title, description, label, image,href }: CardWrapperProps) => {
+    const builder = imageUrlBuilder(client)
+
+    function urlFor(source:any) {
+        return builder.image(source)
+    }
     return (
         <Card className='w-80 sm:w-72 lg:w-96 shadow-lg rounded-lg '>
-            <Image  as={NextImage} radius='none' src="https://maley.digital/wp-content/uploads/2023/07/flat-lay-baby-clothes-with-photo-camera-1024x768.jpg" alt="case-study" width={900} height={900} />
+            <Image className='h-72 w-full' as={NextImage} radius='none' src={urlFor(image).width(500).url()} alt={title} width={900} height={900} sizes='' />
             <CardHeader>
                 <div>
                     <p><span className='text-lg font-semibold'>Industry</span> | {industry}</p>
                 </div>
             </CardHeader>
-            <Separator className='my-3'/>
+            <Separator className='my-3' />
             <CardContent>
                 <div className='flex flex-col gap-5 '>
                     <div>
@@ -35,27 +40,12 @@ const CaseStudy = ({ industry,title, description, label }: CardWrapperProps) => 
                     <div>
                         <p className='line-clamp-5'>{description}</p>
                     </div>
-                    {/* <div className='list-none flex flex-col gap-3'>
-                        <h4 className='font-semibold text-xl text-cyan-800 '>Results</h4>
-                        <div className='flex'>
-                            <ul className='flex flex-col gap-y-2'>
-                                <li className='flex gap-2'>
-                                    <p className='max-w-sm'>{List1}</p>
-                                </li>
-                                <li className='flex gap-2'>
-                                    <p className='max-w-sm'>{List2}</p>
-                                </li>
-                                <li className='flex gap-2'>
-                                    <p className='max-w-sm'>{List3}</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div> */}
+
                 </div>
             </CardContent>
 
             <CardFooter>
-                <RedirectBtn label={label} href={`/work/${title}`} target="" size="default" />
+                <RedirectBtn label={label} href={href} target="" size="default" />
             </CardFooter>
         </Card>
     )

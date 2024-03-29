@@ -14,6 +14,10 @@ const nextConfig = {
             protocol: 'https',
             hostname: 'maley.digital',
           },
+          {
+            protocol: 'https',
+            hostname: 'cdn.sanity.io',
+          },
         ],
     },
 }

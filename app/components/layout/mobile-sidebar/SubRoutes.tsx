@@ -8,7 +8,6 @@ import NextImage from 'next/image'
 
 const SubRoutes = () => {
     const [plus, setPlus] = React.useState(true)
-    console.log({ services })
     return (
         <div className='flex flex-col gap-5'>
             <Link className='border-b border-gray-300 py-4 hover:text-cyan-700 hover:scale-95 hover:opacity-85 transition-all' href={'/services'}>
