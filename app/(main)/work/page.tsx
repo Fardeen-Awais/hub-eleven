@@ -16,8 +16,8 @@ const page = async () => {
   }`)
 
   return (
-    <main className='flex flex-col gap-10 items-center justify-center h-full mx-auto px-5'>
-      <div className='flex flex-col items-center gap-5 p-2'>
+    <main className='flex flex-col gap-10 items-center justify-center h-full mx-auto p-5 max-w-7xl '>
+      <div className='flex flex-col items-center gap-5 p-3'>
         <h3 className='max-w-2xl text-center font-semibold'><span className='text-cyan-600'>Case studies.</span>See what our top customer says about us</h3>
       </div>
       <div className='flex flex-col gap-20 sm:gap-40'>

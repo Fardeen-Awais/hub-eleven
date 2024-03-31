@@ -12,7 +12,6 @@ export default async function Page({ params }: { params: { slug: string } }) {
     const { slug } = params;
     const encodedSlug = encodeURIComponent(slug);
     const caseStudies = await client.fetch(`*[_type == "case-study" && slug.current == "${encodedSlug}"][0]`);
-    console.log({caseStudies});    
     return (
         <section className="flex gap-20 min-h-screen max-w-6xl mx-auto px-5">
             <div className="flex flex- gap-10">

@@ -37,7 +37,7 @@ export const services = [
     icon: '/assets/icons/digital-marketing.png'
   },
   {
-    title: 'SM Management',
+    title: 'SMM',
     image: '/services/SMM/social_media.gif',
     href: '/services/social_media_management',
     description: "Maximize your brand's presence and engagement on social media platforms.",
