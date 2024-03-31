@@ -6,7 +6,7 @@ import Link from "next/link";
 import { PortableText } from '@portabletext/react'
 import RichText from "../_component/RichText";
 
-export const revalidate = 0  // It will revalidate in an hour 
+export const revalidate = 3600 
 
 export default async function Page({ params }: { params: { slug: string } }) {
     const { slug } = params;
