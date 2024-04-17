@@ -1,5 +1,3 @@
-// LegalNotice.js
-
 import React from 'react';
 
 const LegalNotice = () => {
@@ -28,13 +26,13 @@ const LegalNotice = () => {
                         Neither hubeleven Group Ltd. nor any of its subsidiaries accept liability for any direct, indirect,
                         special, consequential, or other losses or damages of whatsoever kind arising out of access to, or the
                         use of this website or any information contained in it. We are, of course, happy to discuss with you the
-                        implications of any issue raised if you e-mail us at hello@hubeleven.com. <br /><br />No information contained in this website constitutes or would be deemed to constitute an invitation or inducement by or on behalf of hubeleven Group Ltd. or any of its subsidiaries to enter into a contract with you. Other than in respect of personal information which will be treated in accordance with the hubeleven Group Ltd. Privacy Statement, if you provide information to us, you agree that we have unlimited rights to such information and that we may use such information in any way we choose. Such information shall be deemed to be non-confidential.
+                        implications of any issue raised if you e-mail us at info@hubeleven.com. <br /><br />No information contained in this website constitutes or would be deemed to constitute an invitation or inducement by or on behalf of hubeleven Group Ltd. or any of its subsidiaries to enter into a contract with you. Other than in respect of personal information which will be treated in accordance with the hubeleven Group Ltd. Privacy Statement, if you provide information to us, you agree that we have unlimited rights to such information and that we may use such information in any way we choose. Such information shall be deemed to be non-confidential.
                         <br /><br />hubeleven Group accepts no liability for any direct, indirect, special, consequential or other losses or damages of whatsoever kind arising out of access to, or use of, any hyperlinked website, or any information contained therein.
                     </p></div>
                 <div className='flex flex-col gap-5 items-center'>
                     <h3 className='max-w-3xl text-center'>OWNERSHIP OF THE COPYRIGHT OF THIS WEBSITE</h3>
                     <p>
-                        The copyright in the contents and any downloads from this website is owned by hubeleven Group Ltd or its subsidiaries unless otherwise stated. All rights are reserved by hubeleven Group Ltd, 118 North Main Street, Carronshore, Falkirk, FK2 8HU.
+                        The copyright in the contents and any downloads from this website is owned by hubeleven Group Ltd or its subsidiaries unless otherwise stated. All rights are reserved by Anwar IT services limited, Registered Office: 08593702 - Incorporated 9 Avonlea Drive, Manchester, M19 1AH.
 
                         You are responsible for obeying all applicable copyright laws. We permit you to make copies of this website as necessary incidental acts during your viewing of it; and you may take a print for your personal use of so much of the website as is reasonable for private purposes. All other use is strictly prohibited.
                     </p>
@@ -73,15 +71,15 @@ const LegalNotice = () => {
                     <h3 className=''>DATA AUTOMATICALLY COLLECTED</h3>
                     <p>
                         We, like many companies, automatically collect the following information: <br /> <br /></p>
-                        <ul className='list-disc flex flex-col gap-5'>
-                            <li>Technical information, including the type of device you’re using, the IP address, browser and operating system being used to connect your computer to the internet.</li>
-                            <li>
-                                Information about how you use the website e.g. we collect information about the pages you visit and how you navigate the website
-                            </li>
-                        </ul>
-                        <br />
-                        <p>This information is used to improve the services that we offer. We do not link information automatically logged by such means with personal data about specific individuals.</p>
-                 
+                    <ul className='list-disc flex flex-col gap-5'>
+                        <li>Technical information, including the type of device you’re using, the IP address, browser and operating system being used to connect your computer to the internet.</li>
+                        <li>
+                            Information about how you use the website e.g. we collect information about the pages you visit and how you navigate the website
+                        </li>
+                    </ul>
+                    <br />
+                    <p>This information is used to improve the services that we offer. We do not link information automatically logged by such means with personal data about specific individuals.</p>
+
                 </div>
                 <div className='flex flex-col gap-5 items-center'>
                     <h3 className=''>COOKIES</h3>
@@ -113,7 +111,7 @@ const LegalNotice = () => {
                     <ul className='list-disc flex flex-col gap-5'>
                         We consider the following grounds to be relevant:
                         <li>
-                        <p>As necessary for the pursuit of our legitimate interests including:</p>
+                            <p>As necessary for the pursuit of our legitimate interests including:</p>
                             Promoting, marketing and advertising our services
                             Understand how people interact with our website
                             Preventing, investigating and detecting crime or fraud
@@ -137,9 +135,9 @@ const LegalNotice = () => {
                     </p>
                     <ul>
                         <li>To be informed about how we use your personal data (the purpose of this Privacy Statement)</li>
-                        <li>To have inaccurate personal information corrected. If you believe that the information we hold is inaccurate or out of date please contact us by emailing hello@hubeleven.com or post (see details below)</li>
+                        <li>To have inaccurate personal information corrected. If you believe that the information we hold is inaccurate or out of date please contact us by emailing info@hubeleven.com or post (see details below)</li>
                         <li>You may ask us to delete your personal data. We will do so if there are no legal exceptions that require us to retain it. We may, in certain circumstances, anonymise rather than delete it.</li>
-                        <li>You have a right to request access (unless legal exception apply) to the personal data that we hold about you. To request access to your information please send a description of the information you want to see and proof of your identity to Human Resources, hubeleven Group, 118 North Main Street, Carronshore, Falkirk, FK2 8HU</li>
+                        <li>You have a right to request access (unless legal exception apply) to the personal data that we hold about you. To request access to your information please send a description of the information you want to see and proof of your identity to Human Resources, Anwar IT services limited, Registered Office: 08593702 - Incorporated 9 Avonlea Drive, Manchester, M19 1AH.</li>
                         <li>You have the right to ask us to restrict the processing of your personal data if there is a disagreement about its accuracy or we’re not lawfully allowed to use it</li>
                         <li>You have the right to review automated decision-making or profiling.</li>
                     </ul>
@@ -147,12 +145,12 @@ const LegalNotice = () => {
                 <div className='flex flex-col gap-5 items-center'>
                     <h3 className=''>DISCLOSURE AND VISITOR CHOICE</h3>
                     <p>
-                        You may unsubscribe or opt-out of services at any time. Details of how to opt-out of the hubeleven Group website are available and is a simple process. Where we disclose your personal data for those purposes stated, we provide you with the means to opt-out of disclosure by either indicating in a box at the point of the website where personal data is collected, by sending an email to hello@hubeleven.com or by posting a request to Human Resources, hubeleven Group, 118 North Main Street, Carronshore, Falkirk, FK2 8HU. Where we disclose your personal data for purposes, which are different to those, stated we offer you the opportunity to consent prior to disclosure.
+                        You may unsubscribe or opt-out of services at any time. Details of how to opt-out of the hubeleven Group website are available and is a simple process. Where we disclose your personal data for those purposes stated, we provide you with the means to opt-out of disclosure by either indicating in a box at the point of the website where personal data is collected, by sending an email to info@hubeleven.com or by posting a request to Human Resources, Anwar IT services limited, Registered Office: 08593702 - Incorporated 9 Avonlea Drive, Manchester, M19 1AH. Where we disclose your personal data for purposes, which are different to those, stated we offer you the opportunity to consent prior to disclosure.
                     </p>
                 </div>
                 <div className='flex flex-col gap-5 items-center'>
                     <h3 className=''>CHILDREN</h3>
-                    <p>hubeleven Group is committed to protecting the privacy needs of children and we encourage parents and guardians to take an active role in their children's online activities and interests. hubeleven Group does not knowingly collect information from children under the age of 13 and hubeleven Group does not target its websites to children under 13.
+                    <p>hubeleven Group is committed to protecting the privacy needs of children and we encourage parents and guardians to take an active role in their children's online activities and interests. hubeleven Group does not knowingly collect information from children under the age of 16 and hubeleven Group does not target its websites to children under 16.
                     </p>
                 </div>
                 <div className='flex flex-col gap-5 items-center'>
@@ -170,10 +168,13 @@ const LegalNotice = () => {
                     <p>The hubeleven Group website may provide links to third-party websites for your convenience and information. If you access those links, you will leave the hubeleven Group website. hubeleven Group does not control those websites or their privacy practices, which may differ from that of hubeleven Group. We do not endorse or make any representations about third-party websites. The hubeleven Group's Privacy Statement does not cover the personal data you choose to give to unrelated third parties. We encourage you to review the privacy policy of any company before submitting your personal information. Some third-party companies may choose to share their personal data with hubeleven Group; that sharing is governed by that third-party company's privacy policy.
                     </p>
                 </div>
+                <div className='flex flex-col gap-5 items-center'>
+                    <h3 className=''>Company Information</h3>
+                    <p>Anwar IT services limited, Registered Office: 08593702 - Incorporated 9 Avonlea Drive, Manchester, M19 1AH. 
+                    </p>
+                    <span>© Copyright Anwar IT services Ltd.</span>
+                </div>
             </div>
-
-
-            {/* ... (Continue with the rest of the legal notice content) */}
 
         </div>
     );

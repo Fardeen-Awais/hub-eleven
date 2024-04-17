@@ -69,7 +69,7 @@ export default defineType({
               { title: "Business Sites", value: "business sites" },
               {
                 title: "Custom Web Application",
-                value: "custom_web_application",
+                value: "custom web application",
               },
               { title: "Content Writing", value: "content writing" },
               { title: "Videography", value: "videography" },
