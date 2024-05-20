@@ -2,7 +2,7 @@ import CaseStudy from '@/app/components/shared/case-study'
 import { client } from '@/sanity/lib/client'
 import React from 'react'
 
-export const revalidate = 3600
+export const revalidate = 60
 const page = async () => {
   
   const caseStudies = await client.fetch(`*[_type == "case-study"]{
